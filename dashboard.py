@@ -196,7 +196,7 @@ with col_right:
     gender_counts = df['director_gender'].value_counts().reset_index()
     gender_counts.columns = ['Gender', 'Count']
     # Define custom colors for each gender
-    custom_colors = {'Male': '#1f77b4', 'Female': '#FF8DA1', 'Non-Binary': '#2ca02c'}
+    custom_colors = {'Male': '#1f77b4', 'Female': '#C90076', 'Non-Binary': '#2ca02c'}
     fig = px.pie(gender_counts, values='Count', names='Gender', hole=0.6, color='Gender', color_discrete_map=custom_colors)
     fig.update_layout(height=350)
     fig.update_layout(legend=dict(  
