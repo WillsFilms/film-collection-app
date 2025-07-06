@@ -1,608 +1,634 @@
-index,film_name,media_type,genre,sub_genre,director,director_gender,part_of_film_series,slipcover,steelbook,country,year,certificate,imdb_score,rt_critic_score,google_audience_score,rt_audience_score,rt_critic_rating,letterboxd_rating,rt_audience_rating,rt_opinion_score_difference,rt_opinion_rating_difference,avg_critical_rating,rotten_ranking,aggregate
-1,[Rec],Blu-ray,Horror,Found footage,Jaume Balaguero,Male,Yes,No,No,Spain,2007,18,7.4,0.9,0.87,0.82,7.5,7.4,7.8,0.08,-0.3,7.5,Fresh,1
-2,12 Angry Men,Blu-ray,Drama,N/A,Sidney Lumet,Male,No,No,No,USA,1957,U,9,1,0.92,0.97,9.1,9.2,9.2,0.03,-0.1,9.1,Fresh,1
-3,1408,DVD,Horror,N/A,Mikael Hafstrom,Male,No,No,No,USA,2007,15,6.8,0.8,0.88,0.61,6.6,6.4,6.8,0.19,-0.2,6.7,Fresh,1
-4,2001: A Space Odyssey,DVD,Sci-fi,N/A,Stanley Kubrick,Male,No,No,No,USA,1968,U,8.3,0.92,0.84,0.89,9.2,8.6,8.8,0.03,0.4,8.7,Fresh,1
-5,21,Blu-ray,Thriller,Crime,Robert Luketic,Male,No,No,No,USA,2008,12,6.8,0.36,0.64,0.66,5.2,6.2,7.2,-0.3,-2,6.4,Rotten,1
-6,28 Days Later,DVD,Horror,N/A,Danny Boyle,Male,Yes,No,No,UK,2002,18,7.5,0.87,0.86,0.85,7.4,7.4,8,0.02,-0.6,7.6,Fresh,1
-7,28 Weeks Later,DVD,Horror,N/A,Juan Carlos Fresnadillo,Male,Yes,No,No,UK,2007,18,6.9,0.72,0.71,0.66,6.7,6.2,7.2,0.06,-0.5,6.8,Fresh,1
-8,30 Days of Night,DVD,Horror,Supernatural,David Slade,Male,No,No,No,USA,2007,18,6.6,0.51,0.87,0.56,5.5,6.2,6.6,-0.05,-1.1,6.2,Rotten,1
-9,71,DVD,Thriller,Drama,Yann Demange,Male,No,Yes,No,UK,2014,15,7.2,0.96,0.74,0.81,7.7,7.2,7.8,0.15,-0.1,7.5,Fresh,1
-10,A Clockwork Orange,Blu-ray,Drama,Psychological,Stanley Kubrick,Male,No,Yes,No,UK,1971,18,8.1,0.86,0.87,0.93,8.8,8.2,8.8,-0.07,0,8.5,Fresh,1
-11,A History of Violence,DVD,Thriller,Drama,David Cronenberg,Male,No,No,No,USA,2005,18,7.4,0.88,0.8,0.76,7.9,7.6,7.4,0.12,0.5,7.6,Fresh,1
-12,A Quiet Place,Blu-ray,Horror,N/A,John Krasinski,Male,Yes,Yes,No,USA,2018,15,7.5,0.96,0.8,0.83,8.2,7.2,8,0.13,0.2,7.7,Fresh,1
-13,A Quiet Place Part 2,Blu-ray,Horror,N/A,John Krasinski,Male,Yes,Yes,No,USA,2020,15,7.2,0.91,0.79,0.92,7.5,6.8,9,-0.01,-1.5,7.6,Fresh,1
-14,A Separation,DVD,Drama,Thriller,Ashgar Farhadi,Male,No,No,No,Iran,2011,PG,8.3,0.99,0.89,0.92,8.9,8.8,8.6,0.07,0.3,8.7,Fresh,1
-15,A Single Man,Blu-ray,Romance,Drama,Tom Ford,Male,No,Yes,No,UK,2009,12,7.5,0.86,0.84,0.81,7.4,7.8,7.8,0.05,-0.4,7.6,Fresh,1
-16,A Star is Born,Blu-ray,Romance,Musical,Bradley Cooper,Male,No,No,No,USA,2018,15,7.6,0.9,0.86,0.79,8,7.2,8,0.11,0,7.7,Fresh,1
-17,A.I. Artificial Intelligence,DVD,Sci-fi,Fantasy,Steven Spielberg,Male,No,Yes,No,USA,2001,12,7.2,0.76,0.82,0.64,6.7,7.2,7,0.12,-0.3,7.0,Fresh,1
-18,Aftersun,Blu-ray,Drama,N/A,Charlotte Wells,Female,No,Yes,No,UK,2022,12,7.7,0.96,0.86,0.81,8.8,8.4,8.2,0.15,0.6,8.3,Fresh,1
-19,Akira,DVD,Sci-fi,Animation,Katsuhiro Otomo,Male,No,No,No,Japan,1988,15,8,0.91,0.92,0.9,7.9,8.6,8.6,0.01,-0.7,8.3,Fresh,1
-20,Alien,DVD,Sci-fi,Horror,Ridley Scott,Male,Yes,No,No,UK,1979,18,8.5,0.98,0.88,0.94,9.1,8.6,8.8,0.04,0.3,8.8,Fresh,1
-21,Amadeus,DVD,Drama,Biopic,Milos Forman,Male,No,No,No,USA,1984,PG,8.4,0.89,0.88,0.95,8.9,8.6,9,-0.06,-0.1,8.7,Fresh,1
-22,American Psycho,Blu-ray,Horror,Satire,Mary Harron,Female,No,No,No,USA,2000,18,7.6,0.68,0.89,0.85,6.2,7.6,8,-0.17,-1.8,7.4,Fresh,1
-23,Amores Perros,DVD,Drama,Crime,Alejandro Gonzalez Innaritu,Male,No,No,No,Mexico,2000,18,8.1,0.93,0.84,0.94,7.8,8.4,8.8,-0.01,-1,8.3,Fresh,1
-24,Amour,DVD,Romance,Drama,Michael Haneke,Male,No,No,No,France,2012,12,7.9,0.93,0.82,0.82,8.7,8.4,8,0.11,0.7,8.3,Fresh,1
-25,An Alternative Reality: The Football Manager Documentary,Blu-ray,Documentary,Sports,Louis Myles,Male,No,No,No,UK,2014,PG,6.7,,,,,6.8,,,,6.8,,1
-26,An American Werewolf in London,Blu-ray,Horror,Comedy,John Landis,Male,Yes,No,No,UK,1981,18,7.5,0.89,0.91,0.85,7.8,7.6,8,0.04,-0.2,7.7,Fresh,1
-27,An Education,Blu-ray,Drama,Romance,Lone Scherfig,Female,No,No,No,UK,2009,12,7.3,0.93,0.8,0.8,7.9,7,7.6,0.13,0.3,7.5,Fresh,1
-28,Aniara,Blu-ray,Sci-fi,Drama,Pella Kagerman & Hugo Lilja,Female,No,No,No,Sweden,2018,18,6.3,0.72,0.68,0.63,7.1,7.2,7,0.09,0.1,6.9,Fresh,1
-29,Another Round,Blu-ray,Comedy,Drama,Thomas Vinterberg,Male,No,No,No,Denmark,2020,12,7.7,0.93,0.89,0.9,7.9,8.2,8.2,0.03,-0.3,8.0,Fresh,1
-30,Apocalypse Now,DVD,War,Drama,Francis Ford Coppola,Male,No,Yes,No,USA,1979,18,8.4,0.98,0.89,0.94,9,8.8,9,0.04,0,8.8,Fresh,1
-31,Argo,Blu-ray,Thriller,Historical,Ben Affleck,Male,No,No,No,USA,2012,15,7.7,0.96,0.79,0.9,8.4,7.4,8.4,0.06,0,8.0,Fresh,1
-32,Arlington Road,DVD,Thriller,Political,Mark Pellington,Male,No,No,No,UK,1999,15,7.2,0.63,0.82,0.74,6.1,7,7.4,-0.11,-1.3,6.9,Fresh,1
-33,Arrival,Blu-ray,Sci-fi,N/A,Denis Villeneuve,Male,No,No,No,USA,2016,12,7.9,0.94,0.85,0.82,8.4,8.2,8,0.12,0.4,8.1,Fresh,1
-34,Babel,DVD,Drama,N/A,Alejandro Gonzalez Innaritu,Male,No,No,No,Mexico,2007,15,7.5,0.69,0.8,0.77,6.8,7.2,7.6,-0.08,-0.8,7.3,Fresh,1
-35,Back to the Future,Blu-ray,Sci-fi,Comedy,Robert Zemeckis,Male,Yes,No,No,USA,1985,PG,8.5,0.93,0.93,0.94,8.8,8.4,9,-0.01,-0.2,8.7,Fresh,1
-36,Barbie,Blu-ray,Comedy,Musical,Greta Gerwig,Female,No,Yes,No,USA,2023,12,6.9,0.88,0.76,0.83,8,7.8,8.4,0.05,-0.4,7.8,Fresh,1
-37,Basic Instinct,Blu-ray,Thriller,Psychological,Paul Verhoeven,Male,No,No,No,USA,1992,18,7.1,0.55,,0.64,6.2,7.2,7,-0.09,-0.8,6.9,Rotten,1
-38,Batman Begins,Blu-ray,Action,Crime,Christopher Nolan,Male,Yes,No,No,USA,2005,12,8.2,0.84,0.84,0.94,7.7,7.6,8.6,-0.1,-0.9,8.0,Fresh,1
-39,Battle Royale,DVD,Action,Thriller,Kinji Fukasaka,Male,Yes,No,No,Japan,2000,18,7.5,0.88,0.86,0.89,7.6,7.8,8.4,-0.01,-0.8,7.8,Fresh,1
-40,Be Kind Rewind,DVD,Comedy,N/A,Michel Gondry,Male,No,No,No,USA,2008,12,6.4,0.64,0.83,0.56,6.3,6.8,6.6,0.08,-0.3,6.5,Fresh,1
-41,Being John Malkovich,DVD,Comedy,Fantasy,Spike Jonze,Male,No,No,No,USA,1999,15,7.7,0.94,0.81,0.87,8.3,8.2,8.2,0.07,0.1,8.1,Fresh,1
-42,Belfast,DVD,Drama,Comedy,Kenneth Branagh,Male,No,No,No,UK,2021,12,7.3,0.86,0.71,0.92,7.9,7,9,-0.06,-1.1,7.8,Fresh,1
-43,Bend it Like Beckham,DVD,Comedy,Drama,Gurinder Chadha,Female,No,No,No,UK,2002,12,6.7,0.85,0.86,0.73,7.2,6.6,7.4,0.12,-0.2,7.0,Fresh,1
-44,Benedetta,Blu-ray,Drama,Psychological,Paul Verhoeven,Male,No,Yes,No,France,2021,18,6.7,0.84,0.68,0.9,7.2,6.8,8.4,-0.06,-1.2,7.3,Fresh,1
-45,Bicentennial Man,DVD,Sci-fi,Drama,Chris Columbus,Male,No,No,No,USA,1999,PG,6.9,0.37,0.85,0.59,4.9,6.4,6.8,-0.22,-1.9,6.3,Rotten,1
-46,Big,DVD,Comedy,Drama,Penny Marshall,Female,No,No,No,USA,1988,PG,7.3,0.98,0.78,0.82,7.9,7.2,7.8,0.16,0.1,7.6,Fresh,1
-47,Birdman,Blu-ray,Comedy,Drama,Alejandro Gonzalez Innaritu,Male,No,No,No,USA,2014,15,7.7,0.91,0.76,0.78,8.5,8,7.8,0.13,0.7,8.0,Fresh,1
-48,Black Book,DVD,War,Drama,Paul Verhoeven,Male,No,No,No,The Netherlands,2006,15,7.7,0.76,0.84,0.87,7.1,7.6,8,-0.11,-0.9,7.6,Fresh,1
-49,Black Christmas,Blu-ray,Horror,N/A,Bob Clark,Male,No,No,No,Canada,1974,18,7.1,0.68,0.88,0.76,6.2,7.6,7.6,-0.08,-1.4,7.1,Fresh,1
-50,Black Hawk Down,Blu-ray,War,Action,Ridley Scott,Male,No,No,No,USA,2001,15,7.7,0.76,0.9,0.88,7,7.4,8.4,-0.12,-1.4,7.6,Fresh,1
-51,Black Sheep,DVD,Horror,Comedy,Jonathan King,Male,No,No,No,New Zealand,2006,15,5.8,0.71,0.79,0.53,6.3,5.8,6.4,0.18,-0.1,6.1,Fresh,1
-52,BlacKkKlansman,Blu-ray,Comedy,Crime,Spike Lee,Male,No,No,No,USA,2018,15,7.5,0.96,0.86,0.83,8.3,7.8,8,0.13,0.3,7.9,Fresh,1
-53,Blade Runner,Blu-ray,Sci-fi,Dystopian,Ridley Scott,Male,Yes,No,No,USA,1982,15,8.1,0.89,0.86,0.91,8.5,8.2,8.8,-0.02,-0.3,8.4,Fresh,1
-54,Blade Runner: 2049,4k Blu-ray,Sci-fi,Dystopian,Denis Villeneuve,Male,Yes,No,No,USA,2017,15,8,0.88,0.79,0.87,8.3,8.2,8.4,0.01,-0.1,8.2,Fresh,1
-55,Blood Diamond,Blu-ray,War,Drama,Edward Zwick,Male,No,No,No,USA,2006,15,8,0.63,0.88,0.9,6.4,7.4,8.4,-0.27,-2,7.6,Fresh,1
-56,Booksmart,DVD,Comedy,N/A,Olivia Wilde,Female,No,No,No,USA,2019,15,7.1,0.74,0.96,0.77,8.3,7.4,8,-0.03,0.3,7.7,Fresh,1
-57,Borat,DVD,Comedy,Satire,Sacha Baron Cohen,Male,Yes,No,No,USA,2006,15,7.4,0.91,0.81,0.79,8,7.4,7.8,0.12,0.2,7.7,Fresh,1
-58,Bowfinger,DVD,Comedy,Satire,Frank Oz,Male,No,No,No,USA,1999,12,6.5,0.81,0.65,0.61,7,6.8,6.8,0.2,0.2,6.8,Fresh,1
-59,Bowling fo Columbine,DVD,Documentary,Political,Michael Moore,Male,No,No,No,USA,2002,15,8,0.95,0.85,0.83,8.1,7.8,7.8,0.12,0.3,7.9,Fresh,1
-60,Boy A,DVD,Drama,N/A,John Crowley,Male,No,No,No,UK,2007,18,7.6,0.88,0.45,0.87,7.4,7.2,8,0.01,-0.6,7.6,Fresh,1
-61,Boyhood,DVD,Drama,N/A,Richard Linklater,Male,No,No,No,USA,2014,15,7.9,0.97,0.8,0.8,9.2,7.6,8,0.17,1.2,8.2,Fresh,1
-62,Bridge of Spies,DVD,Thriller,Spy,Steven Spielberg,Male,No,No,No,USA,2015,12,7.6,0.91,0.8,0.87,7.7,7.2,8,0.04,-0.3,7.6,Fresh,1
-63,Brooklyn,DVD,Romance,Drama,John Crowley,Male,No,No,No,UK,2015,12,7.5,0.97,0.86,0.87,8.5,7.6,8.2,0.1,0.3,8.0,Fresh,1
-64,Brothers and Sisters of the Toda Family,DVD,Drama,Historical,Yasujiro Ozu,Male,No,No,No,Japan,1941,U,7.3,1,0.76,0.84,,7.2,7.6,0.16,,7.4,Fresh,1
-65,Bullitt,DVD,Action,Noir,Peter Yates,Male,No,No,No,USA,1968,15,7.4,0.98,0.76,0.85,7.8,7.4,8.2,0.13,-0.4,7.7,Fresh,1
-66,Buried,DVD,Thriller,Horror,Rodrigo Cortes,Male,No,Yes,No,Spain,2010,15,7,0.87,0.74,0.65,7.4,6.6,6.8,0.22,0.6,7.0,Fresh,1
-67,Cache,DVD,Thriller,Psychological,Michael Haneke,Male,No,No,No,France,2005,15,7.3,0.89,0.74,0.78,7.9,8.2,7.6,0.11,0.3,7.8,Fresh,1
-68,Casino,DVD,Drama,Crime,Martin Scorsese,Male,No,No,No,USA,1995,18,8.2,0.79,0.91,0.93,7.1,8.4,8.4,-0.14,-1.3,8.0,Fresh,1
-69,Casino Royale,Blu-ray,Action,Spy,Martin Campbell,Male,Yes,No,No,UK,2005,12,8,0.94,0.9,0.9,7.9,8,8.4,0.04,-0.5,8.1,Fresh,1
-70,Castle in the Sky,DVD,Fantasy,Animation,Hayao Miyazaki,Male,No,No,No,Japan,1986,PG,8,0.96,0.93,0.91,7.6,8,8.4,0.05,-0.8,8.0,Fresh,1
-71,Catch Me If You Can,DVD,Drama,Crime,Steven Spielberg,Male,No,No,No,USA,2002,12,8.1,0.96,0.87,0.89,7.9,8,8.2,0.07,-0.3,8.1,Fresh,1
-72,Chef,DVD,Comedy,Drama,Jon Favreau,Male,No,No,No,USA,2014,15,7.3,0.87,0.86,0.85,6.8,7.4,8,0.02,-1.2,7.4,Fresh,1
-73,Chernobyl Diaries,DVD,Horror,Found footage,Bradley Parker,Male,No,No,No,USA,2012,15,5,0.18,0.75,0.28,4.1,4.2,5.2,-0.1,-1.1,4.6,Rotten,1
-74,Children of Men,Blu-ray,Sci-fi,Dystopian,Alfonso Cuaron,Male,No,No,No,UK,2006,15,7.9,0.92,0.88,0.85,8.2,8.6,8.2,0.07,0,8.2,Fresh,1
-75,Chinatown,DVD,Mystery,Crime,Roman Polanski,Male,No,No,No,USA,1974,15,8.2,0.99,0.81,0.93,9.4,8.6,8.8,0.06,0.6,8.8,Fresh,1
-76,Chronicle,DVD,Sci-fi,Found footage,Josh Trank,Male,No,No,No,USA,2012,15,7,0.85,0.51,0.72,7.1,7,7.4,0.13,-0.3,7.1,Fresh,1
-77,Cinema Paradiso,DVD,Drama,N/A,Giuseppe Tornatore,Male,No,No,No,Italy,1988,PG,8.5,0.9,0.92,0.96,8,8.8,9.2,-0.06,-1.2,8.6,Fresh,1
-78,City of God,Blu-ray,Drama,Crime,Katia Lund,Female,No,No,No,Brazil,2002,18,8.6,0.91,0.91,0.97,8.3,9,9.2,-0.06,-0.9,8.8,Fresh,1
-79,Civil War,Blu-ray,Thriller,Dystopian,Alex Garland,Male,No,No,No,UK,2024,15,7.1,0.81,0.7,0.7,7.5,7.2,7.4,0.11,0.1,7.3,Fresh,1
-80,Cloverfield,Blu-ray,Horror,Found footage,Matt Reeves,Male,Yes,No,No,USA,2008,15,7,0.78,0.74,0.68,6.8,6.8,7.2,0.1,-0.4,7.0,Fresh,1
-81,Collateral,DVD,Thriller,Noir,Michael Mann,Male,No,No,No,USA,2004,15,7.5,0.86,0.77,0.84,7.5,7.6,8,0.02,-0.5,7.7,Fresh,1
-82,Con Air,Blu-ray,Action,N/A,Simon West,Male,No,No,No,USA,1997,18,6.9,0.58,0.84,0.75,5.7,6.8,7.6,-0.17,-1.9,6.8,Rotten,1
-83,Contagion,Blu-ray,Disaster,Thriller,Steven Soderbergh,Male,No,Yes,No,USA,2011,12,6.8,0.85,0.77,0.63,7.1,6.8,6.8,0.22,0.3,6.9,Fresh,1
-84,Cool Runnings,DVD,Comedy,Sports,Jon Turteltaub,Male,No,No,No,USA,1993,PG,7,0.76,0.91,0.81,6.1,6.8,8,-0.05,-1.9,7.0,Fresh,1
-85,County Lines,Blu-ray,Drama,Thriller,Henry Blake,Male,No,No,No,UK,2019,15,6.9,0.96,0.71,0.73,7.6,7.2,7.6,0.23,0,7.3,Fresh,1
-86,Crimson Tide,DVD,War,Action,Tony Scott,Male,No,No,No,USA,1995,15,7.3,0.89,0.78,0.83,7.5,7.4,7.8,0.06,-0.3,7.5,Fresh,1
-87,"Crouching Tiger, Hidden Dragon",DVD,Action,Adventure,Ang Lee,Male,No,No,No,China,2000,12,7.9,0.98,0.87,0.86,8.6,8,8.2,0.12,0.4,8.2,Fresh,1
-88,Culloden,Blu-ray,Documentary,War,Peter Watkins,Male,No,No,No,UK,1964,12,7.8,1,0.89,0.91,9.3,7.8,8,0.09,1.3,8.2,Fresh,1
-89,Dante's Peak,DVD,Disaster,N/A,Roger Donaldson,Male,No,No,No,USA,1997,12,6,0.28,0.72,0.38,5.2,5.6,6,-0.1,-0.8,5.7,Rotten,1
-90,Dawn of the Dead,DVD,Horror,N/A,George A. Romero,Male,Yes,No,No,USA,1978,18,7.8,0.93,0.92,0.9,8.7,8,8.6,0.03,0.1,8.3,Fresh,1
-91,Dawn of the Planet of the Apes,Blu-ray,Action,Dystopian,Matt Reeves,Male,Yes,Yes,No,USA,2014,12,7.6,0.91,0.8,0.88,7.9,7.4,8.4,0.03,-0.5,7.8,Fresh,1
-92,Daylight,DVD,Disaster,Action,Rob Cohen,Male,No,No,No,USA,1996,12,5.9,0.26,0.61,0.37,4.9,5.8,6,-0.11,-1.1,5.7,Rotten,1
-93,Dead Calm,DVD,Thriller,Psychological,Phillip Noyce,Male,No,No,No,Australia,1989,15,6.8,0.84,0.65,0.63,7.5,6.8,7,0.21,0.5,7.0,Fresh,1
-94,Decision to Leave,Blu-ray,Mystery,Romance,Park Chan-wook,Male,No,Yes,No,South Korea,2022,15,7.3,0.94,0.82,0.86,8.3,8,8.2,0.08,0.1,8.0,Fresh,1
-95,Deep Blue Sea,DVD,Horror,Sci-fi,Renny Harlin,Male,Yes,Yes,No,USA,1999,15,5.9,0.6,0.7,0.39,5.8,5.6,6,0.21,-0.2,5.8,Fresh,1
-96,Deep Impact,DVD,Disaster,Drama,Mimi Leder,Female,No,No,No,USA,1998,12,6.2,0.45,0.72,0.43,5.8,5.8,6.2,0.02,-0.4,6.0,Rotten,1
-97,Die Another Day,DVD,Action,Spy,Lee Tamahori,Male,Yes,No,No,UK,2002,12,6.1,0.55,0.8,0.41,6,5,6,0.14,0,5.8,Rotten,1
-98,Die Hard,DVD,Action,N/A,John McTiernan,Male,Yes,Yes,No,USA,1988,18,8.2,0.94,0.89,0.94,8.6,8.2,8.8,0,-0.2,8.5,Fresh,1
-99,Die Hard 2,DVD,Action,N/A,Renny Harlin,Male,Yes,Yes,No,USA,1990,18,7.1,0.69,0.91,0.7,6.3,6.6,7.4,-0.01,-1.1,6.9,Fresh,1
-100,Die Hard 4.0,DVD,Action,Thriller,Len Wiseman,Male,Yes,Yes,Yes,USA,2007,15,7.1,0.82,0.83,0.86,6.8,5.8,8.2,-0.04,-1.4,7.0,Fresh,1
-101,Die Hard with a Vengeance,DVD,Action,N/A,John McTiernan,Male,Yes,Yes,No,USA,1995,15,7.6,0.59,0.91,0.83,6.2,7.4,8,-0.24,-1.8,7.3,Rotten,1
-102,District 9,Blu-ray,Sci-fi,Action,Neil Blomkamp,Male,No,No,No,South Africa,2009,15,7.9,0.9,0.87,0.82,7.8,7.6,8,0.08,-0.2,7.8,Fresh,1
-103,Disturbia,DVD,Thriller,Psychological,D.J. Caruso,Male,No,No,No,USA,2007,15,6.8,0.69,0.78,0.77,6.3,6.2,7.8,-0.08,-1.5,6.8,Fresh,1
-104,Dog Soldiers,Blu-ray,Horror,Black Comedy,Neil Marshall,Male,No,No,No,UK,2002,15,6.8,0.81,0.92,0.79,7.1,6.8,7.8,0.02,-0.7,7.1,Fresh,1
-105,Donnie Darko,DVD,Sci-fi,Drama,Richard Kelly,Male,No,No,No,USA,2001,15,8,0.87,0.91,0.8,7.6,8,6.2,0.07,1.4,7.5,Fresh,1
-106,Doom,DVD,Sci-fi,Action,Andrzej Bartkowiak,Male,No,No,No,USA,2005,15,5.2,0.18,0.64,0.34,3.8,4,5.4,-0.16,-1.6,4.6,Rotten,1
-107,Downfall,DVD,Drama,Historical,Oliver Hirschbiegel,Male,No,No,No,Germany,2004,15,8.2,0.9,0.93,0.94,8,8.2,8.6,-0.04,-0.6,8.3,Fresh,1
-108,Dr Strangelove,DVD,Comedy,Satire,Stanley Kubrick,Male,No,No,No,USA,1964,PG,8.4,0.98,0.92,0.94,9.1,8.6,9,0.04,0.1,8.8,Fresh,1
-109,Drive,Blu-ray,Action,Noir,Nicolas Winding Refn,Male,No,No,No,USA,2011,18,7.8,0.93,0.89,0.79,8.3,8,7.8,0.14,0.5,8.0,Fresh,1
-110,Duel,DVD,Thriller,Psychological,Steven Spielberg,Male,No,No,No,USA,1971,PG,7.6,0.89,0.87,0.84,7.8,7.6,8,0.05,-0.2,7.8,Fresh,1
-111,Dunkirk,DVD,War,Drama,Christopher Nolan,Male,No,Yes,No,UK,2017,12,7.8,0.92,0.83,0.81,8.7,7.6,8,0.11,0.7,8.0,Fresh,1
-112,Edge of Tomorrow (Live. Die. Repeat.),Blu-ray,Sci-fi,Action,Doug Liman,Male,No,Yes,No,USA,2014,12,7.9,0.91,0.8,0.9,7.5,7.4,8.4,0.01,-0.9,7.8,Fresh,1
-113,Edie,DVD,Drama,Adventure,Simon Hunter,Male,No,Yes,No,UK,2017,12,6.6,0.67,0.77,0.75,6.1,6.4,7.8,-0.08,-1.7,6.7,Fresh,1
-114,Edward Scissorhands,Blu-ray,Fantasy,Romance,Tim Burton,Male,No,No,No,USA,1990,12,7.9,0.89,0.86,0.91,7.7,7.8,8.6,-0.02,-0.9,8.0,Fresh,1
-115,Elf,DVD,Comedy,Christmas,Jon Favreau,Male,No,No,No,USA,2003,PG,7.1,0.85,0.85,0.79,7.1,6.8,7.8,0.06,-0.7,7.2,Fresh,1
-116,Enchanted,DVD,Musical,Romance,Kevin Lima,Male,Yes,No,No,USA,2007,PG,7.1,0.93,0.82,0.8,7.3,7,8,0.13,-0.7,7.4,Fresh,1
-117,Eternal Sunshine of the Spotless Mind,DVD,Romance,Sci-fi,Michael Gondry,Male,No,No,No,USA,2004,15,8.3,0.92,0.93,0.94,8.5,8.4,9,-0.02,-0.5,8.6,Fresh,1
-118,Eye in the Sky,DVD,Thriller,War,Gavin Hood,Male,No,Yes,No,UK,2015,15,7.3,0.95,0.73,0.82,7.6,7,7.8,0.13,-0.2,7.4,Fresh,1
-119,Eyes Wide Shut,Blu-ray,Thriller,Psychological,Stanley Kubrick,Male,No,No,No,UK,1999,18,7.5,0.76,0.77,0.74,6.8,8,7.6,0.02,-0.8,7.5,Fresh,1
-120,Face/Off,DVD,Action,Crime,John Woo,Male,No,No,No,USA,1997,18,7.3,0.93,0.85,0.82,7.8,7,8,0.11,-0.2,7.5,Fresh,1
-121,Fahrenheit 9/11,DVD,Documentary,Political,Michael Moore,Male,No,No,No,USA,2004,15,7.5,0.82,0.82,0.7,7.4,7,7.2,0.12,0.2,7.3,Fresh,1
-122,Fail Safe,DVD,Thriller,War,Sidney Lumet,Male,No,No,No,USA,1964,PG,8,0.93,0.82,0.91,8,8.2,8.4,0.02,-0.4,8.2,Fresh,1
-123,Fall,Blu-ray,Thriller,N/A,Scott Mann,Male,No,No,No,USA,2022,15,6.4,0.79,0.83,0.79,6.4,5.2,8,0,-1.6,6.5,Fresh,1
-124,Fantastic Beasts & Where To Find Them,Blu-ray,Fantasy,N/A,David Yates,Male,Yes,No,No,UK,2016,12,7.2,0.74,0.72,0.79,6.8,6.2,7.8,-0.05,-1,7.0,Fresh,1
-125,Fargo,DVD,Thriller,Black Comedy,The Coen Brothers,Male,No,No,No,USA,1996,18,8.1,0.94,0.89,0.92,8.8,8.4,8.6,0.02,0.2,8.5,Fresh,1
-126,Fight Club,Blu-ray,Thriller,Crime,David Fincher,Male,No,No,No,USA,1999,18,8.8,0.79,0.92,0.96,7.4,8.6,9,-0.17,-1.6,8.5,Fresh,1
-127,Final Destination,DVD,Horror,Supernatural,James Wong,Male,Yes,No,No,USA,2000,15,6.7,0.36,0.88,0.68,4.9,6.2,7.4,-0.32,-2.5,6.3,Rotten,1
-128,Final Destination 3,DVD,Horror,N/A,James Wong,Male,Yes,No,No,USA,2006,15,5.8,0.43,0.91,0.57,5.1,6,6.8,-0.14,-1.7,5.9,Rotten,1
-129,Final Destination 5,DVD,Horror,Supernatural,Steven Quale,Male,Yes,Yes,No,USA,2011,15,5.9,0.63,0.79,0.53,6,5.6,6.8,0.1,-0.8,6.1,Fresh,1
-130,Finding Nemo,Blu-ray,Drama,Animation,Andrew Stanton,Male,No,No,No,USA,2003,U,8.2,0.99,0.88,0.86,8.7,8,7.6,0.13,1.1,8.1,Fresh,1
-131,First Man,Blu-ray,Drama,Biopic,Damien Chazelle,Male,No,Yes,No,USA,2018,12,7.3,0.87,0.71,0.68,8.1,7.4,7,0.19,1.1,7.5,Fresh,1
-132,Flee,Blu-ray,Documentary,Animation,Jonas Poher Rasmussen,Male,No,No,No,Denmark,2021,15,7.9,0.98,0.74,0.89,8.6,8.4,8.2,0.09,0.4,8.3,Fresh,1
-133,Flesh + Blood,Blu-ray,Action,Adventure,Paul Verhoeven,Male,No,No,No,USA,1985,18,6.7,0.86,,0.63,6.1,7,7,0.23,-0.9,6.7,Fresh,1
-134,Following,DVD,Thriller,Noir,Christopher Nolan,Male,No,No,No,UK,1998,15,7.4,0.82,0.81,0.85,7.1,7,7.8,-0.03,-0.7,7.3,Fresh,1
-135,Four Lions,Blu-ray,Comedy,Black Comedy,Chris Morris,Male,No,No,No,UK,2010,15,7.3,0.83,0.84,0.8,7.3,7.8,7.6,0.03,-0.3,7.5,Fresh,1
-136,Free Solo,DVD,Documentary,Sports,Elizabeth Chai Vasarhelyi,Female,No,No,No,USA,2018,12,8.1,0.98,0.92,0.93,8.2,8,8.8,0.05,-0.6,8.3,Fresh,1
-137,From Up On Poppy Hill,DVD,Drama,Animation,Goro Miyazaki,Male,No,No,No,Japan,2011,U,7.4,0.87,0.87,0.8,7.1,7.4,7.8,0.07,-0.7,7.4,Fresh,1
-138,Gandhi,DVD,Drama,Historical,Richard Attenborough,Male,No,No,No,UK,1982,PG,8,0.89,0.83,0.92,8.3,7.4,8.6,-0.03,-0.3,8.1,Fresh,1
-139,Gangs of New York,Blu-ray,Drama,Crime,Martin Scorsese,Male,No,No,No,USA,2002,18,7.5,0.72,0.88,0.81,7.1,7.4,7.8,-0.09,-0.7,7.5,Fresh,1
-140,Get Out,DVD,Horror,N/A,Jordan Peele,Male,No,No,No,USA,2017,15,7.8,0.98,0.85,0.86,8.3,8.4,8.4,0.12,-0.1,8.2,Fresh,1
-141,Ghost World,DVD,Comedy,Black Comedy,Terry Zwigoff,Male,No,No,No,USA,2001,15,7.3,0.93,0.87,0.84,7.8,7.2,8,0.09,-0.2,7.6,Fresh,1
-142,Ghostbusters,DVD,Comedy,Sci-fi,Ivan Reitman,Male,Yes,No,No,USA,1984,PG,7.8,0.95,0.85,0.88,8.1,7.6,8.4,0.07,-0.3,8.0,Fresh,1
-143,Gladiator,DVD,Drama,Action,Ridley Scott,Male,No,No,No,USA,2000,15,8.5,0.8,0.9,0.87,7.4,8.2,7.6,-0.07,-0.2,7.9,Fresh,1
-144,Goal!,DVD,Drama,Sports,Danny Cannon,Male,Yes,No,No,UK,2005,12,6.7,0.42,0.86,0.77,5.2,6.2,7.8,-0.35,-2.6,6.5,Rotten,1
-145,Goal! 2,DVD,Drama,Sports,Jaume Collet-Serra,Male,Yes,No,No,UK,2007,12,5.8,0.39,0.9,0.62,4.8,5.4,7,-0.23,-2.2,5.8,Rotten,1
-146,Godzilla (1998),DVD,Disaster,Sci-fi,Roland Emmerich,Male,No,No,No,USA,1998,PG,5.4,0.2,0.67,0.28,4.5,4.4,5,-0.08,-0.5,4.8,Rotten,1
-147,Godzilla (2014),DVD,Disaster,Drama,Gareth Edwards,Male,Yes,No,No,USA,2014,12,6.4,0.76,0.8,0.66,6.7,6,7.2,0.1,-0.5,6.6,Fresh,1
-148,Godzilla (Gojira),DVD,Sci-fi,Horror,Ishiro Honda,Male,Yes,Yes,No,Japan,1954,PG,7.5,0.93,0.92,0.89,7.6,8,8.6,0.04,-1,7.9,Fresh,1
-149,Goldeneye,DVD,Action,Spy,Martin Campbell,Male,Yes,No,No,UK,1995,15,7.2,0.8,0.88,0.83,7.1,7,8,-0.03,-0.9,7.3,Fresh,1
-150,Gone with the Wind,DVD,Romance,War,Victor Fleming,Male,No,No,No,USA,1939,PG,8.2,0.9,0.83,0.92,8.8,8,9,-0.02,-0.2,8.5,Fresh,1
-151,Good Will Hunting,DVD,Drama,N/A,Gus Van Sant,Male,No,No,No,USA,1997,15,8.3,0.97,0.93,0.94,8.1,8.6,8.8,0.03,-0.7,8.5,Fresh,1
-152,Goodfellas,DVD,Drama,Crime,Martin Scorsese,Male,No,No,No,USA,1990,18,8.7,0.96,0.89,0.97,9,9,9.2,-0.01,-0.2,9.0,Fresh,1
-153,Grave of the Fireflies,DVD,Drama,War,Isao Takahata,Male,No,No,No,Japan,1988,12,8.5,1,0.97,0.95,9.3,9,9,0.05,0.3,9.0,Fresh,1
-154,Gravity,Blu-ray,Sci-fi,Drama,Alfonso Cuaron,Male,No,No,No,USA,2013,12,7.7,0.96,0.79,0.79,8.9,7,8,0.17,0.9,7.9,Fresh,1
-155,Grease,DVD,Musical,Romance,Randal Kleiser,Male,Yes,No,No,USA,1978,PG,7.2,0.66,0.83,0.87,7.1,7,8.6,-0.21,-1.5,7.5,Fresh,1
-156,Grosse Pointe Blank,DVD,Comedy,Black Comedy,George Armitage,Male,No,No,No,USA,1997,15,7.3,0.82,0.87,0.87,7.1,7.2,8.2,-0.05,-1.1,7.5,Fresh,1
-157,Harry Potter and the Chamber of Secrets,Blu-ray,Fantasy,Adventure,Chris Columbus,Male,Yes,Yes,No,UK,2002,PG,7.4,0.82,0.87,0.8,7.2,7.2,8,0.02,-0.8,7.5,Fresh,1
-158,Harry Potter and the Deathly Hallows Part 1,Blu-ray,Fantasy,Adventure,David Yates,Male,Yes,Yes,No,UK,2010,12,7.7,0.77,0.86,0.85,7.1,7.4,8.2,-0.08,-1.1,7.6,Fresh,1
-159,Harry Potter and the Deathly Hallows Part 2,Blu-ray,Fantasy,Adventure,David Yates,Male,Yes,Yes,No,UK,2011,12,8.1,0.96,0.86,0.89,8.3,7.8,8.8,0.07,-0.5,8.3,Fresh,1
-160,Harry Potter and the Goblet of Fire,Blu-ray,Fantasy,Adventure,Mike Newell,Male,Yes,Yes,No,UK,2005,12,7.7,0.88,0.87,0.74,7.4,7.6,6.8,0.14,0.6,7.4,Fresh,1
-161,Harry Potter and the Half Blood Prince,Blu-ray,Fantasy,Adventure,David Yates,Male,Yes,Yes,No,UK,2009,12,7.6,0.84,0.88,0.78,7.1,7.2,7.8,0.06,-0.7,7.4,Fresh,1
-162,Harry Potter and the Order of the Phoenix,Blu-ray,Fantasy,Adventure,David Yates,Male,Yes,Yes,No,UK,2007,12,7.5,0.78,0.88,0.81,6.9,7.2,8,-0.03,-1.1,7.4,Fresh,1
-163,Harry Potter and the Philosopher's Stone,Blu-ray,Fantasy,Adventure,Chris Columbus,Male,Yes,Yes,No,UK,2001,PG,7.6,0.81,0.91,0.82,7.1,7.4,8.2,-0.01,-1.1,7.6,Fresh,1
-164,Harry Potter and the Prisoner of Azkaban,Blu-ray,Fantasy,Adventure,Alfonso Cuaron,Male,Yes,Yes,No,UK,2004,PG,7.9,0.9,0.87,0.86,7.9,8.2,8.2,0.04,-0.3,8.1,Fresh,1
-165,Headhunters,Blu-ray,Thriller,Action,Morten Tyldum,Male,No,Yes,No,Norway,2011,15,7.5,0.93,0.81,0.85,7.6,7.4,8,0.08,-0.4,7.6,Fresh,1
-166,Heat,Blu-ray,Action,Crime,Michael Mann,Male,No,No,No,USA,1995,15,8.3,0.83,0.86,0.94,7.8,8.6,8.8,-0.11,-1,8.4,Fresh,1
-167,Her,DVD,Romance,Sci-fi,Spike Jonze,Male,No,No,No,USA,2013,15,8,0.94,0.86,0.82,8.5,8,8,0.12,0.5,8.1,Fresh,1
-168,Hero,DVD,Action,Martial Arts,Zhang Yimou,Male,No,No,No,China,2002,12,7.9,0.94,0.85,0.87,8.2,8,8.2,0.07,0,8.1,Fresh,1
-169,High Society,DVD,Musical,Comedy,Charles Walters,Male,No,No,No,USA,1956,U,6.9,0.83,0.77,0.82,7.1,6.8,8,0.01,-0.9,7.2,Fresh,1
-170,Hollow Man,DVD,Horror,Sci-fi,Paul Verhoeven,Male,Yes,No,No,Germany,2000,18,5.8,0.26,0.81,0.28,4.3,5.6,5.4,-0.02,-1.1,5.3,Rotten,1
-171,Hot Fuzz,Blu-ray,Comedy,Action,Edgar Wright,Male,No,No,No,UK,2007,15,7.8,0.91,0.87,0.89,7.7,8.2,8.4,0.02,-0.7,8.0,Fresh,1
-172,Hotel Rwanda,DVD,War,Drama,Terry George,Male,No,No,No,USA,2004,12,8.1,0.91,0.93,0.94,8,7.6,8.6,-0.03,-0.6,8.1,Fresh,1
-173,House of Flying Daggers,DVD,Action,Adventure,Zhang Yimou,Male,No,No,No,China,2004,12,7.5,0.87,0.92,0.82,7.7,7.4,8,0.05,-0.3,7.7,Fresh,1
-174,Howl's Moving Castle,DVD,Romance,Animation,Hayao Miyazaki,Male,No,No,No,Japan,2004,U,8.2,0.87,0.96,0.93,7.5,8.6,8.8,-0.06,-1.3,8.3,Fresh,1
-175,Hunt for the Wilderpeople,DVD,Comedy,Adventure,Taika Waititi,Male,No,No,No,New Zealand,2016,12,7.8,0.97,0.89,0.91,7.9,8.2,8.6,0.06,-0.7,8.1,Fresh,1
-176,I Am Legend,Blu-ray,Horror,Action,Francis Lawrence,Male,No,No,No,USA,2007,15,7.2,0.68,0.86,0.68,6.3,6.8,7.4,0,-1.1,6.9,Fresh,1
-177,I Wish,Blu-ray,Drama,Comedy,Hirokazu Koreeda,Male,No,No,No,Japan,2011,PG,7.4,0.93,0.67,0.85,8,7.8,7.8,0.08,0.2,7.8,Fresh,1
-178,I.S.S,Blu-ray,Thriller,Sci-fi,Gabriela Cowperthwaite,Female,No,No,No,USA,2023,15,5.3,0.6,0.59,0.43,6,4.8,6,0.17,0,5.5,Fresh,1
-179,Ice Age,DVD,Comedy,Animation,Chris Wedge,Male,Yes,No,No,USA,2002,U,7.5,0.77,0.85,0.82,6.8,7,8,-0.05,-1.2,7.3,Fresh,1
-180,Ice Age 2: The Meltdown,DVD,Comedy,Animation,Carlos Saldanha,Male,Yes,No,No,USA,2006,U,6.8,0.56,0.87,0.71,6,6.2,7.4,-0.15,-1.4,6.6,Rotten,1
-181,If…,DVD,Drama,Satire,Lindsay Anderson,Male,No,No,No,UK,1968,15,7.4,0.9,0.81,0.87,7.9,7.6,8.2,0.03,-0.3,7.8,Fresh,1
-182,Ikiru,Blu-ray,Drama,Comedy,Akira Kurosawa,Male,No,No,No,Japan,1952,18,8.3,0.98,0.9,0.97,8.8,9,9.2,0.01,-0.4,8.8,Fresh,1
-183,In Bruges,DVD,Comedy,Black Comedy,Martin McDonagh,Male,No,No,No,UK,2008,18,7.9,0.84,0.9,0.87,7.4,8.2,8,-0.03,-0.6,7.9,Fresh,1
-184,In The Heat of the Night,DVD,Mystery,Drama,Norman Jewison,Male,No,No,No,USA,1967,12,7.9,0.96,0.82,0.92,8.4,8,8.4,0.04,0,8.2,Fresh,1
-185,In the Heights,Blu-ray,Musical,Romance,Jon M. Chu,Male,No,No,No,USA,2020,PG,7.3,0.94,0.7,0.94,8.2,7,9.4,0,-1.2,8.0,Fresh,1
-186,In Time,Blu-ray,Sci-fi,Romance,Andrew Nicoll,Male,No,No,Yes,USA,2011,12,6.7,0.36,0.75,0.51,5.3,5.8,6.6,-0.15,-1.3,6.1,Rotten,1
-187,Incendies,Blu-ray,Drama,War,Denis Villeneuve,Male,No,No,No,Canada,2010,15,8.3,0.91,0.88,0.93,8,8.8,8.6,-0.02,-0.6,8.4,Fresh,1
-188,Inception,Blu-ray,Action,Sci-fi,Christopher Nolan,Male,No,Yes,No,UK,2010,12,8.8,0.87,0.88,0.91,8.1,8.4,8.8,-0.04,-0.7,8.5,Fresh,1
-189,Independence Day,Blu-ray,Sci-fi,Action,Roland Emmerich,Male,Yes,No,No,USA,1996,12,7,0.68,0.85,0.75,6.6,6.6,7.6,-0.07,-1,7.0,Fresh,1
-190,Indiana Jones and the Last Crusade,DVD,Adventure,Action,Steven Spielberg,Male,Yes,Yes,No,USA,1989,PG,8.2,0.84,0.89,0.94,8,8.2,8.8,-0.1,-0.8,8.3,Fresh,1
-191,Indiana Jones and the Raiders of the Lost Ark,DVD,Action,Adventure,Steven Spielberg,Male,Yes,Yes,No,USA,1981,PG,8.4,0.93,0.91,0.96,9.3,8.4,9,-0.03,0.3,8.8,Fresh,1
-192,Indiana Jones and the Temple of Doom,DVD,Action,Adventure,Steven Spielberg,Male,Yes,Yes,No,USA,1984,12,7.5,0.77,0.85,0.82,7.4,7.2,8,-0.05,-0.6,7.5,Fresh,1
-193,Inside Llewyn Davis,Blu-ray,Drama,N/A,The Coen Brothers,Male,No,No,No,USA,2013,15,7.4,0.92,0.86,0.74,8.5,8,7.4,0.18,1.1,7.8,Fresh,1
-194,Insomnia,DVD,Thriller,Noir,Christopher Nolan,Male,No,No,No,USA,2002,15,7.2,0.92,0.82,0.77,7.8,7,7.4,0.15,0.4,7.4,Fresh,1
-195,Interstellar,Blu-ray,Sci-fi,Drama,Christopher Nolan,Male,No,Yes,No,UK,2014,12,8.7,0.73,0.92,0.86,7.1,8.8,8.4,-0.13,-1.3,8.3,Fresh,1
-196,It,DVD,Horror,Drama,Tommy Lee Wallace,Male,No,No,No,USA,1990,15,6.8,0.68,0.84,0.64,6,6.4,7.2,0.04,-1.2,6.6,Fresh,1
-197,It Follows,Blu-ray,Horror,N/A,David Robert Mitchell,Male,No,No,No,USA,2014,15,6.8,0.95,0.75,0.66,8.1,7,7,0.29,1.1,7.2,Fresh,1
-198,It Might Get Loud,DVD,Documentary,Music,Davis Guggenheim,Male,No,No,No,USA,2008,PG,7.6,0.79,0.76,0.85,6.9,7.2,8,-0.06,-1.1,7.4,Fresh,1
-199,It's a Wonderful Life,Blu-ray,Drama,Comedy,Frank Capra,Male,No,No,No,USA,1946,U,8.6,0.94,0.89,0.95,9.1,8.8,9.2,-0.01,-0.1,8.9,Fresh,1
-200,Jacob's Ladder,DVD,Horror,Psychological,Adrian Lyne,Male,No,No,No,USA,1990,15,7.4,0.72,0.85,0.84,6.3,7.6,8,-0.12,-1.7,7.3,Fresh,1
-201,Jarhead,DVD,War,Drama,Sam Mendes,Male,Yes,No,No,USA,2005,15,7,0.6,0.73,0.68,6.4,7.2,7.2,-0.08,-0.8,7.0,Fresh,1
-202,Jaws,Blu-ray,Horror,N/A,Steven Spielberg,Male,Yes,No,No,USA,1975,12,8.1,0.97,0.84,0.9,9.3,8,8.8,0.07,0.5,8.6,Fresh,1
-203,Jaws 3,DVD,Horror,Adventure,Joe Alves,Male,Yes,No,No,USA,1983,12,3.7,0.11,0.63,0.17,3.4,3.6,4.4,-0.06,-1,3.8,Rotten,1
-204,Jennifer's Body,DVD,Horror,Comedy,Karyn Kusama,Female,No,No,No,USA,2009,15,5.5,0.46,0.79,0.35,5.2,6.8,5.6,0.11,-0.4,5.8,Rotten,1
-205,Jiro Dreams of Sushi,DVD,Documentary,N/A,David Gelb,Male,No,No,No,USA,2011,U,7.8,0.99,0.87,0.91,7.8,8,8.6,0.08,-0.8,8.1,Fresh,1
-206,Joint Security Area,Blu-ray,Drama,War,Park Chan-wook,Male,No,No,No,South Korea,2000,15,7.7,0.88,0.9,0.91,7.2,8.2,8.2,-0.03,-1,7.8,Fresh,1
-207,Jojo Rabbit,Blu-ray,Comedy,Satire,Taika Waititi,Male,No,No,No,New Zealand,2019,12,7.9,0.8,0.92,0.94,7.6,8,9.2,-0.14,-1.6,8.2,Fresh,1
-208,Judas and the Black Messiah,Blu-ray,Drama,Historical,Shaka King,Male,No,No,No,USA,2021,15,7.4,0.96,0.83,0.95,8.2,8,9.2,0.01,-1,8.2,Fresh,1
-209,Jules and Jim,DVD,Romance,Drama,Francois Truffaut,Male,No,Yes,No,France,1962,PG,7.7,0.94,0.81,0.89,9.1,7.8,8.6,0.05,0.5,8.3,Fresh,1
-210,Jurassic Park,Blu-ray,Sci-fi,N/A,Steven Spielberg,Male,Yes,Yes,No,USA,1993,PG,8.2,0.91,0.9,0.91,8.4,8.2,8.6,0,-0.2,8.4,Fresh,1
-211,Jurassic Park 3,Blu-ray,Sci-fi,N/A,Joe Johnston,Male,Yes,Yes,No,USA,2001,PG,5.9,0.49,0.81,0.37,5.3,5.4,6,0.12,-0.7,5.7,Rotten,1
-212,Jurassic Park: The Lost World,Blu-ray,Sci-fi,N/A,Steven Spielberg,Male,Yes,Yes,No,USA,1997,PG,6.5,0.54,0.84,0.51,5.7,6.2,6.6,0.03,-0.9,6.3,Rotten,1
-213,Kill List,DVD,Horror,Thriller,Ben Wheatley,Male,No,Yes,No,UK,2011,18,6.4,0.78,0.73,0.58,7.3,7,6.6,0.2,0.7,6.8,Fresh,1
-214,King Kong,DVD,Adventure,N/A,Peter Jackson,Male,No,No,No,New Zealand,2005,12,7.2,0.84,0.78,0.5,7.7,6.6,5.6,0.34,2.1,6.8,Fresh,1
-215,Knives Out,Blu-ray,Mystery,Comedy,Rian Johnson,Male,Yes,No,No,USA,2019,12,7.9,0.97,0.89,0.92,8.3,8,8.8,0.05,-0.5,8.3,Fresh,1
-216,La Haine,Blu-ray,Thriller,Drama,Mathieu Kassovitz,Male,No,No,No,France,1995,15,8.1,0.96,0.92,0.95,8.1,9,8.8,0.01,-0.7,8.5,Fresh,1
-217,La La Land,Blu-ray,Musical,Romance,Damien Chazelle,Male,No,No,No,USA,2017,12,8,0.91,0.84,0.81,8.7,8,8.2,0.1,0.5,8.2,Fresh,1
-218,Lady Bird,Blu-ray,Comedy,Drama,Greta Gerwig,Female,No,No,No,USA,2017,15,7.4,0.99,0.79,0.79,8.8,7.8,7.8,0.2,1,8.0,Fresh,1
-219,Le Mans '66,Blu-ray,Drama,Sports,James Mangold,Male,No,No,No,USA,2019,12,8.1,0.92,0.9,0.98,7.8,8,9.4,-0.06,-1.6,8.3,Fresh,1
-220,Leon,DVD,Action,Drama,Luc Besson,Male,No,No,No,France,1994,18,8.5,0.74,0.91,0.95,6.9,8,8.8,-0.21,-1.9,8.1,Fresh,1
-221,Let The Right One In,DVD,Horror,Romance,Tomas Alfredson,Male,No,Yes,No,Sweden,2008,15,7.8,0.98,0.87,0.9,8.3,8.2,8.4,0.08,-0.1,8.2,Fresh,1
-222,Life is Beautiful,DVD,Drama,War,Roberto Benigni,Male,No,Yes,No,Italy,1997,PG,8.6,0.8,0.93,0.96,7.5,8.6,9.2,-0.16,-1.7,8.5,Fresh,1
-223,Lincoln,DVD,Drama,Biopic,Steven Spielberg,Male,No,No,No,USA,2012,12,7.3,0.89,0.8,0.81,8,7,8,0.08,0,7.6,Fresh,1
-224,Little Miss Sunshine,DVD,Comedy,Drama,Valerie Faris,Female,No,No,No,USA,2006,15,7.8,0.91,0.87,0.91,7.7,8.4,8.4,0,-0.7,8.1,Fresh,1
-225,Local Hero,DVD,Comedy,Drama,Bill Forsyth,Male,No,No,No,UK,1983,PG,7.3,1,0.8,0.87,8.8,7.6,8.6,0.13,0.2,8.1,Fresh,1
-226,Locke,DVD,Thriller,Drama,Steven Knight,Male,No,Yes,No,UK,2013,15,7.1,0.91,0.63,0.72,7.9,7.2,7.2,0.19,0.7,7.4,Fresh,1
-227,Longlegs,Blu-ray,Horror,Thriller,Osgood Perkins,Male,No,No,No,USA,2024,15,6.7,0.85,0.68,0.61,7.5,6.8,6.8,0.24,0.7,7.0,Fresh,1
-228,Lost in Translation,DVD,Comedy,Drama,Sofia Coppola,Female,No,No,No,USA,2003,15,7.7,0.95,0.87,0.85,8.4,7.6,8.2,0.1,0.2,8.0,Fresh,1
-229,LOTR: The Fellowship of the Ring,Blu-ray,Fantasy,N/A,Peter Jackson,Male,Yes,No,No,New Zealand,2001,PG,8.8,0.91,0.86,0.95,8.2,8.8,8.2,-0.04,0,8.5,Fresh,1
-230,LOTR: The Return of the King,Blu-ray,Fantasy,N/A,Peter Jackson,Male,Yes,No,No,New Zealand,2003,12,9,0.94,0.86,0.86,8.7,9,7.2,0.08,1.5,8.5,Fresh,1
-231,LOTR: The Two Towers,Blu-ray,Fantasy,N/A,Peter Jackson,Male,Yes,No,No,New Zealand,2002,12,8.8,0.95,0.85,0.95,8.5,8.8,8.2,0,0.3,8.6,Fresh,1
-232,Loving Vincent,DVD,Drama,Animation,Dorota Kobiela,Female,No,No,No,Poland,2017,12,7.8,0.85,0.89,0.86,7.3,8,8.2,-0.01,-0.9,7.8,Fresh,1
-233,Mad Max: Fury Road,Blu-ray,Action,N/A,George Miller,Male,Yes,No,No,Australia,2015,15,8.1,0.97,0.89,0.86,8.6,8.4,8.4,0.11,0.2,8.4,Fresh,1
-234,Madagascar,DVD,Comedy,Animation,Tom McGrath,Male,No,No,No,USA,2005,U,6.9,0.55,0.87,0.67,6.1,7,7.2,-0.12,-1.1,6.8,Rotten,1
-235,Malcolm X,DVD,Drama,Biopic,Spike Lee,Male,No,No,No,USA,1992,15,7.7,0.88,0.9,0.91,7.7,8.4,8.6,-0.03,-0.9,8.1,Fresh,1
-236,Man On Wire,DVD,Documentary,N/A,James Marsh,Male,No,No,No,UK,2008,12,7.7,1,0.88,0.87,8.4,7.8,8.2,0.13,0.2,8.0,Fresh,1
-237,Marathon Man,Blu-ray,Thriller,Political,John Schlesinger,Male,No,Yes,No,USA,1976,18,7.4,0.82,0.7,0.81,7.4,7.6,7.6,0.01,-0.2,7.5,Fresh,1
-238,Mary and Max,DVD,Comedy,Drama,Adam Elliot,Male,No,No,No,Australia,2009,12,8.1,0.95,0.92,0.92,8.1,8.4,8.6,0.03,-0.5,8.3,Fresh,1
-239,Mean Streets,DVD,Drama,Crime,Martin Scorsese,Male,No,No,No,USA,1973,18,7.2,0.92,0.79,0.84,8.7,7.4,8,0.08,0.7,7.8,Fresh,1
-240,Meet Joe Black,DVD,Romance,Fantasy,Martin Brest,Male,No,No,No,USA,1998,12,7.2,0.46,0.82,0.81,5.6,6.8,8,-0.35,-2.4,6.9,Rotten,1
-241,MEGAN,Blu-ray,Horror,Comedy,Gerard Johnstone,Male,No,No,No,USA,2023,15,6.4,0.93,0.69,0.78,7.1,5.8,8,0.15,-0.9,6.8,Fresh,1
-242,Memories of Murder,DVD,Thriller,Crime,Bong Joon-ho,Male,No,No,No,South Korea,2003,15,8.1,0.95,0.94,0.92,8,8.8,8.4,0.03,-0.4,8.3,Fresh,1
-243,Men in Black,DVD,Sci-fi,Comedy,Barry Sonnenfeld,Male,Yes,Yes,No,USA,1997,PG,7.3,0.91,0.85,0.8,7.5,7.4,7.8,0.11,-0.3,7.5,Fresh,1
-244,Men in Black 2,DVD,Sci-fi,Comedy,Barry Sonnenfeld,Male,Yes,Yes,No,USA,2002,PG,6.2,0.38,0.89,0.45,5.2,6,6.4,-0.07,-1.2,6.0,Rotten,1
-245,Men in Black 3,DVD,Sci-fi,Comedy,Barry Sonnenfeld,Male,Yes,Yes,No,USA,2012,PG,6.8,0.67,0.85,0.7,6,6.2,7.6,-0.03,-1.6,6.7,Fresh,1
-246,Metropolis,DVD,Sci-fi,N/A,Fritz Lang,Male,No,No,No,Germany,1927,PG,8.3,0.97,0.84,0.92,9.1,8.6,8.8,0.05,0.3,8.7,Fresh,1
-247,Midnight in Paris,DVD,Comedy,Fantasy,Woody Allen,Male,No,No,No,USA,2011,12,7.6,0.93,0.88,0.83,7.8,7.4,8,0.1,-0.2,7.7,Fresh,1
-248,Mike Bassett: England Manager,DVD,Comedy,Sports,Steve Barron,Male,No,No,No,UK,2001,15,6.8,0.4,0.78,0.76,4.8,6.8,7.8,-0.36,-3,6.6,Rotten,1
-249,Minority Report,Blu-ray,Sci-fi,N/A,Steven Spielberg,Male,No,No,No,USA,2002,12,7.6,0.9,0.84,0.8,8.2,7.4,7.6,0.1,0.6,7.7,Fresh,1
-250,Miracle Mile,Blu-ray,Drama,N/A,Steve De Jarnatt,Male,No,No,No,USA,1988,15,7,0.91,0.77,0.73,6.9,7.6,7.4,0.18,-0.5,7.2,Fresh,1
-251,Misery,DVD,Horror,Thriller,Rob Reiner,Male,No,No,No,USA,1990,18,7.8,0.91,0.86,0.9,7.6,8,8.2,0.01,-0.6,7.9,Fresh,1
-252,Mission: Impossible,Blu-ray,Action,Spy,Brian de Palma,Male,Yes,No,No,USA,1996,PG,7.1,0.66,0.84,0.71,6.1,7.2,7.2,-0.05,-1.1,6.9,Fresh,1
-253,Mission: Impossible - Dead Reckoning Part 1,Blu-ray,Action,Spy,Christopher McQuarrie,Male,Yes,Yes,No,USA,2023,12,7.7,0.96,0.73,0.94,8,7.4,9.2,0.02,-1.2,8.1,Fresh,1
-254,Mission: Impossible - Fallout,Blu-ray,Action,Spy,Christopher McQuarrie,Male,Yes,No,No,USA,2018,12,7.7,0.97,0.78,0.88,8.4,8,8.4,0.09,0,8.1,Fresh,1
-255,Mission: Impossible - Ghost Protocol,Blu-ray,Action,Spy,Brad Bird,Male,Yes,No,No,USA,2011,12,7.4,0.93,0.81,0.76,7.7,7.4,7.8,0.17,-0.1,7.6,Fresh,1
-256,Mission: Impossible - Rogue Nation,Blu-ray,Action,Spy,Christopher McQuarrie,Male,Yes,Yes,No,USA,2015,12,7.4,0.94,0.85,0.87,7.5,7.4,8.2,0.07,-0.7,7.6,Fresh,1
-257,Mission: Impossible 2,Blu-ray,Action,Spy,John Woo,Male,Yes,No,No,USA,2000,15,6.1,0.56,0.83,0.42,5.9,5.2,6.2,0.14,-0.3,5.9,Rotten,1
-258,Mission: Impossible 3,Blu-ray,Action,Spy,JJ Abrams,Male,Yes,No,No,USA,2006,12,6.9,0.71,0.86,0.69,6.6,6.6,7.2,0.02,-0.6,6.8,Fresh,1
-259,Mommy,DVD,Drama,N/A,Xavier Dolan,Male,No,No,No,Canada,2015,15,8,0.89,0.73,0.89,7.9,8.6,8.4,0,-0.5,8.2,Fresh,1
-260,Moneyball,Blu-ray,Drama,Sports,Bennett Miller,Male,No,No,No,USA,2011,12,7.6,0.94,0.82,0.86,8,7.8,8,0.08,0,7.9,Fresh,1
-261,Monster House,DVD,Horror,Animation,Gil Kenan,Male,No,No,No,USA,2006,PG,6.7,0.74,0.71,0.64,6.8,6.8,7,0.1,-0.2,6.8,Fresh,1
-262,Monsters,DVD,Sci-fi,Horror,Gareth Edwards,Male,Yes,Yes,No,UK,2010,12,6.4,0.74,0.6,0.53,6.6,6.4,6.4,0.21,0.2,6.5,Fresh,1
-263,Monty Python and the Holy Grail,DVD,Comedy,Adventure,Terry Gilliam,Male,Yes,Yes,No,UK,1975,15,8.2,0.96,0.91,0.95,8.5,8.2,9,0.01,-0.5,8.5,Fresh,1
-264,Monty Python's Life of Brian,DVD,Comedy,Historical,Terry Jones,Male,No,No,No,UK,1979,15,8,0.96,0.89,0.93,8.3,8,8.8,0.03,-0.5,8.3,Fresh,1
-265,Monty Python's The Meaning of Life,DVD,Comedy,Musical,Terry Jones,Male,Yes,Yes,No,UK,1983,15,7.5,0.86,0.72,0.83,7.3,7.6,8,0.03,-0.7,7.6,Fresh,1
-266,Moon,Blu-ray,Sci-fi,Drama,Duncan Jones,Male,No,Yes,No,UK,2009,15,7.8,0.9,0.86,0.89,7.5,7.8,8.2,0.01,-0.7,7.8,Fresh,1
-267,Mr Bean's Holiday,DVD,Comedy,N/A,Steve Bendelack,Male,No,No,No,UK,2007,PG,6.4,0.51,0.82,0.49,5.4,6.6,6.4,0.02,-1,6.2,Rotten,1
-268,Mrs Doubtfire,DVD,Comedy,Drama,Chris Columbus,Male,No,No,No,USA,1993,PG,7.1,0.7,0.88,0.77,5.9,7.2,7.8,-0.07,-1.9,7.0,Fresh,1
-269,Mulholland Drive,Blu-ray,Thriller,N/A,David Lynch,Male,No,No,No,USA,2001,15,7.9,0.84,0.83,0.87,7.8,8.4,8.4,-0.03,-0.6,8.1,Fresh,1
-270,My Name is Joe,DVD,Romance,Drama,Ken Loach,Male,No,No,No,UK,1998,15,7.4,0.89,0.74,0.86,7.4,7.6,8,0.03,-0.6,7.6,Fresh,1
-271,National Treasure,DVD,Adventure,N/A,Jon Turteltaub,Male,Yes,No,No,USA,2004,PG,6.9,0.46,0.82,0.76,5.3,6.4,7.6,-0.3,-2.3,6.6,Rotten,1
-272,National Treasure 2: Book of Secrets,DVD,Adventure,N/A,Jon Turteltaub,Male,Yes,No,No,USA,2007,PG,6.5,0.36,0.78,0.67,4.8,5.8,7.2,-0.31,-2.4,6.1,Rotten,1
-273,Nausicaa of the Valley of the Wind,DVD,Sci-fi,Animation,Hayao Miyazaki,Male,No,No,No,Japan,1984,PG,8,0.9,0.93,0.91,8.2,8.2,8.6,-0.01,-0.4,8.3,Fresh,1
-274,Neon Genesis Evangelion: The End of Evangelion,DVD,Sci-fi,Animation,Anno and Kazuya Tsurumaki,Male,No,No,No,Japan,1997,15,8.1,0.9,0.89,0.85,9,9,8.6,0.05,0.4,8.7,Fresh,1
-275,Next Goal Wins,DVD,Documentary,Sports,Mike Brett & Steve Jamison,Male,No,No,No,UK,2014,15,7.8,1,0.74,0.89,7.6,7.8,8.2,0.11,-0.6,7.9,Fresh,1
-276,Night at the Museum,DVD,Comedy,Adventure,Shawn Levy,Male,Yes,No,No,USA,2006,PG,6.5,0.42,0.88,0.67,5.2,6.6,7.4,-0.25,-2.2,6.4,Rotten,1
-277,Night of the Living Dead,DVD,Horror,N/A,George A. Romero,Male,Yes,No,No,USA,1968,18,7.8,0.96,0.9,0.87,8.9,8,8.4,0.09,0.5,8.3,Fresh,1
-278,Nightcrawler,Blu-ray,Thriller,Noir,Dan Gilroy,Male,No,No,No,USA,2014,15,7.8,0.95,0.84,0.86,8.3,8,8,0.09,0.3,8.0,Fresh,1
-279,Nightmare Alley,DVD,Thriller,Noir,Guillermo del Toro,Male,No,No,No,USA,2021,15,7,0.81,0.6,0.68,7.4,6.8,7.4,0.13,0,7.2,Fresh,1
-280,No Country for Old Men,DVD,Drama,Crime,The Coen Brothers,Male,No,No,No,USA,2008,15,8.2,0.93,0.85,0.86,8.7,8.6,8.4,0.07,0.3,8.5,Fresh,1
-281,No Time to Die,DVD,Action,Spy,Cary Joji Fukunaga,Male,Yes,Yes,No,UK,2021,12,7.3,0.83,0.75,0.88,7.3,7,8.8,-0.05,-1.5,7.6,Fresh,1
-282,No Way Out,DVD,Thriller,Political,Roger Donaldson,Male,No,No,No,USA,1987,15,7.1,0.91,0.7,0.72,7.4,6.8,7.4,0.19,0,7.2,Fresh,1
-283,Nocturnal Animals,Blu-ray,Thriller,Psychological,Tom Ford,Male,No,Yes,No,USA,2016,15,7.5,0.74,0.72,0.73,7,7.4,7.4,0.01,-0.4,7.3,Fresh,1
-284,Nomadland,Blu-ray,Drama,N/A,Chloe Zhao,Female,No,No,No,USA,2020,12,7.3,0.93,0.76,0.82,8.8,7.6,8.2,0.11,0.6,8.0,Fresh,1
-285,Nope,DVD,Horror,Sci-fi,Jordan Peele,Male,No,No,No,USA,2022,18,6.8,0.83,0.62,0.69,7.5,7.4,7.4,0.14,0.1,7.3,Fresh,1
-286,Nymphomaniac Vol. I,Blu-ray,Drama,Erotic,Lars von Trier,Male,No,No,No,Denmark,2013,18,6.9,0.76,0.66,0.69,7,7,7.2,0.07,-0.2,7.0,Fresh,1
-287,Nymphomaniac Vol. II,Blu-ray,Drama,Erotic,Lars von Trier,Male,No,No,No,Denmark,2013,18,6.6,0.58,0.66,0.55,6.4,6.6,6.6,0.03,-0.2,6.6,Rotten,1
-288,Oblivion,Blu-ray,Sci-fi,Action,Joseph Kosinski,Male,No,No,No,USA,2013,12,7,0.54,0.72,0.61,5.9,6.2,7,-0.07,-1.1,6.5,Rotten,1
-289,Ocean Waves,DVD,Drama,Animation,Tomomi Mochizuki,Male,No,No,No,Japan,1993,PG,6.6,0.89,0.79,0.64,6.6,6.2,7,0.25,-0.4,6.6,Fresh,1
-290,Oldboy,Blu-ray,Action,Thriller,Park Chan-wook,Male,Yes,No,No,South Korea,2003,18,8.4,0.82,0.9,0.94,7.4,8.8,8.8,-0.12,-1.4,8.4,Fresh,1
-291,Olympus Has Fallen,Blu-ray,Action,N/A,Antoine Fuqua,Male,Yes,No,No,USA,2013,15,6.5,0.5,0.88,0.66,5.4,5.4,7.4,-0.16,-2,6.2,Rotten,1
-292,On the Beach,DVD,Drama,War,Stanley Kramer,Male,No,No,No,USA,1959,PG,7.1,0.78,0.8,0.69,6.5,7,7.2,0.09,-0.7,7.0,Fresh,1
-293,On The Waterfront,DVD,Drama,Crime,Elia Kazan,Male,No,No,No,USA,1954,PG,8.1,0.99,0.72,0.95,9.2,8.4,9,0.04,0.2,8.7,Fresh,1
-294,One Flew Over the Cuckoos Nest,DVD,Drama,Psychological,Milos Forman,Male,No,No,No,USA,1975,18,8.7,0.93,0.91,0.96,9.1,8.8,9,-0.03,0.1,8.9,Fresh,1
-295,One Hour Photo,DVD,Thriller,Psychological,Mark Romanek,Male,No,No,No,USA,2002,15,6.8,0.81,0.74,0.65,7,7,7,0.16,0,7.0,Fresh,1
-296,Open Water,DVD,Horror,Thriller,Chris Kentis,Male,Yes,No,No,USA,2003,15,5.8,0.71,0.58,0.33,6.6,5.4,5.2,0.38,1.4,5.8,Fresh,1
-297,Oppenheimer,Blu-ray,Thriller,Biopic,Christopher Nolan,Male,No,Yes,No,USA,2023,15,8.4,0.93,0.88,0.91,8.6,8.6,9,0.02,-0.4,8.7,Fresh,1
-298,Outbreak,DVD,Sci-fi,N/A,Wolfgang Petersen,Male,No,No,No,USA,1995,15,6.6,0.59,0.83,0.56,5.7,6.2,6.8,0.03,-1.1,6.3,Rotten,1
-299,Pan's Labyrinth,DVD,Fantasy,Horror,Guillermo del Toro,Male,No,No,No,Spain,2006,15,8.2,0.95,0.91,0.91,8.6,8.4,8.6,0.04,0,8.5,Fresh,1
-300,Parasite,Blu-ray,Comedy,Thriller,Bong Joon-ho,Male,No,No,No,South Korea,2019,15,8.5,0.99,0.9,0.9,9.4,9.2,9,0.09,0.4,9.0,Fresh,1
-301,Perfect Blue,Blu-ray,Horror,Psychological,Satoshi Kon,Male,No,No,No,Japan,1997,18,8,0.83,0.95,0.85,7.3,8.8,8.2,-0.02,-0.9,8.1,Fresh,1
-302,Philadelphia,DVD,Drama,Political,Jonathan Demme,Male,No,No,No,USA,1993,15,7.7,0.81,0.84,0.89,6.9,7.8,8.2,-0.08,-1.3,7.7,Fresh,1
-303,Phone Booth,DVD,Thriller,Psychological,Joel Schumacher,Male,No,No,No,USA,2002,15,7.1,0.72,0.9,0.64,6.5,6.6,7,0.08,-0.5,6.8,Fresh,1
-304,Pig,Blu-ray,Drama,N/A,Michael Sarnoski,Male,No,No,No,USA,2021,15,6.9,0.97,0.76,0.84,8.2,7.6,8.2,0.13,0,7.7,Fresh,1
-305,Pirates of the Carribean: At World's End,Blu-ray,Adventure,Action,Gore Verbinski,Male,Yes,Yes,No,USA,2007,12,7.1,0.44,0.9,0.72,5,6.8,7.6,-0.28,-2.6,6.6,Rotten,1
-306,Pirates of the Carribean: Curse of the Black Pearl,Blu-ray,Adventure,Action,Gore Verbinski,Male,Yes,Yes,No,USA,2003,12,8.1,0.8,0.92,0.86,6.6,7.8,7.8,-0.06,-1.2,7.6,Fresh,1
-307,Pirates of the Carribean: Dead Man's Chest,Blu-ray,Adventure,Action,Gore Verbinski,Male,Yes,Yes,No,USA,2006,12,7.4,0.53,0.91,0.72,5.4,7.2,7.8,-0.19,-2.4,7.0,Rotten,1
-308,Pirates of the Carribean: On Stranger Tides,Blu-ray,Adventure,Action,Rob Marshall,Male,Yes,Yes,No,USA,2011,12,6.6,0.33,0.87,0.54,4.7,5.6,6.8,-0.21,-2.1,5.9,Rotten,1
-309,"Planes, Trains & Automobiles",Blu-ray,Comedy,N/A,John Hughes,Male,No,No,No,USA,1987,15,7.6,0.92,0.81,0.87,7.9,7.4,8.2,0.05,-0.3,7.8,Fresh,1
-310,Pokemon: The First Movie,Blu-ray,Fantasy,Animation,Kunihiko Yuyama,Male,No,No,No,Japan,1999,PG,6.2,0.16,0.91,0.72,3.7,7,7.6,-0.56,-3.9,6.1,Rotten,1
-311,Porco Rosso,DVD,Drama,Animation,Hayao Miyazaki,Male,No,No,No,Japan,1992,PG,7.7,0.95,0.9,0.87,8.1,8,8.2,0.08,-0.1,8.0,Fresh,1
-312,Portrait of a Lady on Fire,DVD,Romance,Drama,Celine Sciamma,Female,No,No,No,France,2019,15,8.1,0.97,0.91,0.92,9,8.8,9.2,0.05,-0.2,8.8,Fresh,1
-313,Possessor,Blu-ray,Horror,Sci-fi,Brandon Cronenberg,Male,No,No,No,Canada,2020,18,6.5,0.94,0.64,0.59,7.8,7.2,6.4,0.35,1.4,7.0,Fresh,1
-314,Predestination,Blu-ray,Sci-fi,Action,Michael Spierig,Male,No,No,No,Australia,2014,15,7.4,0.85,0.75,0.75,6.9,7.2,7.4,0.1,-0.5,7.2,Fresh,1
-315,Pretty Woman,DVD,Romance,Comedy,Garry Marshall,Male,No,No,No,USA,1990,15,7.1,0.64,0.9,0.68,6,7.2,7,-0.04,-1,6.8,Fresh,1
-316,Princess Mononoke,DVD,Fantasy,Animation,Hayao Miyazaki,Male,No,No,No,Japan,1997,PG,8.3,0.93,0.94,0.94,8.1,8.8,8.8,-0.01,-0.7,8.5,Fresh,1
-317,Prisoners,Blu-ray,Drama,Noir,Denis Villeneuve,Male,No,No,No,USA,2013,15,8.1,0.81,0.8,0.87,7.3,8.6,8.2,-0.06,-0.9,8.1,Fresh,1
-318,Promising Young Woman,Blu-ray,Thriller,Black Comedy,Emerald Fennell,Female,No,No,No,UK,2020,15,7.5,0.9,0.69,0.87,8.1,7.4,8.6,0.03,-0.5,7.9,Fresh,1
-319,Psycho,DVD,Horror,Thriller,Alfred Hitchcock,Male,No,No,No,USA,1960,15,8.5,0.96,0.85,0.95,9.3,8.6,9,0.01,0.3,8.9,Fresh,1
-320,Punch-Drunk Love,DVD,Romance,Drama,Paul Thomas Anderson,Male,No,No,No,USA,2002,15,7.3,0.79,0.8,0.77,7.3,8,7.6,0.02,-0.3,7.6,Fresh,1
-321,Ran,DVD,Action,Drama,Akira Kurosawa,Male,No,Yes,No,Japan,1985,15,8.2,0.96,0.79,0.95,9,9,9,0.01,0,8.8,Fresh,1
-322,Rashomon,Blu-ray,Mystery,Crime,Akira Kurosawa,Male,No,No,No,Japan,1950,12,8.2,0.98,0.88,0.93,9.3,8.4,8.8,0.05,0.5,8.7,Fresh,1
-323,Ratatouille,Blu-ray,Comedy,Family,Brad Bird,Male,No,No,No,USA,2007,PG,8.1,0.96,0.92,0.87,8.5,8.4,8.2,0.09,0.3,8.3,Fresh,1
-324,Rear Window,DVD,Thriller,Noir,Alfred Hitchcock,Male,No,No,No,USA,1954,PG,8.5,0.98,0.9,0.95,9.3,8.8,9,0.03,0.3,8.9,Fresh,1
-325,Red Eye,DVD,Thriller,N/A,Wes Craven,Male,No,No,No,USA,2005,12,6.5,0.79,0.61,0.64,6.7,6.2,7,0.15,-0.3,6.6,Fresh,1
-326,Reign of Fire,DVD,Sci-fi,Action,Rob Bowman,Male,No,No,No,UK,2002,12,6.2,0.42,0.74,0.49,5.2,5.8,6.4,-0.07,-1.2,5.9,Rotten,1
-327,Reservoir Dogs,DVD,Thriller,Crime,Quentin Tarantino,Male,No,No,No,USA,1992,18,8.3,0.9,0.91,0.94,8.9,8.4,8.8,-0.04,0.1,8.6,Fresh,1
-328,Resident Evil,DVD,Horror,Action,Paul WS Anderson,Male,Yes,No,No,USA,2002,15,6.6,0.35,0.86,0.67,4.6,5.8,7.2,-0.32,-2.6,6.1,Rotten,1
-329,Rififi,DVD,Thriller,Crime,Jules Dassin,Male,No,No,No,France,1955,PG,8.1,0.93,0.82,0.95,8.3,8.4,8.8,-0.02,-0.5,8.4,Fresh,1
-330,Rise of the Planet of the Apes,Blu-ray,Sci-fi,N/A,Rupert Wyatt,Male,Yes,Yes,No,USA,2011,12,7.6,0.82,0.82,0.77,7.2,7.2,8,0.05,-0.8,7.5,Fresh,1
-331,Road to Perdition,DVD,Thriller,Crime,Sam Mendes,Male,No,No,No,USA,2002,15,7.7,0.81,0.83,0.86,7.5,7.6,8,-0.05,-0.5,7.7,Fresh,1
-332,Robocop,Blu-ray,Sci-fi,Action,Paul Verhoeven,Male,Yes,No,No,USA,1987,18,7.6,0.92,0.91,0.84,8.1,7.8,8.2,0.08,-0.1,7.9,Fresh,1
-333,RoboCop (2014),DVD,Sci-fi,Action,Jose Padilha,Male,No,Yes,No,USA,2014,12,6.1,0.49,0.71,0.49,5.6,4.6,6.6,0,-1,5.7,Rotten,1
-334,Robot Dreams,Blu-ray,Comedy,Animation,Pablo Berger,Male,No,No,No,Spain,2023,PG,7.6,0.98,0.87,0.89,8.5,8.2,8.6,0.09,-0.1,8.2,Fresh,1
-335,Rogue,DVD,Horror,N/A,Greg McLean,Male,No,No,No,Australia,2007,15,6.2,0.89,0.83,0.54,7.3,6,6.6,0.35,0.7,6.5,Fresh,1
-336,Romeo + Juliet,Blu-ray,Romance,N/A,Baz Luhrmann,Male,No,No,No,USA,1996,12,6.8,0.73,0.78,0.77,6.8,6.8,7.8,-0.04,-1,7.1,Fresh,1
-337,Room,DVD,Drama,N/A,Lenny Abrahamson,Male,No,Yes,No,USA,2015,15,8.1,0.93,0.86,0.93,8.5,8,8.6,0,-0.1,8.3,Fresh,1
-338,Rush,Blu-ray,Action,Sports,Ron Howard,Male,No,Yes,No,UK,2013,15,8.1,0.88,0.88,0.88,7.5,7.6,8.2,0,-0.7,7.9,Fresh,1
-339,Saint Maud,Blu-ray,Horror,Supernatural,Rose Glass,Female,No,No,No,UK,2021,15,6.7,0.92,0.66,0.67,8,7,7,0.25,1,7.2,Fresh,1
-340,Salvador,Blu-ray,War,Drama,Oliver Stone,Male,No,No,No,USA,1986,18,7.4,0.9,0.78,0.85,7.7,7.2,8,0.05,-0.3,7.6,Fresh,1
-341,Saving Private Ryan,DVD,War,Drama,Steven Spielberg,Male,No,No,No,USA,1998,15,8.6,0.94,0.91,0.95,8.7,8.4,9,-0.01,-0.3,8.7,Fresh,1
-342,Saw,DVD,Horror,n/a,James Wan,Male,Yes,No,No,USA,2004,18,7.6,0.5,0.83,0.84,5.6,7.2,8.2,-0.34,-2.6,7.2,Rotten,1
-343,School of Rock,DVD,Comedy,N/A,Richard Linklater,Male,No,No,No,USA,2003,PG,7.2,0.92,0.88,0.64,7.7,7.4,6.4,0.28,1.3,7.2,Fresh,1
-344,Se7en,DVD,Thriller,Crime,David Fincher,Male,No,No,No,USA,1995,18,8.6,0.83,0.91,0.95,7.9,8.6,8.8,-0.12,-0.9,8.5,Fresh,1
-345,Serpico,DVD,Thriller,Crime,Sidney Lumet,Male,No,No,No,USA,1973,18,7.7,0.93,0.87,0.88,8.1,7.8,8.2,0.05,-0.1,8.0,Fresh,1
-346,Session 9,DVD,Horror,Supernatural,Brad Anderson,Male,No,No,No,USA,2001,15,6.4,0.67,0.76,0.63,6.4,6.4,7,0.04,-0.6,6.6,Fresh,1
-347,Seven Samurai,DVD,Adventure,Action,Akira Kurosawa,Male,No,No,No,Japan,1954,PG,8.6,1,0.93,0.97,9.6,9.2,9.4,0.03,0.2,9.2,Fresh,1
-348,Sexy Beast,DVD,Thriller,Crime,Jonathan Glazer,Male,No,No,No,UK,2000,18,7.3,0.87,0.66,0.85,7.3,7.8,8,0.02,-0.7,7.6,Fresh,1
-349,Shaun of the Dead,DVD,Comedy,Horror,Edgar Wright,Male,No,No,No,UK,2004,15,7.9,0.92,0.92,0.93,7.8,8,8.6,-0.01,-0.8,8.1,Fresh,1
-350,Showgirls,Blu-ray,Drama,Erotic,Paul Verhoeven,Male,No,No,No,USA,1995,18,5.1,0.23,,0.38,3.7,6.8,5.6,-0.15,-1.9,5.3,Rotten,1
-351,Shrek,DVD,Comedy,Fantasy,Vicky Jenson,Female,Yes,No,No,USA,2001,U,7.9,0.88,0.85,0.9,7.8,8.2,7.8,-0.02,0,7.9,Fresh,1
-352,Shrek 2,DVD,Comedy,Animation,Kelly Asbury,Female,Yes,No,No,USA,2004,U,7.3,0.89,0.89,0.69,7.7,8,7,0.2,0.7,7.5,Fresh,1
-353,Sicario,Blu-ray,Action,Thriller,Denis Villeneuve,Male,Yes,No,No,USA,2015,15,7.7,0.92,0.86,0.85,8.1,8,8,0.07,0.1,8.0,Fresh,1
-354,Sightseers,DVD,Comedy,Black Comedy,Ben Wheatley,Male,No,No,No,UK,2012,15,6.5,0.86,0.68,0.62,7.4,6.8,6.8,0.24,0.6,6.9,Fresh,1
-355,Signs,DVD,Horror,Sci-fi,M. Night Shyamalan,Male,No,No,No,USA,2002,12,6.8,0.75,0.8,0.67,6.9,6.8,7.2,0.08,-0.3,6.9,Fresh,1
-356,Silver Linings Playbook,DVD,Drama,Romance,David O. Russell,Male,No,No,No,USA,2012,15,7.7,0.92,0.81,0.86,8.2,7.2,8.2,0.06,0,7.8,Fresh,1
-357,Singin' in the Rain,DVD,Musical,Comedy,Gene Kelly,Male,No,No,No,USA,1952,U,8.3,1,0.86,0.95,9.4,8.6,9,0.05,0.4,8.8,Fresh,1
-358,Skyfall,Blu-ray,Action,Spy,Sam Mendes,Male,Yes,Yes,No,UK,2012,12,7.8,0.92,0.88,0.86,8.2,7.8,8.2,0.06,0,8.0,Fresh,1
-359,Slumdog Millionaire,Blu-ray,Drama,Romance,Danny Boyle,Male,No,Yes,No,UK,2008,15,8,0.91,0.93,0.9,8.4,7.8,8.6,0.01,-0.2,8.2,Fresh,1
-360,Society,Blu-ray,Horror,Comedy,Brian Yuzna,Male,Yes,No,No,USA,1989,PG,6.5,0.64,0.82,0.6,5.7,7,7.2,0.04,-1.5,6.6,Fresh,1
-361,Some Like it Hot,DVD,Comedy,Musical,Billy Wilder,Male,No,No,No,USA,1959,PG,8.2,0.9,0.95,0.94,9.1,8.4,8.8,-0.04,0.3,8.6,Fresh,1
-362,Sorcerer,Blu-ray,Thriller,N/A,William Friedkin,Male,No,No,No,USA,1977,15,7.7,0.81,0.81,0.84,7.6,8.4,8,-0.03,-0.4,7.9,Fresh,1
-363,Sorry We Missed You,DVD,Drama,N/A,Ken Loach,Male,No,No,No,UK,2019,15,7.6,0.88,0.71,0.82,7.8,7.8,7.6,0.06,0.2,7.7,Fresh,1
-364,Source Code,DVD,Sci-fi,N/A,Duncan Jones,Male,No,No,No,USA,2011,12,7.5,0.91,0.75,0.82,7.5,7,7.8,0.09,-0.3,7.5,Fresh,1
-365,Spartacus,4k Blu-ray,Drama,Historical,Stanley Kubrick,Male,No,No,No,USA,1960,PG,7.9,0.94,0.76,0.87,8.2,7.6,8.2,0.07,0,8.0,Fresh,1
-366,Speed,Blu-ray,Action,Thriller,Jan de Bont,Male,Yes,No,No,USA,1994,15,7.3,0.95,0.86,0.76,8.1,7.4,7.6,0.19,0.5,7.6,Fresh,1
-367,Spider-Man,DVD,Action,N/A,Sam Raimi,Male,Yes,No,No,USA,2002,12,7.4,0.9,0.81,0.67,7.6,7.6,6.6,0.23,1,7.3,Fresh,1
-368,Spider-Man 2,DVD,Action,N/A,Sam Raimi,Male,Yes,No,No,USA,2004,PG,7.5,0.93,0.85,0.82,8.3,7.8,7,0.11,1.3,7.7,Fresh,1
-369,Spider-Man 3,DVD,Action,N/A,Sam Raimi,Male,Yes,No,No,USA,2007,12,6.3,0.63,0.82,0.51,6.2,6,6.6,0.12,-0.4,6.3,Fresh,1
-370,Spirited Away,DVD,Fantasy,Adventure,Hayao Miyazaki,Male,No,No,No,Japan,2001,PG,8.6,0.96,0.95,0.96,8.6,9,9,0,-0.4,8.8,Fresh,1
-371,Star Wars Episode 1: The Phantom Menace,DVD,Sci-fi,Adventure,George Lucas,Male,Yes,No,No,USA,1999,U,6.5,0.51,0.85,0.59,5.9,5.6,7,-0.08,-1.1,6.3,Rotten,1
-372,Star Wars Episode 2: Attack of the Clones,DVD,Sci-fi,Adventure,George Lucas,Male,Yes,No,No,USA,2002,PG,6.6,0.65,0.87,0.56,6.5,5.4,6.8,0.09,-0.3,6.3,Fresh,1
-373,Star Wars Episode 3: Revenge of the Sith,DVD,Sci-fi,Adventure,George Lucas,Male,Yes,No,No,USA,2005,12,7.6,0.79,0.92,0.66,7.3,7.4,6.2,0.13,1.1,7.1,Fresh,1
-374,Star Wars Episode 4: A New Hope,DVD,Sci-fi,Adventure,George Lucas,Male,Yes,No,No,USA,1977,U,8.6,0.93,0.89,0.96,8.8,8.4,9.2,-0.03,-0.4,8.8,Fresh,1
-375,Star Wars Episode 5: The Empire Strikes Back,DVD,Sci-fi,Adventure,Irving Kerschner,Male,Yes,No,No,USA,1979,U,8.7,0.94,0.94,0.97,9,8.8,9.2,-0.03,-0.2,8.9,Fresh,1
-376,Star Wars Episode 6: Return of the Jedi,DVD,Sci-fi,Adventure,Richard Marquand,Male,Yes,No,No,USA,1981,U,8.3,0.83,0.94,0.94,7.3,8,8.8,-0.11,-1.5,8.1,Fresh,1
-377,Stardust,DVD,Fantasy,Romance,Matthew Vaughn,Male,No,No,No,UK,2007,PG,7.6,0.77,0.7,0.86,6.8,7.2,8.2,-0.09,-1.4,7.5,Fresh,1
-378,Starship Troopers,Blu-ray,Sci-fi,Satire,Paul Verhoeven,Male,Yes,No,No,USA,1997,18,7.3,0.71,0.92,0.7,6.4,7.6,7.4,0.01,-1,7.2,Fresh,1
-379,Starship Troopers 2: Hero of the Federation,DVD,Sci-fi,Horror,Phil Tippett,Male,Yes,No,No,USA,2004,18,3.6,0.33,0.59,0.12,4.7,3.8,3.6,0.21,1.1,3.9,Rotten,1
-380,Starship Troopers 3: Marauder,DVD,Sci-fi,Satire,Edward Neumeier,Male,Yes,No,No,USA,2008,15,4.3,0.43,0.46,0.19,4.9,4.4,4.6,0.24,0.3,4.6,Rotten,1
-381,Starter for 10,Blu-ray,Drama,Romance,Tom Vaughan,Male,No,No,No,UK,2006,15,6.7,0.9,0.8,0.66,7,6.6,7,0.24,0,6.8,Fresh,1
-382,Still Alice,DVD,Drama,N/A,Richard Glatzer & Wash Westmoreland,Male,No,No,No,USA,2014,12,7.5,0.85,0.83,0.85,7.4,7.4,8,0,-0.6,7.6,Fresh,1
-383,Sunset Boulevard,DVD,Comedy,Noir,Billy Wilder,Male,No,No,No,USA,1950,PG,8.4,0.98,0.79,0.95,9.5,8.8,9,0.03,0.5,8.9,Fresh,1
-384,Super Size Me,DVD,Documentary,N/A,Morgan Spurlock,Male,Yes,No,No,USA,2004,12,7.2,0.92,0.85,0.72,7.7,6.2,7.4,0.2,0.3,7.1,Fresh,1
-385,Superbad,Blu-ray,Comedy,n/a,Greg Motolla,Male,No,No,No,USA,2007,15,7.6,0.88,0.88,0.87,7.4,7.8,8.4,0.01,-1,7.8,Fresh,1
-386,Suspiria,Blu-ray,Horror,Supernatural,Dario Argento,Male,No,No,No,Italy,1977,18,7.3,0.94,0.87,0.83,8.4,8,8,0.11,0.4,7.9,Fresh,1
-387,Team America: World Police,DVD,Comedy,Action,Trey Parker,Male,No,No,No,Germany,2004,15,7.2,0.77,0.69,0.8,7,7,7.8,-0.03,-0.8,7.3,Fresh,1
-388,Tenet,Blu-ray,Action,Spy,Christopher Nolan,Male,No,Yes,No,USA,2020,15,7.3,0.69,0.74,0.76,6.9,6.8,8,-0.07,-1.1,7.3,Fresh,1
-389,The 40 Year Old Virgin,DVD,Comedy,N/A,Judd Apatow,Male,No,No,No,USA,2005,15,7.1,0.85,0.82,0.84,7,6.6,8,0.01,-1,7.2,Fresh,1
-390,The Adjustment Bureau,Blu-ray,Sci-fi,Thriller,George Nolfi,Male,No,No,No,USA,2011,12,7,0.72,0.73,0.67,6.6,6.2,7.2,0.05,-0.6,6.8,Fresh,1
-391,The Artist,DVD,Drama,Romance,Michel Hazanavicius,Male,No,No,No,France,2011,PG,7.9,0.95,0.83,0.87,8.8,7.6,8.4,0.08,0.4,8.2,Fresh,1
-392,The Bay,Blu-ray,Horror,Found footage,Barry Levinson,Male,No,No,No,USA,2012,15,5.7,0.76,0.76,0.43,6.5,5.8,6,0.33,0.5,6.0,Fresh,1
-393,The Big Lebowski,DVD,Comedy,Crime,The Coen Brothers,Male,No,Yes,No,USA,1998,18,8.1,0.8,0.86,0.93,7.4,8.2,9,-0.13,-1.6,8.2,Fresh,1
-394,The Big Short,Blu-ray,Comedy,Drama,Adam McKay,Male,No,Yes,No,USA,2015,15,7.8,0.89,0.87,0.88,7.8,7.6,8.2,0.01,-0.4,7.9,Fresh,1
-395,The Birds,DVD,Horror,Thriller,Alfred Hitchcock,Male,No,No,No,USA,1963,15,7.6,0.94,0.8,0.83,8.3,7.6,8,0.11,0.3,7.9,Fresh,1
-396,The Blair Witch Project,DVD,Horror,Found footage,Daniel Myrick,Male,No,No,No,USA,1999,15,6.5,0.86,0.79,0.57,7.7,6.6,6.6,0.29,1.1,6.9,Fresh,1
-397,The Bourne Identity,DVD,Action,Thriller,Doug Liman,Male,Yes,Yes,Yes,USA,2002,12,7.8,0.84,0.9,0.93,7,7.4,8.4,-0.09,-1.4,7.7,Fresh,1
-398,The Bourne Supremacy,DVD,Action,Thriller,Paul Greengrass,Male,Yes,Yes,Yes,USA,2004,12,7.4,0.82,0.9,0.9,7.2,7.2,8.2,-0.08,-1,7.5,Fresh,1
-399,The Bourne Ultimatum,DVD,Action,Thriller,Paul Greengrass,Male,Yes,Yes,Yes,USA,2007,12,8,0.92,0.88,0.91,8,7.4,8.6,0.01,-0.6,8.0,Fresh,1
-400,The Boy and the Heron,Blu-ray,Fantasy,Animation,Hayao Miyazaki,Male,No,No,No,Japan,2023,12,7.5,0.97,0.89,0.88,8.5,8,8.8,0.09,-0.3,8.2,Fresh,1
-401,The Breakfast Club,Blu-ray,Drama,N/A,John Hughes,Male,No,No,No,USA,1986,15,7.8,0.89,0.9,0.92,7.8,7.6,8.6,-0.03,-0.8,8.0,Fresh,1
-402,The Bridge on the River Kwai,DVD,War,Drama,David Lean,Male,No,No,No,UK,1957,PG,8.1,0.96,0.86,0.93,9.4,8.4,8.6,0.03,0.8,8.6,Fresh,1
-403,The Cabin in the Woods,DVD,Horror,Comedy,Drew Goddard,Male,No,No,No,USA,2011,15,7,0.92,0.73,0.74,7.9,6.8,7.6,0.18,0.3,7.3,Fresh,1
-404,The Cat Returns,DVD,Fantasy,Animation,Hiroyuki Morita,Male,No,No,No,Japan,2002,U,7.1,0.88,0.88,0.82,6.9,7.2,8,0.06,-1.1,7.3,Fresh,1
-405,The Cell,DVD,Sci-fi,Thriller,Tarsem Singh,Male,No,No,No,USA,2000,18,6.4,0.45,0.74,0.57,5.6,6.4,6.8,-0.12,-1.2,6.3,Rotten,1
-406,The Core,DVD,Disaster,Sci-fi,Jon Amiel,Male,No,No,No,USA,2003,12,5.5,0.39,0.64,0.34,5.3,4.8,5.4,0.05,-0.1,5.3,Rotten,1
-407,The Damned United,DVD,Drama,Biopic,Tom Hooper,Male,No,No,No,UK,2009,15,7.5,0.92,0.51,0.85,7.4,7.4,7.8,0.07,-0.4,7.5,Fresh,1
-408,The Dark Knight,Blu-ray,Action,N/A,Christopher Nolan,Male,Yes,Yes,No,USA,2008,12,9,0.94,0.92,0.94,8.6,9,8.8,0,-0.2,8.9,Fresh,1
-409,The Dark Knight Rises,Blu-ray,Action,N/A,Christopher Nolan,Male,Yes,Yes,No,USA,2012,12,8.4,0.87,0.84,0.9,8,7.4,8.8,-0.03,-0.8,8.2,Fresh,1
-410,The Day After,DVD,Drama,War,Nicholas Meyer,Male,No,No,No,USA,1983,12,7,0.83,0.88,0.69,7.3,6.8,7.4,0.14,-0.1,7.1,Fresh,1
-411,The Day After Tomorrow,Blu-ray,Disaster,Sci-fi,Roland Emmerich,Male,No,No,No,USA,2004,12,6.5,0.45,0.81,0.5,5.3,5.8,6.4,-0.05,-1.1,6.0,Rotten,1
-412,The Departed,DVD,Thriller,Crime,Martin Scorsese,Male,No,No,No,USA,2006,18,8.5,0.91,0.92,0.94,8.3,8.6,8.8,-0.03,-0.5,8.6,Fresh,1
-413,The Descent,DVD,Horror,N/A,Neil Marshall,Male,No,No,No,UK,2005,18,7.2,0.86,0.87,0.76,7.4,7.2,7.6,0.1,-0.2,7.4,Fresh,1
-414,The Devil Wears Prada,DVD,Comedy,Drama,David Frankel,Male,No,No,No,USA,2006,12,6.9,0.75,0.9,0.76,6.7,7.6,7.6,-0.01,-0.9,7.2,Fresh,1
-415,The Disaster Artist,DVD,Comedy,Biopic,James Franco,Male,No,Yes,No,USA,2017,15,7.3,0.91,0.82,0.85,7.8,7.2,8,0.06,-0.2,7.6,Fresh,1
-416,The Diving Bell and the Butterfly,DVD,Drama,N/A,Julian Schnabel,Male,No,No,No,France,2007,12,8,0.94,0.84,0.92,8.3,8.2,8.6,0.02,-0.3,8.3,Fresh,1
-417,The Exorcist,Blu-ray,Horror,N/A,William Friedkin,Male,Yes,No,No,USA,1973,18,8.1,0.78,0.79,0.87,8.5,8,8.4,-0.09,0.1,8.3,Fresh,1
-418,The Fabelmans,Blu-ray,Drama,Biopic,Steven Spielberg,Male,No,Yes,No,USA,2022,12,7.5,0.92,0.76,0.83,8.2,8,8.4,0.09,-0.2,8.0,Fresh,1
-419,The Father,DVD,Drama,N/A,Florian Zeller,Male,No,No,No,UK,2020,12,8.2,0.98,0.84,0.92,8.7,8.6,8.6,0.06,0.1,8.5,Fresh,1
-420,The Fifth Element,DVD,Sci-fi,Action,Luc Besson,Male,No,No,No,France,1997,PG,7.6,0.71,0.91,0.87,6.4,7.6,8.2,-0.16,-1.8,7.5,Fresh,1
-421,The Full Monty,DVD,Comedy,Drama,Peter Cattaneo,Male,No,No,No,UK,1997,15,7.2,0.96,0.75,0.79,7.5,7.2,7.8,0.17,-0.3,7.4,Fresh,1
-422,The Girl Who Leapt Through Time,DVD,Sci-fi,Animation,Mamoru Hosoda,Male,No,No,No,Japan,2006,PG,7.7,0.84,0.91,0.9,6.6,7.6,8.4,-0.06,-1.8,7.6,Fresh,1
-423,The Girl with all the Gifts,Blu-ray,Horror,Sci-fi,Colm McCarthy,Male,No,No,No,UK,2016,15,6.6,0.86,0.73,0.67,7.2,6.6,7,0.19,0.2,6.9,Fresh,1
-424,The Girl with the Dragon Tattoo,Blu-ray,Thriller,Noir,David Fincher,Male,Yes,No,No,USA,2011,18,7.8,0.87,0.86,0.86,7.6,7.8,8.2,0.01,-0.6,7.9,Fresh,1
-425,The Godfather,DVD,Drama,Crime,Francis Ford Coppola,Male,Yes,No,No,USA,1972,18,9.2,0.97,0.91,0.98,9.4,9.2,9.6,-0.01,-0.2,9.4,Fresh,1
-426,The Green Mile,DVD,Fantasy,Horror,Frank Darabont,Male,No,No,No,USA,1999,18,8.6,0.79,0.92,0.94,6.8,8.4,8.8,-0.15,-2,8.2,Fresh,1
-427,The Hangover,DVD,Comedy,N/A,Todd Phillips,Male,Yes,No,No,USA,2009,15,7.7,0.79,0.87,0.84,6.9,7.2,8.2,-0.05,-1.3,7.5,Fresh,1
-428,The History Boys,DVD,Drama,Comedy,Nicholas Hytner,Male,No,No,No,UK,2006,15,6.8,0.65,0.76,0.7,6.4,6.8,7.4,-0.05,-1,6.9,Fresh,1
-429,The Hobbit: An Unexpected Journey,Blu-ray,Fantasy,Adventure,Peter Jackson,Male,Yes,No,No,New Zealand,2012,12,7.8,0.64,0.84,0.83,6.6,6.8,8.2,-0.19,-1.6,7.4,Fresh,1
-430,The Hobbit: The Battle of the Five Armies,Blu-ray,Fantasy,Adventure,Peter Jackson,Male,Yes,Yes,No,New Zealand,2014,12,7.4,0.59,0.78,0.74,6.3,6.4,7.8,-0.15,-1.5,7.0,Rotten,1
-431,The Hobbit: The Desolation of Smaug,Blu-ray,Fantasy,Adventure,Peter Jackson,Male,Yes,Yes,No,New Zealand,2013,12,7.8,0.74,0.77,0.85,6.8,6.6,8.2,-0.11,-1.4,7.4,Fresh,1
-432,The Holdovers,Blu-ray,Comedy,Drama,Alexander Payne,Male,No,Yes,No,USA,2023,15,7.9,0.97,0.89,0.92,8.5,8.4,9,0.05,-0.5,8.5,Fresh,1
-433,The Hole,DVD,Horror,Thriller,Nick Hamm,Male,No,No,No,UK,2001,18,6.2,0.53,0.79,0.53,5.8,5.8,6.6,0,-0.8,6.1,Rotten,1
-434,The Howling,Blu-ray,Horror,N/A,Joe Dante,Male,Yes,Yes,No,USA,1981,18,6.5,0.74,0.8,0.6,6.4,6.6,7,0.14,-0.6,6.6,Fresh,1
-435,The Hunger Games,Blu-ray,Sci-fi,Dystopian,Gary Ross,Male,Yes,No,No,USA,2012,12,7.2,0.84,0.81,0.81,7.3,7,8,0.03,-0.7,7.4,Fresh,1
-436,The Hunger Games: Catching Fire,Blu-ray,Sci-fi,Dystopian,Francis Lawrence,Male,Yes,No,No,USA,2013,12,7.5,0.9,0.79,0.89,7.6,7.4,8.6,0.01,-1,7.8,Fresh,1
-437,The Hunger Games: Mockingjay Part 1,Blu-ray,Sci-fi,Dystopian,Francis Lawrence,Male,Yes,Yes,No,USA,2014,12,6.6,0.69,0.8,0.71,6.3,6.4,7.6,-0.02,-1.3,6.7,Fresh,1
-438,The Hunger Games: Mockingjay Part 2,Blu-ray,Sci-fi,Dystopian,Francis Lawrence,Male,Yes,No,No,USA,2015,12,6.6,0.69,0.72,0.66,6.5,6.6,7.2,0.03,-0.7,6.7,Fresh,1
-439,The Hunt,DVD,Drama,Psychological,Thomas Vinterberg,Male,No,No,No,Denmark,2012,15,8.3,0.92,0.89,0.93,7.8,8.6,8.6,-0.01,-0.8,8.3,Fresh,1
-440,The Hurt Locker,Blu-ray,War,Drama,Kathryn Bigelow,Female,No,No,No,USA,2008,15,7.5,0.97,0.88,0.84,8.5,7.4,8,0.13,0.5,7.9,Fresh,1
-441,The Imitation Game,DVD,Drama,Biopic,Morten Tyldum,Male,No,Yes,No,UK,2014,12,8,0.9,0.91,0.91,7.7,7.6,8.4,-0.01,-0.7,7.9,Fresh,1
-442,The Incredibles,DVD,Action,Family,Brad Bird,Male,Yes,No,No,USA,2004,U,8,0.97,0.88,0.75,8.4,8.2,6.8,0.22,1.6,7.9,Fresh,1
-443,The Karate Kid,DVD,Action,Sports,John G Avildsen,Male,Yes,No,No,USA,1984,15,7.3,0.89,0.9,0.82,7,7.4,8,0.07,-1,7.4,Fresh,1
-444,The King of Comedy,DVD,Comedy,Black Comedy,Martin Scorsese,Male,No,No,No,USA,1982,PG,7.8,0.9,0.83,0.9,8.3,8.4,8.2,0,0.1,8.2,Fresh,1
-445,The King's Speech,Blu-ray,Drama,Historical,Tom Hooper,Male,No,No,No,UK,2010,12,8,0.94,0.91,0.92,8.6,7.6,8.6,0.02,0,8.2,Fresh,1
-446,The Lives of Others,DVD,Drama,Historical,Florian Henckel von Donnersmarck,Male,No,No,No,Germany,2007,15,8.4,0.92,0.91,0.96,8.3,8.6,9,-0.04,-0.7,8.6,Fresh,1
-447,The Lobster,Blu-ray,Comedy,Black Comedy,Yorgos Lanthimos,Male,No,Yes,No,Ireland,2015,15,7.1,0.87,0.76,0.65,7.5,7.6,6.8,0.22,0.7,7.3,Fresh,1
-448,The Lord of the Rings,DVD,Fantasy,Animation,Ralph Bakshi,Male,No,No,No,USA,1978,PG,6.2,0.5,0.76,0.64,5.5,6.4,7.2,-0.14,-1.7,6.3,Rotten,1
-449,The Lure,Blu-ray,Musical,Horror,Agnieszka Smoczyńska,Female,No,No,No,Poland,2015,15,6.2,0.89,0.53,0.71,7.2,6.6,7,0.18,0.2,6.8,Fresh,1
-450,The Machinist,DVD,Thriller,Psychological,Brad Anderson,Male,No,No,No,Spain,2004,15,7.6,0.77,0.84,0.83,6.3,7.6,7.8,-0.06,-1.5,7.3,Fresh,1
-451,The Martian,Blu-ray,Sci-fi,Drama,Ridley Scott,Male,No,Yes,No,UK,2015,12,8,0.91,0.89,0.91,7.9,7.6,8.6,0,-0.7,8.0,Fresh,1
-452,The Matrix,Blu-ray,Sci-fi,Action,Lana Wachowski and Lilly Wachowski,Female,Yes,No,No,USA,1999,15,8.7,0.83,0.89,0.85,7.7,8.4,7.2,-0.02,0.5,8.0,Fresh,1
-453,The Mist,Blu-ray,Horror,N/A,Frank Darabont,Male,No,No,No,USA,2007,15,7.1,0.72,0.83,0.65,6.6,6.8,7,0.07,-0.4,6.9,Fresh,1
-454,The Mummy,DVD,Adventure,Action,Stephen Sommers,Male,Yes,No,No,USA,1999,15,7.1,0.61,0.89,0.75,5.9,7,7.6,-0.14,-1.7,6.9,Fresh,1
-455,The Nest,DVD,Drama,Psychological,Sean Durkin,Male,No,No,No,UK,2020,15,6.3,0.9,0.48,0.4,7.5,6.8,5.2,0.5,2.3,6.5,Fresh,1
-456,The Omega Man,DVD,Sci-fi,Action,Boris Sagal,Male,No,No,No,USA,1971,PG,6.4,0.65,0.74,0.53,5.5,6.4,6.6,0.12,-1.1,6.2,Fresh,1
-457,The Poseidon Adventure,DVD,Disaster,Thriller,Ronald Neame,Male,Yes,No,No,USA,1972,PG,7.1,0.82,0.73,0.76,7,7,7.6,0.06,-0.6,7.2,Fresh,1
-458,The Prestige,DVD,Thriller,Sci-fi,Christopher Nolan,Male,No,No,No,UK,2006,12,8.5,0.77,0.81,0.92,7.1,8.4,8.6,-0.15,-1.5,8.2,Fresh,1
-459,The Princess Bride,Blu-ray,Fantasy,Romance,Rob Reiner,Male,No,No,No,USA,1987,PG,8,0.98,0.88,0.94,8.5,8,9,0.04,-0.5,8.4,Fresh,1
-460,The Producers,DVD,Comedy,Satire,Mel Brooks,Male,No,No,No,USA,1967,PG,7.5,0.91,0.84,0.85,8.2,7.6,8.2,0.06,0,7.9,Fresh,1
-461,The Raid,DVD,Action,Martial Arts,Gareth Evans,Male,Yes,No,No,Indonesia,2011,18,7.6,0.87,0.87,0.87,7.6,8,8.2,0,-0.6,7.9,Fresh,1
-462,The Raid 2,DVD,Action,Martial Arts,Gareth Evans,Male,Yes,No,No,Indonesia,2014,18,7.9,0.82,0.87,0.87,7.5,8,8.4,-0.05,-0.9,8.0,Fresh,1
-463,The Road,Blu-ray,Sci-fi,Drama,John Hillcoat,Male,No,Yes,No,USA,2009,15,7.2,0.74,0.82,0.68,7,7.2,7.2,0.06,-0.2,7.2,Fresh,1
-464,The Rock,DVD,Action,Thriller,Michael Bay,Male,No,No,No,USA,1996,15,7.4,0.67,0.84,0.85,6.6,7,8.2,-0.18,-1.6,7.3,Fresh,1
-465,The Running Man,DVD,Sci-fi,Action,Paul Michael Glaser,Male,No,No,No,USA,1987,18,6.7,0.66,0.72,0.61,5.7,6.6,7,0.05,-1.3,6.5,Fresh,1
-466,The Settlers,Blu-ray,Drama,Historical,Felipe Gálvez Haberle,Male,No,Yes,No,Chile,2023,15,6.9,0.93,0.73,0.77,7.5,7.2,7.8,0.16,-0.3,7.4,Fresh,1
-467,The Shallows,DVD,Horror,Thriller,Jaume Collet-Serra,Male,No,No,No,USA,2016,15,6.3,0.78,0.76,0.59,6.5,5.8,6.8,0.19,-0.3,6.4,Fresh,1
-468,The Shape of Water,DVD,Fantasy,Romance,Guillermo del Toro,Male,No,No,No,USA,2017,15,7.3,0.92,0.76,0.72,8.3,7.4,7.4,0.2,0.9,7.6,Fresh,1
-469,The Shawshank Redemption,DVD,Drama,N/A,Frank Darabont,Male,No,No,No,USA,1994,15,9.3,0.91,0.95,0.98,8.4,9,9.4,-0.07,-1,9.0,Fresh,1
-470,The Shining,Blu-ray,Horror,Psychological,Stanley Kubrick,Male,No,No,No,USA,1980,15,8.4,0.83,0.88,0.93,8.6,8.4,8.8,-0.1,-0.2,8.6,Fresh,1
-471,The Silence of the Lambs,DVD,Horror,Thriller,Jonathan Demme,Male,No,No,No,USA,1991,18,8.6,0.95,0.91,0.95,8.8,8.6,8.8,0,0,8.7,Fresh,1
-472,The Simpsons Movie,DVD,Comedy,Animation,David Silverman,Male,No,No,No,USA,2007,PG,7.3,0.87,0.84,0.77,7.5,6.8,7.8,0.1,-0.3,7.4,Fresh,1
-473,The Sixth Sense,DVD,Thriller,Drama,M. Night Shyamalan,Male,No,No,No,USA,1999,15,8.2,0.86,0.89,0.9,7.6,8,8.4,-0.04,-0.8,8.1,Fresh,1
-474,The Social Network,DVD,Drama,Biopic,David Fincher,Male,No,Yes,No,USA,2010,12,7.8,0.96,0.84,0.87,9,8,8.2,0.09,0.8,8.3,Fresh,1
-475,The Sum of all Fears,Blu-ray,Thriller,Political,Phil Alden Robinson,Male,No,No,No,USA,2002,12,6.4,0.59,0.77,0.49,5.9,6,6.4,0.1,-0.5,6.2,Rotten,1
-476,The Texas Chain Saw Massacre,DVD,Horror,N/A,Tobe Hooper,Male,Yes,Yes,No,USA,1974,18,7.4,0.89,0.86,0.82,8.2,7.6,8,0.07,0.2,7.8,Fresh,1
-477,The Thing,DVD,Horror,Sci-fi,John Carpenter,Male,No,No,No,USA,1982,18,8.2,0.85,0.86,0.92,7.5,8.6,8.6,-0.07,-1.1,8.2,Fresh,1
-478,The Towering Inferno,DVD,Disaster,N/A,John Guillermin,Male,No,No,No,USA,1974,15,7,0.68,0.87,0.72,6.5,6.8,7.4,-0.04,-0.9,6.9,Fresh,1
-479,The Town,DVD,Thriller,Crime,Ben Affleck,Male,No,Yes,No,USA,2010,15,7.5,0.92,0.74,0.85,7.7,7.2,8,0.07,-0.3,7.6,Fresh,1
-480,The Tree of Life,Blu-ray,Drama,N/A,Terrence Malick,Male,No,No,No,USA,2011,15,6.8,0.85,0.63,0.6,8.2,7.8,6.8,0.25,1.4,7.4,Fresh,1
-481,The Truman Show,DVD,Sci-fi,Drama,Peter Weir,Male,No,No,No,USA,1998,PG,8.2,0.94,0.9,0.89,8.5,8.4,8.2,0.05,0.3,8.3,Fresh,1
-482,The Tunnel,DVD,Horror,Found footage,Carlo Ledesma,Male,No,Yes,No,Australia,2011,15,5.8,1,0.85,0.5,7,5.6,6.4,0.5,0.6,6.2,Fresh,1
-483,The Untouchables,DVD,Action,Crime,Brian de Palma,Male,No,No,No,USA,1987,15,7.8,0.83,0.84,0.89,7.6,7.6,8.2,-0.06,-0.6,7.8,Fresh,1
-484,The Vanishing,DVD,Thriller,Psychological,George Sluizer,Male,No,No,No,The Netherlands,1988,15,7.7,0.96,0.81,0.88,8.4,8,8.2,0.08,0.2,8.1,Fresh,1
-485,The War Game,Blu-ray,Documentary,War,Peter Watkins,Male,No,No,No,UK,1966,12,8,0.93,0.8,0.89,8.5,8,8.2,0.04,0.3,8.2,Fresh,1
-486,The Wave,DVD,Disaster,N/A,Roar Uthaug,Male,No,No,No,Norway,2015,15,6.6,0.83,0.67,0.66,6.6,6.4,7,0.17,-0.4,6.7,Fresh,1
-487,The Wind Rises,DVD,Romance,Animation,Hayao Miyazaki,Male,No,No,No,Japan,2013,PG,7.7,0.88,0.91,0.85,8,8.2,8.2,0.03,-0.2,8.0,Fresh,1
-488,The Wind That Shakes the Barley,DVD,Drama,War,Ken Loach,Male,No,No,No,Ireland,2006,15,7.5,0.9,0.83,0.87,7.7,7.8,8.2,0.03,-0.5,7.8,Fresh,1
-489,The World is Not Enough,DVD,Action,Spy,Michael Apted,Male,No,No,No,UK,1999,12,6.4,0.51,0.86,0.49,5.6,5.8,6.4,0.02,-0.8,6.1,Rotten,1
-490,The Worst Person in the World,Blu-ray,Romance,Drama,Joachim Trier,Male,No,Yes,No,Norway,2021,15,7.7,0.96,0.76,0.86,8.7,8.2,8.2,0.1,0.5,8.2,Fresh,1
-491,The Wrestler,DVD,Drama,Sports,Darren Aronofsky,Male,No,No,No,USA,2008,15,7.9,0.98,0.87,0.88,8.4,8.2,8.2,0.1,0.2,8.2,Fresh,1
-492,There Will Be Blood,Blu-ray,Drama,N/A,Paul Thomas Anderson,Male,No,No,No,USA,2007,15,8.2,0.91,0.91,0.86,8.5,9,8.4,0.05,0.1,8.5,Fresh,1
-493,Thirteen Days,DVD,Drama,Political,Roger Donaldson,Male,No,No,No,USA,2000,12,7.3,0.83,0.84,0.8,7.2,6.8,7.6,0.03,-0.4,7.2,Fresh,1
-494,This is England,DVD,Drama,N/A,Shane Meadows,Male,No,No,No,UK,2006,18,7.7,0.93,0.85,0.9,7.7,8,8.4,0.03,-0.7,8.0,Fresh,1
-495,This is Spinal Tap,DVD,Comedy,Music,Rob Reiner,Male,No,No,No,USA,1984,15,7.9,0.96,0.88,0.92,8.6,7.8,8.8,0.04,-0.2,8.3,Fresh,1
-496,Throne of Blood,DVD,Action,Drama,Akira Kurosawa,Male,No,No,No,Japan,1957,PG,8,0.96,0.89,0.93,8.8,8.6,8.8,0.03,0,8.6,Fresh,1
-497,Time Bandits,DVD,Fantasy,Adventure,Terry Gilliam,Male,No,No,No,UK,1981,PG,6.9,0.91,0.86,0.77,7.8,7,7.6,0.14,0.2,7.3,Fresh,1
-498,Titanic,Blu-ray,Romance,Disaster,James Cameron,Male,No,No,No,USA,1997,12,7.9,0.88,0.94,0.69,8,7.6,6.6,0.19,1.4,7.5,Fresh,1
-499,Tokyo Story,DVD,Drama,N/A,Yasujiro Ozu,Male,No,No,No,Japan,1953,U,8.1,1,0.88,0.93,9.6,8.8,9,0.07,0.6,8.9,Fresh,1
-500,Tomorrow Never Dies,DVD,Action,Spy,Roger Spotiswoode,Male,Yes,No,No,UK,1997,12,6.5,0.57,0.86,0.53,6.1,6,6.6,0.04,-0.5,6.3,Rotten,1
-501,Toni Erdmann,DVD,Comedy,Drama,Maren Ade,Female,No,No,No,Germany,2016,15,7.3,0.93,0.65,0.73,8.3,7.8,7.4,0.2,0.9,7.7,Fresh,1
-502,Top Gun,Blu-ray,Action,N/A,Tony Scott,Male,Yes,No,Yes,USA,1986,12,6.9,0.58,0.8,0.83,6.1,6.8,8.2,-0.25,-2.1,7.0,Rotten,1
-503,Top Gun Maverick,4k Blu-ray,Action,N/A,Joseph Kosinski,Male,Yes,Yes,No,USA,2022,12,8.3,0.96,0.81,0.99,8.2,8,9.8,-0.03,-1.6,8.6,Fresh,1
-504,Total Recall,Blu-ray,Sci-fi,Action,Paul Verhoeven,Male,No,No,No,USA,1990,18,7.5,0.82,0.91,0.79,7.3,7.6,7.6,0.03,-0.3,7.5,Fresh,1
-505,Touching the Void,Blu-ray,Documentary,N/A,Kevin Macdonald,Male,No,No,No,UK,2003,12,8,0.94,0.86,0.92,8,7.8,8.6,0.02,-0.6,8.1,Fresh,1
-506,Train to Busan,Blu-ray,Horror,Action,Yeon Sang-ho,Male,Yes,No,No,South Korea,2016,15,7.6,0.95,0.94,0.89,7.7,7.8,8.4,0.06,-0.7,7.9,Fresh,1
-507,Troll Hunter,Blu-ray,Horror,Found footage,Andre Ovredal,Male,No,No,No,Norway,2011,15,6.9,0.82,0.83,0.72,6.6,6.8,7.2,0.1,-0.6,6.9,Fresh,1
-508,True Lies,DVD,Action,Comedy,James Cameron,Male,No,No,No,USA,1994,15,7.3,0.7,0.92,0.76,6.6,7.2,7.6,-0.06,-1,7.2,Fresh,1
-509,Twelve Monkeys,DVD,Sci-fi,Dystopian,Terry Gilliam,Male,No,No,No,USA,1995,15,8,0.88,0.85,0.88,7.6,7.8,8.2,0,-0.6,7.9,Fresh,1
-510,Twilight's Last Gleaming,Blu-ray,Thriller,Political,Robert Aldrich,Male,No,No,No,USA,1977,15,6.7,0.8,0.86,0.73,6,6.8,7.4,0.07,-1.4,6.7,Fresh,1
-511,Twister,DVD,Disaster,N/A,Jan de Bont,Male,No,No,No,USA,1996,PG,6.5,0.63,0.85,0.58,6.1,6.2,7,0.05,-0.9,6.5,Fresh,1
-512,Unbreakable,Blu-ray,Thriller,Drama,M. Night Shyamalan,Male,No,No,No,USA,2000,15,7.3,0.7,0.83,0.77,6.4,7.4,7.6,-0.07,-1.2,7.2,Fresh,1
-513,United 93,DVD,Thriller,Drama,Paul Greengrass,Male,No,No,No,USA,2006,15,7.6,0.9,0.75,0.83,7.8,7.4,8,0.07,-0.2,7.7,Fresh,1
-514,V for Vendetta,Blu-ray,Sci-fi,Dystopian,James McTeigue,Male,No,No,No,UK,2005,15,8.2,0.73,0.89,0.9,6.8,7.6,8.6,-0.17,-1.8,7.8,Fresh,1
-515,Vanilla Sky,DVD,Sci-fi,Psychological,Cameron Crowe,Male,No,No,No,USA,2001,15,6.9,0.43,0.72,0.72,5.3,6.8,7.4,-0.29,-2.1,6.6,Rotten,1
-516,Vertical Limit,DVD,Action,Thriller,Martin Campbell,Male,No,No,No,USA,2000,12,5.9,0.49,0.63,0.41,5.2,5.6,6,0.08,-0.8,5.7,Rotten,1
-517,Vertigo,DVD,Thriller,Psychological,Alfred Hitchcock,Male,No,No,No,USA,1958,PG,8.3,0.92,0.83,0.93,8.9,8.4,8.8,-0.01,0.1,8.6,Fresh,1
-518,Walk the Line,DVD,Drama,Biopic,James Mangold,Male,No,No,No,USA,2005,12,7.8,0.82,0.79,0.9,7.2,7.6,8.4,-0.08,-1.2,7.8,Fresh,1
-519,Wallace and Gromit: The Curse of the Wererabbit,DVD,Comedy,Animation,Nick Park,Male,No,No,No,UK,2005,PG,7.5,0.95,0.77,0.79,8.1,7.6,7.8,0.16,0.3,7.8,Fresh,1
-520,Waltz with Bashir,DVD,Documentary,War,Ari Folman,Male,No,No,No,Israel,2008,18,8,0.97,0.89,0.91,8.4,8,8.4,0.06,0,8.2,Fresh,1
-521,Wanted,DVD,Action,N/A,Timur Bekmambetov,Male,No,Yes,No,USA,2008,18,6.7,0.71,0.68,0.69,6.5,5.8,7.4,0.02,-0.9,6.6,Fresh,1
-522,War for the Planet of the Apes,Blu-ray,Sci-fi,Action,Matt Reeves,Male,Yes,Yes,No,USA,2017,12,7.4,0.94,0.79,0.84,8.1,7.6,8,0.1,0.1,7.8,Fresh,1
-523,War of the Worlds,DVD,Sci-fi,Thriller,Steven Spielberg,Male,No,No,No,USA,2005,12,6.5,0.76,0.78,0.42,7,6.6,5.8,0.34,1.2,6.5,Fresh,1
-524,Wayne's World,DVD,Comedy,N/A,Penelope Spheeris,Female,Yes,Yes,No,USA,1992,PG,7,0.79,0.75,0.84,6.7,7,8.2,-0.05,-1.5,7.2,Fresh,1
-525,Wayne's World 2,DVD,Comedy,N/A,Stephen Surjik,Male,Yes,Yes,No,USA,1993,PG,6.2,0.6,0.85,0.63,5.8,6.2,7.2,-0.03,-1.4,6.4,Fresh,1
-526,West Beirut,DVD,Drama,War,Ziad Doueiri,Male,No,No,No,Lebanon,1998,12,7.6,0.94,0.71,0.91,7.3,7.8,8.6,0.03,-1.3,7.8,Fresh,1
-527,Westworld,DVD,Sci-fi,N/A,Michael Crichton,Male,No,No,No,USA,1973,15,6.9,0.84,0.83,0.7,7,7,7.2,0.14,-0.2,7.0,Fresh,1
-528,What We Do in the Shadows,Blu-ray,Comedy,Horror,Taika Waititi,Male,No,No,No,New Zealand,2014,15,7.6,0.96,0.92,0.87,7.9,8.2,8.2,0.09,-0.3,8.0,Fresh,1
-529,When Harry Met Sally,DVD,Romance,Comedy,Rob Reiner,Male,No,No,No,USA,1989,15,7.7,0.91,0.83,0.89,8,8,8.4,0.02,-0.4,8.0,Fresh,1
-530,When Marnie was There,DVD,Drama,Animation,Hiromasa Yonebayashi,Male,No,Yes,No,Japan,2014,U,7.7,0.92,0.9,0.88,7.5,7.6,8.2,0.04,-0.7,7.8,Fresh,1
-531,Whiplash,Blu-ray,Drama,N/A,Damien Chazelle,Male,No,No,No,USA,2014,15,8.5,0.94,0.93,0.94,8.6,8.8,9,0,-0.4,8.7,Fresh,1
-532,Whisper of the Heart,DVD,Romance,Animation,Yoshifumi Kondo,Male,No,No,No,Japan,1995,U,7.8,0.94,0.91,,7.6,8.2,,0.94,7.6,7.9,Fresh,1
-533,Wilderness,DVD,Horror,Thriller,M. J. Bassett,Female,No,No,No,UK,2006,15,6.1,0.33,0.84,0.46,4.7,5.8,6.2,-0.13,-1.5,5.7,Rotten,1
-534,Withnail & I,DVD,Comedy,N/A,Bruce Robinson,Male,No,No,No,UK,1987,15,7.5,0.92,0.86,0.94,8.5,7.8,9,-0.02,-0.5,8.2,Fresh,1
-535,Wolf Creek,DVD,Horror,N/A,Greg McLean,Male,Yes,No,No,Australia,2005,18,6.2,0.54,0.81,0.49,5.7,6,6.2,0.05,-0.5,6.0,Rotten,1
-536,World War Z,Blu-ray,Horror,Action,Marc Forster,Male,No,No,No,USA,2013,15,7,0.67,0.82,0.72,6.3,6.2,7.4,-0.05,-1.1,6.7,Fresh,1
-537,X+Y,DVD,Drama,Romance,Morgan Matthews,Male,No,No,No,UK,2014,12,7.1,0.87,0.67,0.77,6.6,6.8,7.6,0.1,-1,7.0,Fresh,1
-538,Y Tu Mama Tambien,DVD,Drama,Comedy,Alfonso Cuaron,Male,No,No,No,Mexico,2002,18,7.7,0.92,0.83,0.88,8.1,8.4,8.2,0.04,-0.1,8.1,Fresh,1
-539,Your Name.,DVD,Romance,Animation,Makoto Shinkai,Male,No,No,No,Japan,2016,12,8.4,0.98,0.96,0.94,8.2,8.4,9.2,0.04,-1,8.6,Fresh,1
-540,Zodiac,DVD,Thriller,Noir,David Fincher,Male,No,No,No,USA,2007,15,7.7,0.9,0.89,0.77,7.7,8,7.6,0.13,0.1,7.8,Fresh,1
-541,Zoolander,DVD,Comedy,N/A,Ben Stiller,Male,Yes,No,No,USA,2001,12,6.5,0.65,0.76,0.8,6,6.6,8,-0.15,-2,6.8,Fresh,1
-542,Big Daddy,DVD,Comedy,Drama,Dennis Dugan,Male,No,No,No,USA,1999,12,6.4,0.39,0.83,0.74,4.9,6.4,7.6,-0.35,-2.7,6.3,Rotten,1
-543,Day of the Dead,DVD,Horror,N/A,George A. Romero,Male,Yes,Yes,No,USA,1985,18,7.1,0.87,,0.75,7.1,7.6,7.6,0.12,-0.5,7.4,Fresh,1
-544,Frances Ha,DVD,Comedy,Drama,Noah Baumbach,Male,No,No,No,USA,2012,15,7.4,0.92,0.9,0.78,7.8,8,7.6,0.14,0.2,7.7,Fresh,1
-545,La Chimera,DVD,Drama,Historical,Alice Rohrwacher,Female,No,No,No,Italy,2023,15,7.3,0.94,0.84,0.74,8.2,8.2,7.6,0.2,0.6,7.8,Fresh,1
-546,The Relic,DVD,Horror,Sci-fi,Peter Hyams,Male,No,No,No,USA,1997,15,5.8,0.37,0.81,0.34,4.7,5.8,5.8,0.03,-1.1,5.5,Rotten,1
-547,Dune,Blu-ray,Sci-fi,Action,Denis Villeneuve,Male,Yes,No,No,USA,2021,12,8,0.83,0.77,0.9,7.7,7.8,9,-0.07,-1.3,8.1,Fresh,1
-548,Dune: Part Two,Blu-ray,Sci-fi,Action,Denis Villeneuve,Male,Yes,No,No,USA,2024,12,8.5,0.92,0.92,0.95,8.4,8.8,9.4,-0.03,-1,8.8,Fresh,1
-549,Late Night with the Devil,Blu-ray,Horror,Found footage,Cameron Collins,Male,No,No,No,Australia,2023,15,7,0.97,0.85,0.82,7.8,6.8,8,0.15,-0.2,7.4,Fresh,1
-550,Game Night,Blu-ray,Comedy,Action,John Francis Daley,Male,No,No,No,USA,2018,15,6.9,0.85,0.72,0.78,6.9,7,7.6,0.07,-0.7,7.1,Fresh,1
-551,The Host,Blu-ray,Horror,Satire,Bong Joon-ho,Male,No,No,No,South Korea,2006,15,7.1,0.93,0.79,0.72,7.7,7.6,7.4,0.21,0.3,7.5,Fresh,1
-552,Contact,DVD,Sci-fi,Drama,Robert Zemeckis,Male,No,No,No,USA,1997,PG,7.5,0.68,0.77,0.79,6.9,7.2,7.8,-0.11,-0.9,7.4,Fresh,1
-553,Conclave,Blu-ray,Thriller,Political,Edward Berger,Male,No,No,No,UK,2024,12,7.4,0.93,0.82,0.86,8.1,7.8,8.6,0.07,-0.5,8.0,Fresh,1
-554,Pacific Rim,Blu-ray,Sci-fi,N/A,Guillermo del Toro,Male,Yes,Yes,No,USA,2013,12,6.9,0.72,0.8,0.77,6.7,6.8,7.8,-0.05,-1.1,7.1,Fresh,1
-555,Antichrist,DVD,Horror,N/A,Lars von Trier,Male,No,No,No,Denmark,2009,18,6.5,0.53,0.72,0.55,5.6,6.8,6.4,-0.02,-0.8,6.3,Rotten,1
-556,Primer,Blu-ray,Sci-fi,N/A,Shane Carruth,Male,No,No,No,USA,2004,12,6.7,0.72,0.75,0.79,6.6,7.2,7.8,-0.07,-1.2,7.1,Fresh,1
-557,Upstream Color,Blu-ray,Sci-fi,Drama,Shane Carruth,Male,No,No,No,USA,2013,12,6.5,0.87,0.62,0.69,8,7.2,7.2,0.18,0.8,7.2,Fresh,1
-558,Full Metal Jacket,DVD,War,N/A,Stanley Kubrick,Male,No,No,No,UK,1987,18,8.2,0.9,0.87,0.94,8.3,8.4,8.8,-0.04,-0.5,8.4,Fresh,1
-559,March of the Penguins,DVD,Documentary,N/A,Luc Jacquet,Male,No,No,No,France,2005,U,7.5,0.94,0.86,0.81,7.8,7.2,7.8,0.13,0,7.6,Fresh,1
-560,Schindler's List,DVD,Drama,War,Steven Spielberg,Male,No,No,No,USA,1993,15,9,0.98,0.93,0.97,9.2,9,9.2,0.01,0,9.1,Fresh,1
-561,2012,Blu-ray,Disaster,N/A,Roland Emmerich,Male,No,Yes,No,USA,2009,12,5.8,0.4,0.76,0.47,5.2,5,6.2,-0.07,-1,5.6,Rotten,1
-562,"I, Daniel Blake",DVD,Drama,N/A,Ken Loach,Male,No,No,No,UK,2016,15,7.8,0.92,0.75,0.85,8,8,8,0.07,0,8.0,Fresh,1
-563,Shutter Island,Blu-ray,Thriller,Psychological,Martin Scorsese,Male,No,No,No,USA,2010,15,8.2,0.69,0.89,0.77,6.7,8.2,7.6,-0.08,-0.9,7.7,Fresh,1
-564,The Last Waltz,Blu-ray,Documentary,Music,Martin Scorsese,Male,No,No,No,USA,1978,U,8.1,0.98,0.77,0.94,8.6,8.4,9,0.04,-0.4,8.5,Fresh,1
-565,Memento,DVD,Thriller,Crime,Christopher Nolan,Male,No,No,No,USA,2000,15,8.4,0.94,0.91,0.94,8.3,8.4,8.8,0,-0.5,8.5,Fresh,1
-566,The Lodge,DVD,Horror,N/A,Veronika Franz,Male,No,No,No,USA,2008,18,3.8,0.13,0.59,0.13,,5.2,4,0,,4.3,Rotten,1
-567,Magnolia,DVD,Drama,N/A,Paul Thomas Anderson,Male,No,No,No,USA,1999,18,8,0.82,0.7,0.89,7.6,8.4,8.6,-0.07,-1,8.2,Fresh,1
-568,The Game,Blu-ray,Thriller,Mystery,David Fincher,Male,No,No,No,USA,1997,15,7.7,0.77,0.74,0.84,7.4,7.6,8,-0.07,-0.6,7.7,Fresh,1
-569,The Assassination of Jesse James by the Coward Robert Ford,Blu-ray,Drama,Historical,Andrew Dominik,Male,No,No,No,USA,2007,15,7.5,0.77,0.7,0.75,7.2,8,7.6,0.02,-0.4,7.6,Fresh,1
-570,Green Room,Blu-ray,Horror,Thriller,Jeremy Saulnier,Male,No,No,No,USA,2015,18,7,0.9,0.76,0.75,7.7,7.2,7.4,0.15,0.3,7.3,Fresh,1
-571,Anatomy of a Fall,Blu-ray,Drama,Legal,Justine Triet,Female,No,No,No,France,2023,15,7.6,0.96,0.82,0.9,8.5,8.2,8.6,0.06,-0.1,8.2,Fresh,1
-572,Creep,Blu-ray,Horror,Found footage,Patrick Brice,Male,No,No,No,USA,2014,15,6.3,0.91,0.71,0.66,7.5,6.6,7,0.25,0.5,6.9,Fresh,1
-573,All of Us Strangers,Blu-ray,Romance,Fantasy,Andrew Haigh,Male,No,Yes,No,UK,2023,15,7.6,0.96,0.89,0.91,8.8,7.8,8.8,0.05,0,8.3,Fresh,1
-574,Megamind,Blu-ray,Comedy,Animation,Tom McGrath,Male,No,No,No,USA,2010,PG,7.3,0.73,0.79,0.72,6.7,7.4,7.6,0.01,-0.9,7.3,Fresh,1
-575,Prometheus,Blu-ray,Sci-fi,Horror,Ridley Scott,Male,No,No,No,UK,2012,15,7,0.73,0.82,0.68,7,6.6,7.2,0.05,-0.2,7.0,Fresh,1
-576,Downsizing,Blu-ray,Comedy,Sci-fi,Alexander Payne,Male,No,Yes,No,USA,2017,15,5.8,0.47,0.51,0.25,5.7,4.8,4.6,0.22,1.1,5.2,Rotten,1
-577,The Post,DVD,Drama,Historical,Steven Spielberg,Male,No,Yes,No,USA,2017,12,7.2,0.88,0.76,0.74,7.9,7,7.2,0.14,0.7,7.3,Fresh,1
-578,More Than Honey,Blu-ray,Documentary,N/A,Markus Imhoof,Male,No,No,No,Switzerland,2012,U,7.5,1,0.78,0.79,7.2,7.4,8,0.21,-0.8,7.5,Fresh,1
-579,The Times of Harvey Milk,DVD,Documentary,Drama,Rob Epstein,Male,No,No,No,USA,1984,15,8.2,0.96,0.93,0.94,8.2,8.2,8.6,0.02,-0.4,8.3,Fresh,1
-580,The Substance,Blu-ray,Horror,Sci-fi,Coralie Fargeat,Female,No,Yes,No,France,2024,18,7.3,0.89,0.72,0.75,8,7.6,7.8,0.14,0.2,7.7,Fresh,1
-581,Baghead,Blu-ray,Comedy,Horror,Jay Duplass,Male,No,No,No,USA,2008,15,6,0.79,0.67,0.49,6.6,6.4,6.2,0.3,0.4,6.3,Fresh,1
-582,Joker,Blu-ray,Thriller,Crime,Todd Phillips,Male,Yes,Yes,No,USA,2019,15,8.3,0.68,0.88,0.88,7.3,7.6,8.8,-0.2,-1.5,8.0,Fresh,1
-583,Supervolcano,DVD,Disaster,Drama,Tony Mitchell,Male,No,No,No,UK,2005,12,6.6,,0.89,0.69,,5.6,6.8,,,6.3,,1
-584,Little Women,DVD,Drama,Historical,Greta Gerwig,Female,No,No,No,USA,2019,PG,7.8,0.95,0.8,0.92,8.5,8.2,9,0.03,-0.5,8.4,Fresh,1
-585,Scarface,DVD,Drama,Crime,Brian De Palma,Male,No,No,No,USA,1983,18,8.3,0.79,0.91,0.93,7.5,8.2,9,-0.14,-1.5,8.3,Fresh,1
-586,Seeking a Friend for the End of the World,DVD,Comedy,Drama,Lorene Scarafia,Female,No,No,No,USA,2012,15,6.7,0.55,0.73,0.53,6.1,6.6,6.6,0.02,-0.5,6.5,Rotten,1
-587,Onibaba,Blu-ray,Horror,Drama,Kaneto Shindo,Male,No,No,No,Japan,1964,15,7.9,0.89,0.88,0.9,7.2,8.2,8.2,-0.01,-1,7.9,Fresh,1
-588,Ginger Snaps,DVD,Horror,Supernatural,John Fawcett,Male,Yes,No,No,Canada,2000,18,6.8,0.9,0.92,0.78,7.3,7.2,7.8,0.12,-0.5,7.3,Fresh,1
-589,Eden Lake,Blu-ray,Horror,Thriller,James Watkins,Male,No,No,No,UK,2008,18,6.7,0.78,0.77,0.65,6.3,6.4,6.8,0.13,-0.5,6.6,Fresh,1
-590,Jurassic World,Blu-ray,Sci-fi,Action,Colin Trevorrow,Male,Yes,Yes,No,USA,2015,12,6.9,0.72,0.83,0.78,6.7,6.2,7.8,-0.06,-1.1,6.9,Fresh,1
-591,Heavenly Creatures,Blu-ray,Thriller,Crime,Peter Jackson,Male,No,Yes,No,New Zealand,1994,18,7.2,0.95,0.88,0.83,8.1,7.6,8,0.12,0.1,7.7,Fresh,1
-592,Fallen Leaves,Blu-ray,Comedy,Drama,Aki Kaurismaki,Male,No,Yes,No,Finland,2023,12,7.3,0.97,0.83,0.61,8.3,7.6,6.4,0.36,1.9,7.4,Fresh,1
-593,Limbo,Blu-ray,Comedy,Drama,Ben Sharrock,Male,No,Yes,No,UK,2020,12,7.2,0.93,0.59,0.55,7.9,7.8,6.8,0.38,1.1,7.4,Fresh,1
-594,Predator,DVD,Action,Horror,John McTiernan,Male,Yes,Yes,No,USA,1987,18,7.8,0.8,0.9,0.87,,7.6,8.2,-0.07,,7.9,Fresh,1
-595,Predator 2,DVD,Action,Sci-fi,Stephen Hopkins,Male,Yes,Yes,No,USA,1990,18,6.3,0.29,0.87,0.44,,5.8,6.2,-0.15,,6.1,Rotten,1
-596,Alien vs. Predator,DVD,Sci-fi,Horror,Paul WS Anderson,Male,Yes,Yes,No,USA,2004,15,5.7,0.21,0.81,0.39,,5.2,5.8,-0.18,,5.6,Rotten,1
-597,Alien vs. Predator: Requiem,DVD,Horror,Sci-fi,Greg Strause,Male,Yes,Yes,No,USA,2007,15,4.6,0.12,0.7,0.3,,3.2,5.2,-0.18,,4.3,Rotten,1
-598,The Dinosaur Project,Blu-ray,Sci-fi,Found footage,Sid Bennett,Male,No,Yes,No,UK,2012,12,4.5,0.29,0.57,0.2,,4.4,4.6,0.09,,4.5,Rotten,1
-599,The Apartment,DVD,Comedy,Romance,Billy Wilder,Male,No,No,No,USA,1960,PG,8.3,0.93,0.86,0.94,,8.8,8.8,-0.01,,8.6,Fresh,1
-600,Jerry Maguire,DVD,Comedy,Romance,Cameron Crowe,Male,No,No,No,USA,1996,15,7.3,0.85,0.81,0.79,,7.2,7.8,0.06,,7.4,Fresh,1
-601,The Hangover Part 2,DVD,Comedy,N/A,Todd Phillips,Male,Yes,No,No,USA,2011,15,6.5,0.34,0.88,0.52,,6,6.6,-0.18,,6.4,Rotten,1
-602,The Andromeda Strain,Blu-ray,Sci-fi,Thriller,Robert Wise,Male,No,No,No,USA,1971,PG,7.2,0.68,0.73,0.72,,7.2,7.4,-0.04,,7.3,Fresh,1
-603,The Brutalist,4k Blu-ray,Drama,Historical,Brady Corbet,Male,No,No,No,USA,2024,18,7.4,0.93,0.56,0.8,,8,8.2,0.13,,7.9,Fresh,1
-604,Amelie,DVD,Comedy,Romance,Jean-Pierre Jeunet,Male,No,No,No,France,2001,15,8.3,0.9,0.9,0.95,,8.4,9,-0.05,,8.6,Fresh,1
-605,The Hangover Part 3,DVD,Comedy,Adventure,Todd Phillips,Male,Yes,No,No,USA,2013,15,5.8,0.21,0.83,0.44,,5.4,6.2,-0.23,,5.8,Rotten,1
-606,Rope,Blu-ray,Thriller,Psychological,Alfred Hitchcock,Male,No,No,No,USA,1948,PG,7.9,0.93,0.8,0.9,,8.2,8.4,0.03,,8.2,Fresh,1
-607,Beast,Blu-ray,Action,Horror,Baltasar Kormakur,Male,No,No,No,Iceland,2022,15,5.6,0.69,0.52,0.77,,5,8,-0.08,,6.2,Fresh,1
+index,film_name,media_type,genre,sub_genre,director,director_gender,part_of_film_series,slipcover,steelbook,country,year,certificate,imdb_score,rt_critic_score,google_audience_score,rt_audience_score,rt_critic_rating,letterboxd_rating,rt_audience_rating,rt_opinion_score_difference,rt_opinion_rating_difference,avg_critical_rating,rotten_ranking
+1,[Rec],Blu-ray,Horror,Found footage,Jaume Balaguero,Male,Yes,No,No,Spain,2007,18,7.4,0.9,0.87,0.82,7.5,7.4,7.8,0.08,-0.3,7.5,Fresh
+2,12 Angry Men,Blu-ray,Drama,N/A,Sidney Lumet,Male,No,No,No,USA,1957,U,9,1,0.92,0.97,9.1,9.2,9.2,0.03,-0.1,9.1,Fresh
+3,1408,DVD,Horror,N/A,Mikael Hafstrom,Male,No,No,No,USA,2007,15,6.8,0.8,0.88,0.61,6.6,6.4,6.8,0.19,-0.2,6.7,Fresh
+4,2001: A Space Odyssey,DVD,Sci-fi,N/A,Stanley Kubrick,Male,No,No,No,USA,1968,U,8.3,0.92,0.84,0.89,9.2,8.6,8.8,0.03,0.4,8.7,Fresh
+5,21,Blu-ray,Thriller,Crime,Robert Luketic,Male,No,No,No,USA,2008,12,6.8,0.36,0.64,0.66,5.2,6.2,7.2,-0.3,-2,6.4,Rotten
+6,28 Days Later,DVD,Horror,N/A,Danny Boyle,Male,Yes,No,No,UK,2002,18,7.5,0.87,0.86,0.85,7.4,7.4,8,0.02,-0.6,7.6,Fresh
+7,28 Weeks Later,DVD,Horror,N/A,Juan Carlos Fresnadillo,Male,Yes,No,No,UK,2007,18,6.9,0.72,0.71,0.66,6.7,6.2,7.2,0.06,-0.5,6.8,Fresh
+8,30 Days of Night,DVD,Horror,Supernatural,David Slade,Male,No,No,No,USA,2007,18,6.6,0.51,0.87,0.56,5.5,6.2,6.6,-0.05,-1.1,6.2,Rotten
+9,71,DVD,Thriller,Drama,Yann Demange,Male,No,Yes,No,UK,2014,15,7.2,0.96,0.74,0.81,7.7,7.2,7.8,0.15,-0.1,7.5,Fresh
+10,A Clockwork Orange,Blu-ray,Drama,Psychological,Stanley Kubrick,Male,No,Yes,No,UK,1971,18,8.1,0.86,0.87,0.93,8.8,8.2,8.8,-0.07,0,8.5,Fresh
+11,A History of Violence,DVD,Thriller,Drama,David Cronenberg,Male,No,No,No,USA,2005,18,7.4,0.88,0.8,0.76,7.9,7.6,7.4,0.12,0.5,7.6,Fresh
+12,A Quiet Place,Blu-ray,Horror,N/A,John Krasinski,Male,Yes,Yes,No,USA,2018,15,7.5,0.96,0.8,0.83,8.2,7.2,8,0.13,0.2,7.7,Fresh
+13,A Quiet Place Part 2,Blu-ray,Horror,N/A,John Krasinski,Male,Yes,Yes,No,USA,2020,15,7.2,0.91,0.79,0.92,7.5,6.8,9,-0.01,-1.5,7.6,Fresh
+14,A Separation,DVD,Drama,Thriller,Ashgar Farhadi,Male,No,No,No,Iran,2011,PG,8.3,0.99,0.89,0.92,8.9,8.8,8.6,0.07,0.3,8.7,Fresh
+15,A Single Man,Blu-ray,Romance,Drama,Tom Ford,Male,No,Yes,No,UK,2009,12,7.5,0.86,0.84,0.81,7.4,7.8,7.8,0.05,-0.4,7.6,Fresh
+16,A Star is Born,Blu-ray,Romance,Musical,Bradley Cooper,Male,No,No,No,USA,2018,15,7.6,0.9,0.86,0.79,8,7.2,8,0.11,0,7.7,Fresh
+17,A.I. Artificial Intelligence,DVD,Sci-fi,Fantasy,Steven Spielberg,Male,No,Yes,No,USA,2001,12,7.2,0.76,0.82,0.64,6.7,7.2,7,0.12,-0.3,7.0,Fresh
+18,Aftersun,Blu-ray,Drama,N/A,Charlotte Wells,Female,No,Yes,No,UK,2022,12,7.7,0.96,0.86,0.81,8.8,8.4,8.2,0.15,0.6,8.3,Fresh
+19,Akira,DVD,Sci-fi,Animation,Katsuhiro Otomo,Male,No,No,No,Japan,1988,15,8,0.91,0.92,0.9,7.9,8.6,8.6,0.01,-0.7,8.3,Fresh
+20,Alien,DVD,Sci-fi,Horror,Ridley Scott,Male,Yes,No,No,UK,1979,18,8.5,0.98,0.88,0.94,9.1,8.6,8.8,0.04,0.3,8.8,Fresh
+21,Amadeus,DVD,Drama,Biopic,Milos Forman,Male,No,No,No,USA,1984,PG,8.4,0.89,0.88,0.95,8.9,8.6,9,-0.06,-0.1,8.7,Fresh
+22,American Psycho,Blu-ray,Horror,Satire,Mary Harron,Female,No,No,No,USA,2000,18,7.6,0.68,0.89,0.85,6.2,7.6,8,-0.17,-1.8,7.4,Fresh
+23,Amores Perros,DVD,Drama,Crime,Alejandro Gonzalez Innaritu,Male,No,No,No,Mexico,2000,18,8.1,0.93,0.84,0.94,7.8,8.4,8.8,-0.01,-1,8.3,Fresh
+24,Amour,DVD,Romance,Drama,Michael Haneke,Male,No,No,No,France,2012,12,7.9,0.93,0.82,0.82,8.7,8.4,8,0.11,0.7,8.3,Fresh
+25,An Alternative Reality: The Football Manager Documentary,Blu-ray,Documentary,Sports,Louis Myles,Male,No,No,No,UK,2014,PG,6.7,,,,,6.8,,,,6.8,
+26,An American Werewolf in London,Blu-ray,Horror,Comedy,John Landis,Male,Yes,No,No,UK,1981,18,7.5,0.89,0.91,0.85,7.8,7.6,8,0.04,-0.2,7.7,Fresh
+27,An Education,Blu-ray,Drama,Romance,Lone Scherfig,Female,No,No,No,UK,2009,12,7.3,0.93,0.8,0.8,7.9,7,7.6,0.13,0.3,7.5,Fresh
+28,Aniara,Blu-ray,Sci-fi,Drama,Pella Kagerman & Hugo Lilja,Female,No,No,No,Sweden,2018,18,6.3,0.72,0.68,0.63,7.1,7.2,7,0.09,0.1,6.9,Fresh
+29,Another Round,Blu-ray,Comedy,Drama,Thomas Vinterberg,Male,No,No,No,Denmark,2020,12,7.7,0.93,0.89,0.9,7.9,8.2,8.2,0.03,-0.3,8.0,Fresh
+30,Apocalypse Now,DVD,War,Drama,Francis Ford Coppola,Male,No,Yes,No,USA,1979,18,8.4,0.98,0.89,0.94,9,8.8,9,0.04,0,8.8,Fresh
+31,Argo,Blu-ray,Thriller,Historical,Ben Affleck,Male,No,No,No,USA,2012,15,7.7,0.96,0.79,0.9,8.4,7.4,8.4,0.06,0,8.0,Fresh
+32,Arlington Road,DVD,Thriller,Political,Mark Pellington,Male,No,No,No,UK,1999,15,7.2,0.63,0.82,0.74,6.1,7,7.4,-0.11,-1.3,6.9,Fresh
+33,Arrival,Blu-ray,Sci-fi,N/A,Denis Villeneuve,Male,No,No,No,USA,2016,12,7.9,0.94,0.85,0.82,8.4,8.2,8,0.12,0.4,8.1,Fresh
+34,Babel,DVD,Drama,N/A,Alejandro Gonzalez Innaritu,Male,No,No,No,Mexico,2007,15,7.5,0.69,0.8,0.77,6.8,7.2,7.6,-0.08,-0.8,7.3,Fresh
+35,Back to the Future,Blu-ray,Sci-fi,Comedy,Robert Zemeckis,Male,Yes,No,No,USA,1985,PG,8.5,0.93,0.93,0.94,8.8,8.4,9,-0.01,-0.2,8.7,Fresh
+36,Barbie,Blu-ray,Comedy,Musical,Greta Gerwig,Female,No,Yes,No,USA,2023,12,6.9,0.88,0.76,0.83,8,7.8,8.4,0.05,-0.4,7.8,Fresh
+37,Basic Instinct,Blu-ray,Thriller,Psychological,Paul Verhoeven,Male,No,No,No,USA,1992,18,7.1,0.55,,0.64,6.2,7.2,7,-0.09,-0.8,6.9,Rotten
+38,Batman Begins,Blu-ray,Action,Crime,Christopher Nolan,Male,Yes,No,No,USA,2005,12,8.2,0.84,0.84,0.94,7.7,7.6,8.6,-0.1,-0.9,8.0,Fresh
+39,Battle Royale,DVD,Action,Thriller,Kinji Fukasaka,Male,Yes,No,No,Japan,2000,18,7.5,0.88,0.86,0.89,7.6,7.8,8.4,-0.01,-0.8,7.8,Fresh
+40,Be Kind Rewind,DVD,Comedy,N/A,Michel Gondry,Male,No,No,No,USA,2008,12,6.4,0.64,0.83,0.56,6.3,6.8,6.6,0.08,-0.3,6.5,Fresh
+41,Being John Malkovich,DVD,Comedy,Fantasy,Spike Jonze,Male,No,No,No,USA,1999,15,7.7,0.94,0.81,0.87,8.3,8.2,8.2,0.07,0.1,8.1,Fresh
+42,Belfast,DVD,Drama,Comedy,Kenneth Branagh,Male,No,No,No,UK,2021,12,7.3,0.86,0.71,0.92,7.9,7,9,-0.06,-1.1,7.8,Fresh
+43,Bend it Like Beckham,DVD,Comedy,Drama,Gurinder Chadha,Female,No,No,No,UK,2002,12,6.7,0.85,0.86,0.73,7.2,6.6,7.4,0.12,-0.2,7.0,Fresh
+44,Benedetta,Blu-ray,Drama,Psychological,Paul Verhoeven,Male,No,Yes,No,France,2021,18,6.7,0.84,0.68,0.9,7.2,6.8,8.4,-0.06,-1.2,7.3,Fresh
+45,Bicentennial Man,DVD,Sci-fi,Drama,Chris Columbus,Male,No,No,No,USA,1999,PG,6.9,0.37,0.85,0.59,4.9,6.4,6.8,-0.22,-1.9,6.3,Rotten
+46,Big,DVD,Comedy,Drama,Penny Marshall,Female,No,No,No,USA,1988,PG,7.3,0.98,0.78,0.82,7.9,7.2,7.8,0.16,0.1,7.6,Fresh
+47,Birdman,Blu-ray,Comedy,Drama,Alejandro Gonzalez Innaritu,Male,No,No,No,USA,2014,15,7.7,0.91,0.76,0.78,8.5,8,7.8,0.13,0.7,8.0,Fresh
+48,Black Book,DVD,War,Drama,Paul Verhoeven,Male,No,No,No,The Netherlands,2006,15,7.7,0.76,0.84,0.87,7.1,7.6,8,-0.11,-0.9,7.6,Fresh
+49,Black Christmas,Blu-ray,Horror,N/A,Bob Clark,Male,No,No,No,Canada,1974,18,7.1,0.68,0.88,0.76,6.2,7.6,7.6,-0.08,-1.4,7.1,Fresh
+50,Black Hawk Down,Blu-ray,War,Action,Ridley Scott,Male,No,No,No,USA,2001,15,7.7,0.76,0.9,0.88,7,7.4,8.4,-0.12,-1.4,7.6,Fresh
+51,Black Sheep,DVD,Horror,Comedy,Jonathan King,Male,No,No,No,New Zealand,2006,15,5.8,0.71,0.79,0.53,6.3,5.8,6.4,0.18,-0.1,6.1,Fresh
+52,BlacKkKlansman,Blu-ray,Comedy,Crime,Spike Lee,Male,No,No,No,USA,2018,15,7.5,0.96,0.86,0.83,8.3,7.8,8,0.13,0.3,7.9,Fresh
+53,Blade Runner,Blu-ray,Sci-fi,Dystopian,Ridley Scott,Male,Yes,No,No,USA,1982,15,8.1,0.89,0.86,0.91,8.5,8.2,8.8,-0.02,-0.3,8.4,Fresh
+54,Blade Runner: 2049,4k Blu-ray,Sci-fi,Dystopian,Denis Villeneuve,Male,Yes,No,No,USA,2017,15,8,0.88,0.79,0.87,8.3,8.2,8.4,0.01,-0.1,8.2,Fresh
+55,Blood Diamond,Blu-ray,War,Drama,Edward Zwick,Male,No,No,No,USA,2006,15,8,0.63,0.88,0.9,6.4,7.4,8.4,-0.27,-2,7.6,Fresh
+56,Booksmart,DVD,Comedy,N/A,Olivia Wilde,Female,No,No,No,USA,2019,15,7.1,0.74,0.96,0.77,8.3,7.4,8,-0.03,0.3,7.7,Fresh
+57,Borat,DVD,Comedy,Satire,Sacha Baron Cohen,Male,Yes,No,No,USA,2006,15,7.4,0.91,0.81,0.79,8,7.4,7.8,0.12,0.2,7.7,Fresh
+58,Bowfinger,DVD,Comedy,Satire,Frank Oz,Male,No,No,No,USA,1999,12,6.5,0.81,0.65,0.61,7,6.8,6.8,0.2,0.2,6.8,Fresh
+59,Bowling fo Columbine,DVD,Documentary,Political,Michael Moore,Male,No,No,No,USA,2002,15,8,0.95,0.85,0.83,8.1,7.8,7.8,0.12,0.3,7.9,Fresh
+60,Boy A,DVD,Drama,N/A,John Crowley,Male,No,No,No,UK,2007,18,7.6,0.88,0.45,0.87,7.4,7.2,8,0.01,-0.6,7.6,Fresh
+61,Boyhood,DVD,Drama,N/A,Richard Linklater,Male,No,No,No,USA,2014,15,7.9,0.97,0.8,0.8,9.2,7.6,8,0.17,1.2,8.2,Fresh
+62,Bridge of Spies,DVD,Thriller,Spy,Steven Spielberg,Male,No,No,No,USA,2015,12,7.6,0.91,0.8,0.87,7.7,7.2,8,0.04,-0.3,7.6,Fresh
+63,Brooklyn,DVD,Romance,Drama,John Crowley,Male,No,No,No,UK,2015,12,7.5,0.97,0.86,0.87,8.5,7.6,8.2,0.1,0.3,8.0,Fresh
+64,Brothers and Sisters of the Toda Family,DVD,Drama,Historical,Yasujiro Ozu,Male,No,No,No,Japan,1941,U,7.3,1,0.76,0.84,,7.2,7.6,0.16,,7.4,Fresh
+65,Bullitt,DVD,Action,Noir,Peter Yates,Male,No,No,No,USA,1968,15,7.4,0.98,0.76,0.85,7.8,7.4,8.2,0.13,-0.4,7.7,Fresh
+66,Buried,DVD,Thriller,Horror,Rodrigo Cortes,Male,No,Yes,No,Spain,2010,15,7,0.87,0.74,0.65,7.4,6.6,6.8,0.22,0.6,7.0,Fresh
+67,Cache,DVD,Thriller,Psychological,Michael Haneke,Male,No,No,No,France,2005,15,7.3,0.89,0.74,0.78,7.9,8.2,7.6,0.11,0.3,7.8,Fresh
+68,Casino,DVD,Drama,Crime,Martin Scorsese,Male,No,No,No,USA,1995,18,8.2,0.79,0.91,0.93,7.1,8.4,8.4,-0.14,-1.3,8.0,Fresh
+69,Casino Royale,Blu-ray,Action,Spy,Martin Campbell,Male,Yes,No,No,UK,2005,12,8,0.94,0.9,0.9,7.9,8,8.4,0.04,-0.5,8.1,Fresh
+70,Castle in the Sky,DVD,Fantasy,Animation,Hayao Miyazaki,Male,No,No,No,Japan,1986,PG,8,0.96,0.93,0.91,7.6,8,8.4,0.05,-0.8,8.0,Fresh
+71,Catch Me If You Can,DVD,Drama,Crime,Steven Spielberg,Male,No,No,No,USA,2002,12,8.1,0.96,0.87,0.89,7.9,8,8.2,0.07,-0.3,8.1,Fresh
+72,Chef,DVD,Comedy,Drama,Jon Favreau,Male,No,No,No,USA,2014,15,7.3,0.87,0.86,0.85,6.8,7.4,8,0.02,-1.2,7.4,Fresh
+73,Chernobyl Diaries,DVD,Horror,Found footage,Bradley Parker,Male,No,No,No,USA,2012,15,5,0.18,0.75,0.28,4.1,4.2,5.2,-0.1,-1.1,4.6,Rotten
+74,Children of Men,Blu-ray,Sci-fi,Dystopian,Alfonso Cuaron,Male,No,No,No,UK,2006,15,7.9,0.92,0.88,0.85,8.2,8.6,8.2,0.07,0,8.2,Fresh
+75,Chinatown,DVD,Mystery,Crime,Roman Polanski,Male,No,No,No,USA,1974,15,8.2,0.99,0.81,0.93,9.4,8.6,8.8,0.06,0.6,8.8,Fresh
+76,Chronicle,DVD,Sci-fi,Found footage,Josh Trank,Male,No,No,No,USA,2012,15,7,0.85,0.51,0.72,7.1,7,7.4,0.13,-0.3,7.1,Fresh
+77,Cinema Paradiso,DVD,Drama,N/A,Giuseppe Tornatore,Male,No,No,No,Italy,1988,PG,8.5,0.9,0.92,0.96,8,8.8,9.2,-0.06,-1.2,8.6,Fresh
+78,City of God,Blu-ray,Drama,Crime,Katia Lund,Female,No,No,No,Brazil,2002,18,8.6,0.91,0.91,0.97,8.3,9,9.2,-0.06,-0.9,8.8,Fresh
+79,Civil War,Blu-ray,Thriller,Dystopian,Alex Garland,Male,No,No,No,UK,2024,15,7.1,0.81,0.7,0.7,7.5,7.2,7.4,0.11,0.1,7.3,Fresh
+80,Cloverfield,Blu-ray,Horror,Found footage,Matt Reeves,Male,Yes,No,No,USA,2008,15,7,0.78,0.74,0.68,6.8,6.8,7.2,0.1,-0.4,7.0,Fresh
+81,Collateral,DVD,Thriller,Noir,Michael Mann,Male,No,No,No,USA,2004,15,7.5,0.86,0.77,0.84,7.5,7.6,8,0.02,-0.5,7.7,Fresh
+82,Con Air,Blu-ray,Action,N/A,Simon West,Male,No,No,No,USA,1997,18,6.9,0.58,0.84,0.75,5.7,6.8,7.6,-0.17,-1.9,6.8,Rotten
+83,Contagion,Blu-ray,Disaster,Thriller,Steven Soderbergh,Male,No,Yes,No,USA,2011,12,6.8,0.85,0.77,0.63,7.1,6.8,6.8,0.22,0.3,6.9,Fresh
+84,Cool Runnings,DVD,Comedy,Sports,Jon Turteltaub,Male,No,No,No,USA,1993,PG,7,0.76,0.91,0.81,6.1,6.8,8,-0.05,-1.9,7.0,Fresh
+85,County Lines,Blu-ray,Drama,Thriller,Henry Blake,Male,No,No,No,UK,2019,15,6.9,0.96,0.71,0.73,7.6,7.2,7.6,0.23,0,7.3,Fresh
+86,Crimson Tide,DVD,War,Action,Tony Scott,Male,No,No,No,USA,1995,15,7.3,0.89,0.78,0.83,7.5,7.4,7.8,0.06,-0.3,7.5,Fresh
+87,"Crouching Tiger, Hidden Dragon",DVD,Action,Adventure,Ang Lee,Male,No,No,No,China,2000,12,7.9,0.98,0.87,0.86,8.6,8,8.2,0.12,0.4,8.2,Fresh
+88,Culloden,Blu-ray,Documentary,War,Peter Watkins,Male,No,No,No,UK,1964,12,7.8,1,0.89,0.91,9.3,7.8,8,0.09,1.3,8.2,Fresh
+89,Dante's Peak,DVD,Disaster,N/A,Roger Donaldson,Male,No,No,No,USA,1997,12,6,0.28,0.72,0.38,5.2,5.6,6,-0.1,-0.8,5.7,Rotten
+90,Dawn of the Dead,DVD,Horror,N/A,George A. Romero,Male,Yes,No,No,USA,1978,18,7.8,0.93,0.92,0.9,8.7,8,8.6,0.03,0.1,8.3,Fresh
+91,Dawn of the Planet of the Apes,Blu-ray,Action,Dystopian,Matt Reeves,Male,Yes,Yes,No,USA,2014,12,7.6,0.91,0.8,0.88,7.9,7.4,8.4,0.03,-0.5,7.8,Fresh
+92,Daylight,DVD,Disaster,Action,Rob Cohen,Male,No,No,No,USA,1996,12,5.9,0.26,0.61,0.37,4.9,5.8,6,-0.11,-1.1,5.7,Rotten
+93,Dead Calm,DVD,Thriller,Psychological,Phillip Noyce,Male,No,No,No,Australia,1989,15,6.8,0.84,0.65,0.63,7.5,6.8,7,0.21,0.5,7.0,Fresh
+94,Decision to Leave,Blu-ray,Mystery,Romance,Park Chan-wook,Male,No,Yes,No,South Korea,2022,15,7.3,0.94,0.82,0.86,8.3,8,8.2,0.08,0.1,8.0,Fresh
+95,Deep Blue Sea,DVD,Horror,Sci-fi,Renny Harlin,Male,Yes,Yes,No,USA,1999,15,5.9,0.6,0.7,0.39,5.8,5.6,6,0.21,-0.2,5.8,Fresh
+96,Deep Impact,DVD,Disaster,Drama,Mimi Leder,Female,No,No,No,USA,1998,12,6.2,0.45,0.72,0.43,5.8,5.8,6.2,0.02,-0.4,6.0,Rotten
+97,Die Another Day,DVD,Action,Spy,Lee Tamahori,Male,Yes,No,No,UK,2002,12,6.1,0.55,0.8,0.41,6,5,6,0.14,0,5.8,Rotten
+98,Die Hard,DVD,Action,N/A,John McTiernan,Male,Yes,Yes,No,USA,1988,18,8.2,0.94,0.89,0.94,8.6,8.2,8.8,0,-0.2,8.5,Fresh
+99,Die Hard 2,DVD,Action,N/A,Renny Harlin,Male,Yes,Yes,No,USA,1990,18,7.1,0.69,0.91,0.7,6.3,6.6,7.4,-0.01,-1.1,6.9,Fresh
+100,Die Hard 4.0,DVD,Action,Thriller,Len Wiseman,Male,Yes,Yes,Yes,USA,2007,15,7.1,0.82,0.83,0.86,6.8,5.8,8.2,-0.04,-1.4,7.0,Fresh
+101,Die Hard with a Vengeance,DVD,Action,N/A,John McTiernan,Male,Yes,Yes,No,USA,1995,15,7.6,0.59,0.91,0.83,6.2,7.4,8,-0.24,-1.8,7.3,Rotten
+102,District 9,Blu-ray,Sci-fi,Action,Neil Blomkamp,Male,No,No,No,South Africa,2009,15,7.9,0.9,0.87,0.82,7.8,7.6,8,0.08,-0.2,7.8,Fresh
+103,Disturbia,DVD,Thriller,Psychological,D.J. Caruso,Male,No,No,No,USA,2007,15,6.8,0.69,0.78,0.77,6.3,6.2,7.8,-0.08,-1.5,6.8,Fresh
+104,Dog Soldiers,Blu-ray,Horror,Black Comedy,Neil Marshall,Male,No,No,No,UK,2002,15,6.8,0.81,0.92,0.79,7.1,6.8,7.8,0.02,-0.7,7.1,Fresh
+105,Donnie Darko,DVD,Sci-fi,Drama,Richard Kelly,Male,No,No,No,USA,2001,15,8,0.87,0.91,0.8,7.6,8,6.2,0.07,1.4,7.5,Fresh
+106,Doom,DVD,Sci-fi,Action,Andrzej Bartkowiak,Male,No,No,No,USA,2005,15,5.2,0.18,0.64,0.34,3.8,4,5.4,-0.16,-1.6,4.6,Rotten
+107,Downfall,DVD,Drama,Historical,Oliver Hirschbiegel,Male,No,No,No,Germany,2004,15,8.2,0.9,0.93,0.94,8,8.2,8.6,-0.04,-0.6,8.3,Fresh
+108,Dr Strangelove,DVD,Comedy,Satire,Stanley Kubrick,Male,No,No,No,USA,1964,PG,8.4,0.98,0.92,0.94,9.1,8.6,9,0.04,0.1,8.8,Fresh
+109,Drive,Blu-ray,Action,Noir,Nicolas Winding Refn,Male,No,No,No,USA,2011,18,7.8,0.93,0.89,0.79,8.3,8,7.8,0.14,0.5,8.0,Fresh
+110,Duel,DVD,Thriller,Psychological,Steven Spielberg,Male,No,No,No,USA,1971,PG,7.6,0.89,0.87,0.84,7.8,7.6,8,0.05,-0.2,7.8,Fresh
+111,Dunkirk,DVD,War,Drama,Christopher Nolan,Male,No,Yes,No,UK,2017,12,7.8,0.92,0.83,0.81,8.7,7.6,8,0.11,0.7,8.0,Fresh
+112,Edge of Tomorrow (Live. Die. Repeat.),Blu-ray,Sci-fi,Action,Doug Liman,Male,No,Yes,No,USA,2014,12,7.9,0.91,0.8,0.9,7.5,7.4,8.4,0.01,-0.9,7.8,Fresh
+113,Edie,DVD,Drama,Adventure,Simon Hunter,Male,No,Yes,No,UK,2017,12,6.6,0.67,0.77,0.75,6.1,6.4,7.8,-0.08,-1.7,6.7,Fresh
+114,Edward Scissorhands,Blu-ray,Fantasy,Romance,Tim Burton,Male,No,No,No,USA,1990,12,7.9,0.89,0.86,0.91,7.7,7.8,8.6,-0.02,-0.9,8.0,Fresh
+115,Elf,DVD,Comedy,Christmas,Jon Favreau,Male,No,No,No,USA,2003,PG,7.1,0.85,0.85,0.79,7.1,6.8,7.8,0.06,-0.7,7.2,Fresh
+116,Enchanted,DVD,Musical,Romance,Kevin Lima,Male,Yes,No,No,USA,2007,PG,7.1,0.93,0.82,0.8,7.3,7,8,0.13,-0.7,7.4,Fresh
+117,Eternal Sunshine of the Spotless Mind,DVD,Romance,Sci-fi,Michael Gondry,Male,No,No,No,USA,2004,15,8.3,0.92,0.93,0.94,8.5,8.4,9,-0.02,-0.5,8.6,Fresh
+118,Eye in the Sky,DVD,Thriller,War,Gavin Hood,Male,No,Yes,No,UK,2015,15,7.3,0.95,0.73,0.82,7.6,7,7.8,0.13,-0.2,7.4,Fresh
+119,Eyes Wide Shut,Blu-ray,Thriller,Psychological,Stanley Kubrick,Male,No,No,No,UK,1999,18,7.5,0.76,0.77,0.74,6.8,8,7.6,0.02,-0.8,7.5,Fresh
+120,Face/Off,DVD,Action,Crime,John Woo,Male,No,No,No,USA,1997,18,7.3,0.93,0.85,0.82,7.8,7,8,0.11,-0.2,7.5,Fresh
+121,Fahrenheit 9/11,DVD,Documentary,Political,Michael Moore,Male,No,No,No,USA,2004,15,7.5,0.82,0.82,0.7,7.4,7,7.2,0.12,0.2,7.3,Fresh
+122,Fail Safe,DVD,Thriller,War,Sidney Lumet,Male,No,No,No,USA,1964,PG,8,0.93,0.82,0.91,8,8.2,8.4,0.02,-0.4,8.2,Fresh
+123,Fall,Blu-ray,Thriller,N/A,Scott Mann,Male,No,No,No,USA,2022,15,6.4,0.79,0.83,0.79,6.4,5.2,8,0,-1.6,6.5,Fresh
+124,Fantastic Beasts & Where To Find Them,Blu-ray,Fantasy,N/A,David Yates,Male,Yes,No,No,UK,2016,12,7.2,0.74,0.72,0.79,6.8,6.2,7.8,-0.05,-1,7.0,Fresh
+125,Fargo,DVD,Thriller,Black Comedy,The Coen Brothers,Male,No,No,No,USA,1996,18,8.1,0.94,0.89,0.92,8.8,8.4,8.6,0.02,0.2,8.5,Fresh
+126,Fight Club,Blu-ray,Thriller,Crime,David Fincher,Male,No,No,No,USA,1999,18,8.8,0.79,0.92,0.96,7.4,8.6,9,-0.17,-1.6,8.5,Fresh
+127,Final Destination,DVD,Horror,Supernatural,James Wong,Male,Yes,No,No,USA,2000,15,6.7,0.36,0.88,0.68,4.9,6.2,7.4,-0.32,-2.5,6.3,Rotten
+128,Final Destination 3,DVD,Horror,N/A,James Wong,Male,Yes,No,No,USA,2006,15,5.8,0.43,0.91,0.57,5.1,6,6.8,-0.14,-1.7,5.9,Rotten
+129,Final Destination 5,DVD,Horror,Supernatural,Steven Quale,Male,Yes,Yes,No,USA,2011,15,5.9,0.63,0.79,0.53,6,5.6,6.8,0.1,-0.8,6.1,Fresh
+130,Finding Nemo,Blu-ray,Drama,Animation,Andrew Stanton,Male,No,No,No,USA,2003,U,8.2,0.99,0.88,0.86,8.7,8,7.6,0.13,1.1,8.1,Fresh
+131,First Man,Blu-ray,Drama,Biopic,Damien Chazelle,Male,No,Yes,No,USA,2018,12,7.3,0.87,0.71,0.68,8.1,7.4,7,0.19,1.1,7.5,Fresh
+132,Flee,Blu-ray,Documentary,Animation,Jonas Poher Rasmussen,Male,No,No,No,Denmark,2021,15,7.9,0.98,0.74,0.89,8.6,8.4,8.2,0.09,0.4,8.3,Fresh
+133,Flesh + Blood,Blu-ray,Action,Adventure,Paul Verhoeven,Male,No,No,No,USA,1985,18,6.7,0.86,,0.63,6.1,7,7,0.23,-0.9,6.7,Fresh
+134,Following,DVD,Thriller,Noir,Christopher Nolan,Male,No,No,No,UK,1998,15,7.4,0.82,0.81,0.85,7.1,7,7.8,-0.03,-0.7,7.3,Fresh
+135,Four Lions,Blu-ray,Comedy,Black Comedy,Chris Morris,Male,No,No,No,UK,2010,15,7.3,0.83,0.84,0.8,7.3,7.8,7.6,0.03,-0.3,7.5,Fresh
+136,Free Solo,DVD,Documentary,Sports,Elizabeth Chai Vasarhelyi,Female,No,No,No,USA,2018,12,8.1,0.98,0.92,0.93,8.2,8,8.8,0.05,-0.6,8.3,Fresh
+137,From Up On Poppy Hill,DVD,Drama,Animation,Goro Miyazaki,Male,No,No,No,Japan,2011,U,7.4,0.87,0.87,0.8,7.1,7.4,7.8,0.07,-0.7,7.4,Fresh
+138,Gandhi,DVD,Drama,Historical,Richard Attenborough,Male,No,No,No,UK,1982,PG,8,0.89,0.83,0.92,8.3,7.4,8.6,-0.03,-0.3,8.1,Fresh
+139,Gangs of New York,Blu-ray,Drama,Crime,Martin Scorsese,Male,No,No,No,USA,2002,18,7.5,0.72,0.88,0.81,7.1,7.4,7.8,-0.09,-0.7,7.5,Fresh
+140,Get Out,DVD,Horror,N/A,Jordan Peele,Male,No,No,No,USA,2017,15,7.8,0.98,0.85,0.86,8.3,8.4,8.4,0.12,-0.1,8.2,Fresh
+141,Ghost World,DVD,Comedy,Black Comedy,Terry Zwigoff,Male,No,No,No,USA,2001,15,7.3,0.93,0.87,0.84,7.8,7.2,8,0.09,-0.2,7.6,Fresh
+142,Ghostbusters,DVD,Comedy,Sci-fi,Ivan Reitman,Male,Yes,No,No,USA,1984,PG,7.8,0.95,0.85,0.88,8.1,7.6,8.4,0.07,-0.3,8.0,Fresh
+143,Gladiator,DVD,Drama,Action,Ridley Scott,Male,No,No,No,USA,2000,15,8.5,0.8,0.9,0.87,7.4,8.2,7.6,-0.07,-0.2,7.9,Fresh
+144,Goal!,DVD,Drama,Sports,Danny Cannon,Male,Yes,No,No,UK,2005,12,6.7,0.42,0.86,0.77,5.2,6.2,7.8,-0.35,-2.6,6.5,Rotten
+145,Goal! 2,DVD,Drama,Sports,Jaume Collet-Serra,Male,Yes,No,No,UK,2007,12,5.8,0.39,0.9,0.62,4.8,5.4,7,-0.23,-2.2,5.8,Rotten
+146,Godzilla (1998),DVD,Disaster,Sci-fi,Roland Emmerich,Male,No,No,No,USA,1998,PG,5.4,0.2,0.67,0.28,4.5,4.4,5,-0.08,-0.5,4.8,Rotten
+147,Godzilla (2014),DVD,Disaster,Drama,Gareth Edwards,Male,Yes,No,No,USA,2014,12,6.4,0.76,0.8,0.66,6.7,6,7.2,0.1,-0.5,6.6,Fresh
+148,Godzilla (Gojira),DVD,Sci-fi,Horror,Ishiro Honda,Male,Yes,Yes,No,Japan,1954,PG,7.5,0.93,0.92,0.89,7.6,8,8.6,0.04,-1,7.9,Fresh
+149,Goldeneye,DVD,Action,Spy,Martin Campbell,Male,Yes,No,No,UK,1995,15,7.2,0.8,0.88,0.83,7.1,7,8,-0.03,-0.9,7.3,Fresh
+150,Gone with the Wind,DVD,Romance,War,Victor Fleming,Male,No,No,No,USA,1939,PG,8.2,0.9,0.83,0.92,8.8,8,9,-0.02,-0.2,8.5,Fresh
+151,Good Will Hunting,DVD,Drama,N/A,Gus Van Sant,Male,No,No,No,USA,1997,15,8.3,0.97,0.93,0.94,8.1,8.6,8.8,0.03,-0.7,8.5,Fresh
+152,Goodfellas,DVD,Drama,Crime,Martin Scorsese,Male,No,No,No,USA,1990,18,8.7,0.96,0.89,0.97,9,9,9.2,-0.01,-0.2,9.0,Fresh
+153,Grave of the Fireflies,DVD,Drama,War,Isao Takahata,Male,No,No,No,Japan,1988,12,8.5,1,0.97,0.95,9.3,9,9,0.05,0.3,9.0,Fresh
+154,Gravity,Blu-ray,Sci-fi,Drama,Alfonso Cuaron,Male,No,No,No,USA,2013,12,7.7,0.96,0.79,0.79,8.9,7,8,0.17,0.9,7.9,Fresh
+155,Grease,DVD,Musical,Romance,Randal Kleiser,Male,Yes,No,No,USA,1978,PG,7.2,0.66,0.83,0.87,7.1,7,8.6,-0.21,-1.5,7.5,Fresh
+156,Grosse Pointe Blank,DVD,Comedy,Black Comedy,George Armitage,Male,No,No,No,USA,1997,15,7.3,0.82,0.87,0.87,7.1,7.2,8.2,-0.05,-1.1,7.5,Fresh
+157,Harry Potter and the Chamber of Secrets,Blu-ray,Fantasy,Adventure,Chris Columbus,Male,Yes,Yes,No,UK,2002,PG,7.4,0.82,0.87,0.8,7.2,7.2,8,0.02,-0.8,7.5,Fresh
+158,Harry Potter and the Deathly Hallows Part 1,Blu-ray,Fantasy,Adventure,David Yates,Male,Yes,Yes,No,UK,2010,12,7.7,0.77,0.86,0.85,7.1,7.4,8.2,-0.08,-1.1,7.6,Fresh
+159,Harry Potter and the Deathly Hallows Part 2,Blu-ray,Fantasy,Adventure,David Yates,Male,Yes,Yes,No,UK,2011,12,8.1,0.96,0.86,0.89,8.3,7.8,8.8,0.07,-0.5,8.3,Fresh
+160,Harry Potter and the Goblet of Fire,Blu-ray,Fantasy,Adventure,Mike Newell,Male,Yes,Yes,No,UK,2005,12,7.7,0.88,0.87,0.74,7.4,7.6,6.8,0.14,0.6,7.4,Fresh
+161,Harry Potter and the Half Blood Prince,Blu-ray,Fantasy,Adventure,David Yates,Male,Yes,Yes,No,UK,2009,12,7.6,0.84,0.88,0.78,7.1,7.2,7.8,0.06,-0.7,7.4,Fresh
+162,Harry Potter and the Order of the Phoenix,Blu-ray,Fantasy,Adventure,David Yates,Male,Yes,Yes,No,UK,2007,12,7.5,0.78,0.88,0.81,6.9,7.2,8,-0.03,-1.1,7.4,Fresh
+163,Harry Potter and the Philosopher's Stone,Blu-ray,Fantasy,Adventure,Chris Columbus,Male,Yes,Yes,No,UK,2001,PG,7.6,0.81,0.91,0.82,7.1,7.4,8.2,-0.01,-1.1,7.6,Fresh
+164,Harry Potter and the Prisoner of Azkaban,Blu-ray,Fantasy,Adventure,Alfonso Cuaron,Male,Yes,Yes,No,UK,2004,PG,7.9,0.9,0.87,0.86,7.9,8.2,8.2,0.04,-0.3,8.1,Fresh
+165,Headhunters,Blu-ray,Thriller,Action,Morten Tyldum,Male,No,Yes,No,Norway,2011,15,7.5,0.93,0.81,0.85,7.6,7.4,8,0.08,-0.4,7.6,Fresh
+166,Heat,Blu-ray,Action,Crime,Michael Mann,Male,No,No,No,USA,1995,15,8.3,0.83,0.86,0.94,7.8,8.6,8.8,-0.11,-1,8.4,Fresh
+167,Her,DVD,Romance,Sci-fi,Spike Jonze,Male,No,No,No,USA,2013,15,8,0.94,0.86,0.82,8.5,8,8,0.12,0.5,8.1,Fresh
+168,Hero,DVD,Action,Martial Arts,Zhang Yimou,Male,No,No,No,China,2002,12,7.9,0.94,0.85,0.87,8.2,8,8.2,0.07,0,8.1,Fresh
+169,High Society,DVD,Musical,Comedy,Charles Walters,Male,No,No,No,USA,1956,U,6.9,0.83,0.77,0.82,7.1,6.8,8,0.01,-0.9,7.2,Fresh
+170,Hollow Man,DVD,Horror,Sci-fi,Paul Verhoeven,Male,Yes,No,No,Germany,2000,18,5.8,0.26,0.81,0.28,4.3,5.6,5.4,-0.02,-1.1,5.3,Rotten
+171,Hot Fuzz,Blu-ray,Comedy,Action,Edgar Wright,Male,No,No,No,UK,2007,15,7.8,0.91,0.87,0.89,7.7,8.2,8.4,0.02,-0.7,8.0,Fresh
+172,Hotel Rwanda,DVD,War,Drama,Terry George,Male,No,No,No,USA,2004,12,8.1,0.91,0.93,0.94,8,7.6,8.6,-0.03,-0.6,8.1,Fresh
+173,House of Flying Daggers,DVD,Action,Adventure,Zhang Yimou,Male,No,No,No,China,2004,12,7.5,0.87,0.92,0.82,7.7,7.4,8,0.05,-0.3,7.7,Fresh
+174,Howl's Moving Castle,DVD,Romance,Animation,Hayao Miyazaki,Male,No,No,No,Japan,2004,U,8.2,0.87,0.96,0.93,7.5,8.6,8.8,-0.06,-1.3,8.3,Fresh
+175,Hunt for the Wilderpeople,DVD,Comedy,Adventure,Taika Waititi,Male,No,No,No,New Zealand,2016,12,7.8,0.97,0.89,0.91,7.9,8.2,8.6,0.06,-0.7,8.1,Fresh
+176,I Am Legend,Blu-ray,Horror,Action,Francis Lawrence,Male,No,No,No,USA,2007,15,7.2,0.68,0.86,0.68,6.3,6.8,7.4,0,-1.1,6.9,Fresh
+177,I Wish,Blu-ray,Drama,Comedy,Hirokazu Koreeda,Male,No,No,No,Japan,2011,PG,7.4,0.93,0.67,0.85,8,7.8,7.8,0.08,0.2,7.8,Fresh
+178,I.S.S,Blu-ray,Thriller,Sci-fi,Gabriela Cowperthwaite,Female,No,No,No,USA,2023,15,5.3,0.6,0.59,0.43,6,4.8,6,0.17,0,5.5,Fresh
+179,Ice Age,DVD,Comedy,Animation,Chris Wedge,Male,Yes,No,No,USA,2002,U,7.5,0.77,0.85,0.82,6.8,7,8,-0.05,-1.2,7.3,Fresh
+180,Ice Age 2: The Meltdown,DVD,Comedy,Animation,Carlos Saldanha,Male,Yes,No,No,USA,2006,U,6.8,0.56,0.87,0.71,6,6.2,7.4,-0.15,-1.4,6.6,Rotten
+181,If…,DVD,Drama,Satire,Lindsay Anderson,Male,No,No,No,UK,1968,15,7.4,0.9,0.81,0.87,7.9,7.6,8.2,0.03,-0.3,7.8,Fresh
+182,Ikiru,Blu-ray,Drama,Comedy,Akira Kurosawa,Male,No,No,No,Japan,1952,18,8.3,0.98,0.9,0.97,8.8,9,9.2,0.01,-0.4,8.8,Fresh
+183,In Bruges,DVD,Comedy,Black Comedy,Martin McDonagh,Male,No,No,No,UK,2008,18,7.9,0.84,0.9,0.87,7.4,8.2,8,-0.03,-0.6,7.9,Fresh
+184,In The Heat of the Night,DVD,Mystery,Drama,Norman Jewison,Male,No,No,No,USA,1967,12,7.9,0.96,0.82,0.92,8.4,8,8.4,0.04,0,8.2,Fresh
+185,In the Heights,Blu-ray,Musical,Romance,Jon M. Chu,Male,No,No,No,USA,2020,PG,7.3,0.94,0.7,0.94,8.2,7,9.4,0,-1.2,8.0,Fresh
+186,In Time,Blu-ray,Sci-fi,Romance,Andrew Nicoll,Male,No,No,Yes,USA,2011,12,6.7,0.36,0.75,0.51,5.3,5.8,6.6,-0.15,-1.3,6.1,Rotten
+187,Incendies,Blu-ray,Drama,War,Denis Villeneuve,Male,No,No,No,Canada,2010,15,8.3,0.91,0.88,0.93,8,8.8,8.6,-0.02,-0.6,8.4,Fresh
+188,Inception,Blu-ray,Action,Sci-fi,Christopher Nolan,Male,No,Yes,No,UK,2010,12,8.8,0.87,0.88,0.91,8.1,8.4,8.8,-0.04,-0.7,8.5,Fresh
+189,Independence Day,Blu-ray,Sci-fi,Action,Roland Emmerich,Male,Yes,No,No,USA,1996,12,7,0.68,0.85,0.75,6.6,6.6,7.6,-0.07,-1,7.0,Fresh
+190,Indiana Jones and the Last Crusade,DVD,Adventure,Action,Steven Spielberg,Male,Yes,Yes,No,USA,1989,PG,8.2,0.84,0.89,0.94,8,8.2,8.8,-0.1,-0.8,8.3,Fresh
+191,Indiana Jones and the Raiders of the Lost Ark,DVD,Action,Adventure,Steven Spielberg,Male,Yes,Yes,No,USA,1981,PG,8.4,0.93,0.91,0.96,9.3,8.4,9,-0.03,0.3,8.8,Fresh
+192,Indiana Jones and the Temple of Doom,DVD,Action,Adventure,Steven Spielberg,Male,Yes,Yes,No,USA,1984,12,7.5,0.77,0.85,0.82,7.4,7.2,8,-0.05,-0.6,7.5,Fresh
+193,Inside Llewyn Davis,Blu-ray,Drama,N/A,The Coen Brothers,Male,No,No,No,USA,2013,15,7.4,0.92,0.86,0.74,8.5,8,7.4,0.18,1.1,7.8,Fresh
+194,Insomnia,DVD,Thriller,Noir,Christopher Nolan,Male,No,No,No,USA,2002,15,7.2,0.92,0.82,0.77,7.8,7,7.4,0.15,0.4,7.4,Fresh
+195,Interstellar,Blu-ray,Sci-fi,Drama,Christopher Nolan,Male,No,Yes,No,UK,2014,12,8.7,0.73,0.92,0.86,7.1,8.8,8.4,-0.13,-1.3,8.3,Fresh
+196,It,DVD,Horror,Drama,Tommy Lee Wallace,Male,No,No,No,USA,1990,15,6.8,0.68,0.84,0.64,6,6.4,7.2,0.04,-1.2,6.6,Fresh
+197,It Follows,Blu-ray,Horror,N/A,David Robert Mitchell,Male,No,No,No,USA,2014,15,6.8,0.95,0.75,0.66,8.1,7,7,0.29,1.1,7.2,Fresh
+198,It Might Get Loud,DVD,Documentary,Music,Davis Guggenheim,Male,No,No,No,USA,2008,PG,7.6,0.79,0.76,0.85,6.9,7.2,8,-0.06,-1.1,7.4,Fresh
+199,It's a Wonderful Life,Blu-ray,Drama,Comedy,Frank Capra,Male,No,No,No,USA,1946,U,8.6,0.94,0.89,0.95,9.1,8.8,9.2,-0.01,-0.1,8.9,Fresh
+200,Jacob's Ladder,DVD,Horror,Psychological,Adrian Lyne,Male,No,No,No,USA,1990,15,7.4,0.72,0.85,0.84,6.3,7.6,8,-0.12,-1.7,7.3,Fresh
+201,Jarhead,DVD,War,Drama,Sam Mendes,Male,Yes,No,No,USA,2005,15,7,0.6,0.73,0.68,6.4,7.2,7.2,-0.08,-0.8,7.0,Fresh
+202,Jaws,Blu-ray,Horror,N/A,Steven Spielberg,Male,Yes,No,No,USA,1975,12,8.1,0.97,0.84,0.9,9.3,8,8.8,0.07,0.5,8.6,Fresh
+203,Jaws 3,DVD,Horror,Adventure,Joe Alves,Male,Yes,No,No,USA,1983,12,3.7,0.11,0.63,0.17,3.4,3.6,4.4,-0.06,-1,3.8,Rotten
+204,Jennifer's Body,DVD,Horror,Comedy,Karyn Kusama,Female,No,No,No,USA,2009,15,5.5,0.46,0.79,0.35,5.2,6.8,5.6,0.11,-0.4,5.8,Rotten
+205,Jiro Dreams of Sushi,DVD,Documentary,N/A,David Gelb,Male,No,No,No,USA,2011,U,7.8,0.99,0.87,0.91,7.8,8,8.6,0.08,-0.8,8.1,Fresh
+206,Joint Security Area,Blu-ray,Drama,War,Park Chan-wook,Male,No,No,No,South Korea,2000,15,7.7,0.88,0.9,0.91,7.2,8.2,8.2,-0.03,-1,7.8,Fresh
+207,Jojo Rabbit,Blu-ray,Comedy,Satire,Taika Waititi,Male,No,No,No,New Zealand,2019,12,7.9,0.8,0.92,0.94,7.6,8,9.2,-0.14,-1.6,8.2,Fresh
+208,Judas and the Black Messiah,Blu-ray,Drama,Historical,Shaka King,Male,No,No,No,USA,2021,15,7.4,0.96,0.83,0.95,8.2,8,9.2,0.01,-1,8.2,Fresh
+209,Jules and Jim,DVD,Romance,Drama,Francois Truffaut,Male,No,Yes,No,France,1962,PG,7.7,0.94,0.81,0.89,9.1,7.8,8.6,0.05,0.5,8.3,Fresh
+210,Jurassic Park,Blu-ray,Sci-fi,N/A,Steven Spielberg,Male,Yes,Yes,No,USA,1993,PG,8.2,0.91,0.9,0.91,8.4,8.2,8.6,0,-0.2,8.4,Fresh
+211,Jurassic Park 3,Blu-ray,Sci-fi,N/A,Joe Johnston,Male,Yes,Yes,No,USA,2001,PG,5.9,0.49,0.81,0.37,5.3,5.4,6,0.12,-0.7,5.7,Rotten
+212,Jurassic Park: The Lost World,Blu-ray,Sci-fi,N/A,Steven Spielberg,Male,Yes,Yes,No,USA,1997,PG,6.5,0.54,0.84,0.51,5.7,6.2,6.6,0.03,-0.9,6.3,Rotten
+213,Kill List,DVD,Horror,Thriller,Ben Wheatley,Male,No,Yes,No,UK,2011,18,6.4,0.78,0.73,0.58,7.3,7,6.6,0.2,0.7,6.8,Fresh
+214,King Kong,DVD,Adventure,N/A,Peter Jackson,Male,No,No,No,New Zealand,2005,12,7.2,0.84,0.78,0.5,7.7,6.6,5.6,0.34,2.1,6.8,Fresh
+215,Knives Out,Blu-ray,Mystery,Comedy,Rian Johnson,Male,Yes,No,No,USA,2019,12,7.9,0.97,0.89,0.92,8.3,8,8.8,0.05,-0.5,8.3,Fresh
+216,La Haine,Blu-ray,Thriller,Drama,Mathieu Kassovitz,Male,No,No,No,France,1995,15,8.1,0.96,0.92,0.95,8.1,9,8.8,0.01,-0.7,8.5,Fresh
+217,La La Land,Blu-ray,Musical,Romance,Damien Chazelle,Male,No,No,No,USA,2017,12,8,0.91,0.84,0.81,8.7,8,8.2,0.1,0.5,8.2,Fresh
+218,Lady Bird,Blu-ray,Comedy,Drama,Greta Gerwig,Female,No,No,No,USA,2017,15,7.4,0.99,0.79,0.79,8.8,7.8,7.8,0.2,1,8.0,Fresh
+219,Le Mans '66,Blu-ray,Drama,Sports,James Mangold,Male,No,No,No,USA,2019,12,8.1,0.92,0.9,0.98,7.8,8,9.4,-0.06,-1.6,8.3,Fresh
+220,Leon,DVD,Action,Drama,Luc Besson,Male,No,No,No,France,1994,18,8.5,0.74,0.91,0.95,6.9,8,8.8,-0.21,-1.9,8.1,Fresh
+221,Let The Right One In,DVD,Horror,Romance,Tomas Alfredson,Male,No,Yes,No,Sweden,2008,15,7.8,0.98,0.87,0.9,8.3,8.2,8.4,0.08,-0.1,8.2,Fresh
+222,Life is Beautiful,DVD,Drama,War,Roberto Benigni,Male,No,Yes,No,Italy,1997,PG,8.6,0.8,0.93,0.96,7.5,8.6,9.2,-0.16,-1.7,8.5,Fresh
+223,Lincoln,DVD,Drama,Biopic,Steven Spielberg,Male,No,No,No,USA,2012,12,7.3,0.89,0.8,0.81,8,7,8,0.08,0,7.6,Fresh
+224,Little Miss Sunshine,DVD,Comedy,Drama,Valerie Faris,Female,No,No,No,USA,2006,15,7.8,0.91,0.87,0.91,7.7,8.4,8.4,0,-0.7,8.1,Fresh
+225,Local Hero,DVD,Comedy,Drama,Bill Forsyth,Male,No,No,No,UK,1983,PG,7.3,1,0.8,0.87,8.8,7.6,8.6,0.13,0.2,8.1,Fresh
+226,Locke,DVD,Thriller,Drama,Steven Knight,Male,No,Yes,No,UK,2013,15,7.1,0.91,0.63,0.72,7.9,7.2,7.2,0.19,0.7,7.4,Fresh
+227,Longlegs,Blu-ray,Horror,Thriller,Osgood Perkins,Male,No,No,No,USA,2024,15,6.7,0.85,0.68,0.61,7.5,6.8,6.8,0.24,0.7,7.0,Fresh
+228,Lost in Translation,DVD,Comedy,Drama,Sofia Coppola,Female,No,No,No,USA,2003,15,7.7,0.95,0.87,0.85,8.4,7.6,8.2,0.1,0.2,8.0,Fresh
+229,LOTR: The Fellowship of the Ring,Blu-ray,Fantasy,N/A,Peter Jackson,Male,Yes,No,No,New Zealand,2001,PG,8.8,0.91,0.86,0.95,8.2,8.8,8.2,-0.04,0,8.5,Fresh
+230,LOTR: The Return of the King,Blu-ray,Fantasy,N/A,Peter Jackson,Male,Yes,No,No,New Zealand,2003,12,9,0.94,0.86,0.86,8.7,9,7.2,0.08,1.5,8.5,Fresh
+231,LOTR: The Two Towers,Blu-ray,Fantasy,N/A,Peter Jackson,Male,Yes,No,No,New Zealand,2002,12,8.8,0.95,0.85,0.95,8.5,8.8,8.2,0,0.3,8.6,Fresh
+232,Loving Vincent,DVD,Drama,Animation,Dorota Kobiela,Female,No,No,No,Poland,2017,12,7.8,0.85,0.89,0.86,7.3,8,8.2,-0.01,-0.9,7.8,Fresh
+233,Mad Max: Fury Road,Blu-ray,Action,N/A,George Miller,Male,Yes,No,No,Australia,2015,15,8.1,0.97,0.89,0.86,8.6,8.4,8.4,0.11,0.2,8.4,Fresh
+234,Madagascar,DVD,Comedy,Animation,Tom McGrath,Male,No,No,No,USA,2005,U,6.9,0.55,0.87,0.67,6.1,7,7.2,-0.12,-1.1,6.8,Rotten
+235,Malcolm X,DVD,Drama,Biopic,Spike Lee,Male,No,No,No,USA,1992,15,7.7,0.88,0.9,0.91,7.7,8.4,8.6,-0.03,-0.9,8.1,Fresh
+236,Man On Wire,DVD,Documentary,N/A,James Marsh,Male,No,No,No,UK,2008,12,7.7,1,0.88,0.87,8.4,7.8,8.2,0.13,0.2,8.0,Fresh
+237,Marathon Man,Blu-ray,Thriller,Political,John Schlesinger,Male,No,Yes,No,USA,1976,18,7.4,0.82,0.7,0.81,7.4,7.6,7.6,0.01,-0.2,7.5,Fresh
+238,Mary and Max,DVD,Comedy,Drama,Adam Elliot,Male,No,No,No,Australia,2009,12,8.1,0.95,0.92,0.92,8.1,8.4,8.6,0.03,-0.5,8.3,Fresh
+239,Mean Streets,DVD,Drama,Crime,Martin Scorsese,Male,No,No,No,USA,1973,18,7.2,0.92,0.79,0.84,8.7,7.4,8,0.08,0.7,7.8,Fresh
+240,Meet Joe Black,DVD,Romance,Fantasy,Martin Brest,Male,No,No,No,USA,1998,12,7.2,0.46,0.82,0.81,5.6,6.8,8,-0.35,-2.4,6.9,Rotten
+241,MEGAN,Blu-ray,Horror,Comedy,Gerard Johnstone,Male,No,No,No,USA,2023,15,6.4,0.93,0.69,0.78,7.1,5.8,8,0.15,-0.9,6.8,Fresh
+242,Memories of Murder,DVD,Thriller,Crime,Bong Joon-ho,Male,No,No,No,South Korea,2003,15,8.1,0.95,0.94,0.92,8,8.8,8.4,0.03,-0.4,8.3,Fresh
+243,Men in Black,DVD,Sci-fi,Comedy,Barry Sonnenfeld,Male,Yes,Yes,No,USA,1997,PG,7.3,0.91,0.85,0.8,7.5,7.4,7.8,0.11,-0.3,7.5,Fresh
+244,Men in Black 2,DVD,Sci-fi,Comedy,Barry Sonnenfeld,Male,Yes,Yes,No,USA,2002,PG,6.2,0.38,0.89,0.45,5.2,6,6.4,-0.07,-1.2,6.0,Rotten
+245,Men in Black 3,DVD,Sci-fi,Comedy,Barry Sonnenfeld,Male,Yes,Yes,No,USA,2012,PG,6.8,0.67,0.85,0.7,6,6.2,7.6,-0.03,-1.6,6.7,Fresh
+246,Metropolis,DVD,Sci-fi,N/A,Fritz Lang,Male,No,No,No,Germany,1927,PG,8.3,0.97,0.84,0.92,9.1,8.6,8.8,0.05,0.3,8.7,Fresh
+247,Midnight in Paris,DVD,Comedy,Fantasy,Woody Allen,Male,No,No,No,USA,2011,12,7.6,0.93,0.88,0.83,7.8,7.4,8,0.1,-0.2,7.7,Fresh
+248,Mike Bassett: England Manager,DVD,Comedy,Sports,Steve Barron,Male,No,No,No,UK,2001,15,6.8,0.4,0.78,0.76,4.8,6.8,7.8,-0.36,-3,6.6,Rotten
+249,Minority Report,Blu-ray,Sci-fi,N/A,Steven Spielberg,Male,No,No,No,USA,2002,12,7.6,0.9,0.84,0.8,8.2,7.4,7.6,0.1,0.6,7.7,Fresh
+250,Miracle Mile,Blu-ray,Drama,N/A,Steve De Jarnatt,Male,No,No,No,USA,1988,15,7,0.91,0.77,0.73,6.9,7.6,7.4,0.18,-0.5,7.2,Fresh
+251,Misery,DVD,Horror,Thriller,Rob Reiner,Male,No,No,No,USA,1990,18,7.8,0.91,0.86,0.9,7.6,8,8.2,0.01,-0.6,7.9,Fresh
+252,Mission: Impossible,Blu-ray,Action,Spy,Brian de Palma,Male,Yes,No,No,USA,1996,PG,7.1,0.66,0.84,0.71,6.1,7.2,7.2,-0.05,-1.1,6.9,Fresh
+253,Mission: Impossible - Dead Reckoning Part 1,Blu-ray,Action,Spy,Christopher McQuarrie,Male,Yes,Yes,No,USA,2023,12,7.7,0.96,0.73,0.94,8,7.4,9.2,0.02,-1.2,8.1,Fresh
+254,Mission: Impossible - Fallout,Blu-ray,Action,Spy,Christopher McQuarrie,Male,Yes,No,No,USA,2018,12,7.7,0.97,0.78,0.88,8.4,8,8.4,0.09,0,8.1,Fresh
+255,Mission: Impossible - Ghost Protocol,Blu-ray,Action,Spy,Brad Bird,Male,Yes,No,No,USA,2011,12,7.4,0.93,0.81,0.76,7.7,7.4,7.8,0.17,-0.1,7.6,Fresh
+256,Mission: Impossible - Rogue Nation,Blu-ray,Action,Spy,Christopher McQuarrie,Male,Yes,Yes,No,USA,2015,12,7.4,0.94,0.85,0.87,7.5,7.4,8.2,0.07,-0.7,7.6,Fresh
+257,Mission: Impossible 2,Blu-ray,Action,Spy,John Woo,Male,Yes,No,No,USA,2000,15,6.1,0.56,0.83,0.42,5.9,5.2,6.2,0.14,-0.3,5.9,Rotten
+258,Mission: Impossible 3,Blu-ray,Action,Spy,JJ Abrams,Male,Yes,No,No,USA,2006,12,6.9,0.71,0.86,0.69,6.6,6.6,7.2,0.02,-0.6,6.8,Fresh
+259,Mommy,DVD,Drama,N/A,Xavier Dolan,Male,No,No,No,Canada,2015,15,8,0.89,0.73,0.89,7.9,8.6,8.4,0,-0.5,8.2,Fresh
+260,Moneyball,Blu-ray,Drama,Sports,Bennett Miller,Male,No,No,No,USA,2011,12,7.6,0.94,0.82,0.86,8,7.8,8,0.08,0,7.9,Fresh
+261,Monster House,DVD,Horror,Animation,Gil Kenan,Male,No,No,No,USA,2006,PG,6.7,0.74,0.71,0.64,6.8,6.8,7,0.1,-0.2,6.8,Fresh
+262,Monsters,DVD,Sci-fi,Horror,Gareth Edwards,Male,Yes,Yes,No,UK,2010,12,6.4,0.74,0.6,0.53,6.6,6.4,6.4,0.21,0.2,6.5,Fresh
+263,Monty Python and the Holy Grail,DVD,Comedy,Adventure,Terry Gilliam,Male,Yes,Yes,No,UK,1975,15,8.2,0.96,0.91,0.95,8.5,8.2,9,0.01,-0.5,8.5,Fresh
+264,Monty Python's Life of Brian,DVD,Comedy,Historical,Terry Jones,Male,No,No,No,UK,1979,15,8,0.96,0.89,0.93,8.3,8,8.8,0.03,-0.5,8.3,Fresh
+265,Monty Python's The Meaning of Life,DVD,Comedy,Musical,Terry Jones,Male,Yes,Yes,No,UK,1983,15,7.5,0.86,0.72,0.83,7.3,7.6,8,0.03,-0.7,7.6,Fresh
+266,Moon,Blu-ray,Sci-fi,Drama,Duncan Jones,Male,No,Yes,No,UK,2009,15,7.8,0.9,0.86,0.89,7.5,7.8,8.2,0.01,-0.7,7.8,Fresh
+267,Mr Bean's Holiday,DVD,Comedy,N/A,Steve Bendelack,Male,No,No,No,UK,2007,PG,6.4,0.51,0.82,0.49,5.4,6.6,6.4,0.02,-1,6.2,Rotten
+268,Mrs Doubtfire,DVD,Comedy,Drama,Chris Columbus,Male,No,No,No,USA,1993,PG,7.1,0.7,0.88,0.77,5.9,7.2,7.8,-0.07,-1.9,7.0,Fresh
+269,Mulholland Drive,Blu-ray,Thriller,N/A,David Lynch,Male,No,No,No,USA,2001,15,7.9,0.84,0.83,0.87,7.8,8.4,8.4,-0.03,-0.6,8.1,Fresh
+270,My Name is Joe,DVD,Romance,Drama,Ken Loach,Male,No,No,No,UK,1998,15,7.4,0.89,0.74,0.86,7.4,7.6,8,0.03,-0.6,7.6,Fresh
+271,National Treasure,DVD,Adventure,N/A,Jon Turteltaub,Male,Yes,No,No,USA,2004,PG,6.9,0.46,0.82,0.76,5.3,6.4,7.6,-0.3,-2.3,6.6,Rotten
+272,National Treasure 2: Book of Secrets,DVD,Adventure,N/A,Jon Turteltaub,Male,Yes,No,No,USA,2007,PG,6.5,0.36,0.78,0.67,4.8,5.8,7.2,-0.31,-2.4,6.1,Rotten
+273,Nausicaa of the Valley of the Wind,DVD,Sci-fi,Animation,Hayao Miyazaki,Male,No,No,No,Japan,1984,PG,8,0.9,0.93,0.91,8.2,8.2,8.6,-0.01,-0.4,8.3,Fresh
+274,Neon Genesis Evangelion: The End of Evangelion,DVD,Sci-fi,Animation,Anno and Kazuya Tsurumaki,Male,No,No,No,Japan,1997,15,8.1,0.9,0.89,0.85,9,9,8.6,0.05,0.4,8.7,Fresh
+275,Next Goal Wins,DVD,Documentary,Sports,Mike Brett & Steve Jamison,Male,No,No,No,UK,2014,15,7.8,1,0.74,0.89,7.6,7.8,8.2,0.11,-0.6,7.9,Fresh
+276,Night at the Museum,DVD,Comedy,Adventure,Shawn Levy,Male,Yes,No,No,USA,2006,PG,6.5,0.42,0.88,0.67,5.2,6.6,7.4,-0.25,-2.2,6.4,Rotten
+277,Night of the Living Dead,DVD,Horror,N/A,George A. Romero,Male,Yes,No,No,USA,1968,18,7.8,0.96,0.9,0.87,8.9,8,8.4,0.09,0.5,8.3,Fresh
+278,Nightcrawler,Blu-ray,Thriller,Noir,Dan Gilroy,Male,No,No,No,USA,2014,15,7.8,0.95,0.84,0.86,8.3,8,8,0.09,0.3,8.0,Fresh
+279,Nightmare Alley,DVD,Thriller,Noir,Guillermo del Toro,Male,No,No,No,USA,2021,15,7,0.81,0.6,0.68,7.4,6.8,7.4,0.13,0,7.2,Fresh
+280,No Country for Old Men,DVD,Drama,Crime,The Coen Brothers,Male,No,No,No,USA,2008,15,8.2,0.93,0.85,0.86,8.7,8.6,8.4,0.07,0.3,8.5,Fresh
+281,No Time to Die,DVD,Action,Spy,Cary Joji Fukunaga,Male,Yes,Yes,No,UK,2021,12,7.3,0.83,0.75,0.88,7.3,7,8.8,-0.05,-1.5,7.6,Fresh
+282,No Way Out,DVD,Thriller,Political,Roger Donaldson,Male,No,No,No,USA,1987,15,7.1,0.91,0.7,0.72,7.4,6.8,7.4,0.19,0,7.2,Fresh
+283,Nocturnal Animals,Blu-ray,Thriller,Psychological,Tom Ford,Male,No,Yes,No,USA,2016,15,7.5,0.74,0.72,0.73,7,7.4,7.4,0.01,-0.4,7.3,Fresh
+284,Nomadland,Blu-ray,Drama,N/A,Chloe Zhao,Female,No,No,No,USA,2020,12,7.3,0.93,0.76,0.82,8.8,7.6,8.2,0.11,0.6,8.0,Fresh
+285,Nope,DVD,Horror,Sci-fi,Jordan Peele,Male,No,No,No,USA,2022,18,6.8,0.83,0.62,0.69,7.5,7.4,7.4,0.14,0.1,7.3,Fresh
+286,Nymphomaniac Vol. I,Blu-ray,Drama,Erotic,Lars von Trier,Male,No,No,No,Denmark,2013,18,6.9,0.76,0.66,0.69,7,7,7.2,0.07,-0.2,7.0,Fresh
+287,Nymphomaniac Vol. II,Blu-ray,Drama,Erotic,Lars von Trier,Male,No,No,No,Denmark,2013,18,6.6,0.58,0.66,0.55,6.4,6.6,6.6,0.03,-0.2,6.6,Rotten
+288,Oblivion,Blu-ray,Sci-fi,Action,Joseph Kosinski,Male,No,No,No,USA,2013,12,7,0.54,0.72,0.61,5.9,6.2,7,-0.07,-1.1,6.5,Rotten
+289,Ocean Waves,DVD,Drama,Animation,Tomomi Mochizuki,Male,No,No,No,Japan,1993,PG,6.6,0.89,0.79,0.64,6.6,6.2,7,0.25,-0.4,6.6,Fresh
+290,Oldboy,Blu-ray,Action,Thriller,Park Chan-wook,Male,Yes,No,No,South Korea,2003,18,8.4,0.82,0.9,0.94,7.4,8.8,8.8,-0.12,-1.4,8.4,Fresh
+291,Olympus Has Fallen,Blu-ray,Action,N/A,Antoine Fuqua,Male,Yes,No,No,USA,2013,15,6.5,0.5,0.88,0.66,5.4,5.4,7.4,-0.16,-2,6.2,Rotten
+292,On the Beach,DVD,Drama,War,Stanley Kramer,Male,No,No,No,USA,1959,PG,7.1,0.78,0.8,0.69,6.5,7,7.2,0.09,-0.7,7.0,Fresh
+293,On The Waterfront,DVD,Drama,Crime,Elia Kazan,Male,No,No,No,USA,1954,PG,8.1,0.99,0.72,0.95,9.2,8.4,9,0.04,0.2,8.7,Fresh
+294,One Flew Over the Cuckoos Nest,DVD,Drama,Psychological,Milos Forman,Male,No,No,No,USA,1975,18,8.7,0.93,0.91,0.96,9.1,8.8,9,-0.03,0.1,8.9,Fresh
+295,One Hour Photo,DVD,Thriller,Psychological,Mark Romanek,Male,No,No,No,USA,2002,15,6.8,0.81,0.74,0.65,7,7,7,0.16,0,7.0,Fresh
+296,Open Water,DVD,Horror,Thriller,Chris Kentis,Male,Yes,No,No,USA,2003,15,5.8,0.71,0.58,0.33,6.6,5.4,5.2,0.38,1.4,5.8,Fresh
+297,Oppenheimer,Blu-ray,Thriller,Biopic,Christopher Nolan,Male,No,Yes,No,USA,2023,15,8.4,0.93,0.88,0.91,8.6,8.6,9,0.02,-0.4,8.7,Fresh
+298,Outbreak,DVD,Sci-fi,N/A,Wolfgang Petersen,Male,No,No,No,USA,1995,15,6.6,0.59,0.83,0.56,5.7,6.2,6.8,0.03,-1.1,6.3,Rotten
+299,Pan's Labyrinth,DVD,Fantasy,Horror,Guillermo del Toro,Male,No,No,No,Spain,2006,15,8.2,0.95,0.91,0.91,8.6,8.4,8.6,0.04,0,8.5,Fresh
+300,Parasite,Blu-ray,Comedy,Thriller,Bong Joon-ho,Male,No,No,No,South Korea,2019,15,8.5,0.99,0.9,0.9,9.4,9.2,9,0.09,0.4,9.0,Fresh
+301,Perfect Blue,Blu-ray,Horror,Psychological,Satoshi Kon,Male,No,No,No,Japan,1997,18,8,0.83,0.95,0.85,7.3,8.8,8.2,-0.02,-0.9,8.1,Fresh
+302,Philadelphia,DVD,Drama,Political,Jonathan Demme,Male,No,No,No,USA,1993,15,7.7,0.81,0.84,0.89,6.9,7.8,8.2,-0.08,-1.3,7.7,Fresh
+303,Phone Booth,DVD,Thriller,Psychological,Joel Schumacher,Male,No,No,No,USA,2002,15,7.1,0.72,0.9,0.64,6.5,6.6,7,0.08,-0.5,6.8,Fresh
+304,Pig,Blu-ray,Drama,N/A,Michael Sarnoski,Male,No,No,No,USA,2021,15,6.9,0.97,0.76,0.84,8.2,7.6,8.2,0.13,0,7.7,Fresh
+305,Pirates of the Carribean: At World's End,Blu-ray,Adventure,Action,Gore Verbinski,Male,Yes,Yes,No,USA,2007,12,7.1,0.44,0.9,0.72,5,6.8,7.6,-0.28,-2.6,6.6,Rotten
+306,Pirates of the Carribean: Curse of the Black Pearl,Blu-ray,Adventure,Action,Gore Verbinski,Male,Yes,Yes,No,USA,2003,12,8.1,0.8,0.92,0.86,6.6,7.8,7.8,-0.06,-1.2,7.6,Fresh
+307,Pirates of the Carribean: Dead Man's Chest,Blu-ray,Adventure,Action,Gore Verbinski,Male,Yes,Yes,No,USA,2006,12,7.4,0.53,0.91,0.72,5.4,7.2,7.8,-0.19,-2.4,7.0,Rotten
+308,Pirates of the Carribean: On Stranger Tides,Blu-ray,Adventure,Action,Rob Marshall,Male,Yes,Yes,No,USA,2011,12,6.6,0.33,0.87,0.54,4.7,5.6,6.8,-0.21,-2.1,5.9,Rotten
+309,"Planes, Trains & Automobiles",Blu-ray,Comedy,N/A,John Hughes,Male,No,No,No,USA,1987,15,7.6,0.92,0.81,0.87,7.9,7.4,8.2,0.05,-0.3,7.8,Fresh
+310,Pokemon: The First Movie,Blu-ray,Fantasy,Animation,Kunihiko Yuyama,Male,No,No,No,Japan,1999,PG,6.2,0.16,0.91,0.72,3.7,7,7.6,-0.56,-3.9,6.1,Rotten
+311,Porco Rosso,DVD,Drama,Animation,Hayao Miyazaki,Male,No,No,No,Japan,1992,PG,7.7,0.95,0.9,0.87,8.1,8,8.2,0.08,-0.1,8.0,Fresh
+312,Portrait of a Lady on Fire,DVD,Romance,Drama,Celine Sciamma,Female,No,No,No,France,2019,15,8.1,0.97,0.91,0.92,9,8.8,9.2,0.05,-0.2,8.8,Fresh
+313,Possessor,Blu-ray,Horror,Sci-fi,Brandon Cronenberg,Male,No,No,No,Canada,2020,18,6.5,0.94,0.64,0.59,7.8,7.2,6.4,0.35,1.4,7.0,Fresh
+314,Predestination,Blu-ray,Sci-fi,Action,Michael Spierig,Male,No,No,No,Australia,2014,15,7.4,0.85,0.75,0.75,6.9,7.2,7.4,0.1,-0.5,7.2,Fresh
+315,Pretty Woman,DVD,Romance,Comedy,Garry Marshall,Male,No,No,No,USA,1990,15,7.1,0.64,0.9,0.68,6,7.2,7,-0.04,-1,6.8,Fresh
+316,Princess Mononoke,DVD,Fantasy,Animation,Hayao Miyazaki,Male,No,No,No,Japan,1997,PG,8.3,0.93,0.94,0.94,8.1,8.8,8.8,-0.01,-0.7,8.5,Fresh
+317,Prisoners,Blu-ray,Drama,Noir,Denis Villeneuve,Male,No,No,No,USA,2013,15,8.1,0.81,0.8,0.87,7.3,8.6,8.2,-0.06,-0.9,8.1,Fresh
+318,Promising Young Woman,Blu-ray,Thriller,Black Comedy,Emerald Fennell,Female,No,No,No,UK,2020,15,7.5,0.9,0.69,0.87,8.1,7.4,8.6,0.03,-0.5,7.9,Fresh
+319,Psycho,DVD,Horror,Thriller,Alfred Hitchcock,Male,No,No,No,USA,1960,15,8.5,0.96,0.85,0.95,9.3,8.6,9,0.01,0.3,8.9,Fresh
+320,Punch-Drunk Love,DVD,Romance,Drama,Paul Thomas Anderson,Male,No,No,No,USA,2002,15,7.3,0.79,0.8,0.77,7.3,8,7.6,0.02,-0.3,7.6,Fresh
+321,Ran,DVD,Action,Drama,Akira Kurosawa,Male,No,Yes,No,Japan,1985,15,8.2,0.96,0.79,0.95,9,9,9,0.01,0,8.8,Fresh
+322,Rashomon,Blu-ray,Mystery,Crime,Akira Kurosawa,Male,No,No,No,Japan,1950,12,8.2,0.98,0.88,0.93,9.3,8.4,8.8,0.05,0.5,8.7,Fresh
+323,Ratatouille,Blu-ray,Comedy,Family,Brad Bird,Male,No,No,No,USA,2007,PG,8.1,0.96,0.92,0.87,8.5,8.4,8.2,0.09,0.3,8.3,Fresh
+324,Rear Window,DVD,Thriller,Noir,Alfred Hitchcock,Male,No,No,No,USA,1954,PG,8.5,0.98,0.9,0.95,9.3,8.8,9,0.03,0.3,8.9,Fresh
+325,Red Eye,DVD,Thriller,N/A,Wes Craven,Male,No,No,No,USA,2005,12,6.5,0.79,0.61,0.64,6.7,6.2,7,0.15,-0.3,6.6,Fresh
+326,Reign of Fire,DVD,Sci-fi,Action,Rob Bowman,Male,No,No,No,UK,2002,12,6.2,0.42,0.74,0.49,5.2,5.8,6.4,-0.07,-1.2,5.9,Rotten
+327,Reservoir Dogs,DVD,Thriller,Crime,Quentin Tarantino,Male,No,No,No,USA,1992,18,8.3,0.9,0.91,0.94,8.9,8.4,8.8,-0.04,0.1,8.6,Fresh
+328,Resident Evil,DVD,Horror,Action,Paul WS Anderson,Male,Yes,No,No,USA,2002,15,6.6,0.35,0.86,0.67,4.6,5.8,7.2,-0.32,-2.6,6.1,Rotten
+329,Rififi,DVD,Thriller,Crime,Jules Dassin,Male,No,No,No,France,1955,PG,8.1,0.93,0.82,0.95,8.3,8.4,8.8,-0.02,-0.5,8.4,Fresh
+330,Rise of the Planet of the Apes,Blu-ray,Sci-fi,N/A,Rupert Wyatt,Male,Yes,Yes,No,USA,2011,12,7.6,0.82,0.82,0.77,7.2,7.2,8,0.05,-0.8,7.5,Fresh
+331,Road to Perdition,DVD,Thriller,Crime,Sam Mendes,Male,No,No,No,USA,2002,15,7.7,0.81,0.83,0.86,7.5,7.6,8,-0.05,-0.5,7.7,Fresh
+332,Robocop,Blu-ray,Sci-fi,Action,Paul Verhoeven,Male,Yes,No,No,USA,1987,18,7.6,0.92,0.91,0.84,8.1,7.8,8.2,0.08,-0.1,7.9,Fresh
+333,RoboCop (2014),DVD,Sci-fi,Action,Jose Padilha,Male,No,Yes,No,USA,2014,12,6.1,0.49,0.71,0.49,5.6,4.6,6.6,0,-1,5.7,Rotten
+334,Robot Dreams,Blu-ray,Comedy,Animation,Pablo Berger,Male,No,No,No,Spain,2023,PG,7.6,0.98,0.87,0.89,8.5,8.2,8.6,0.09,-0.1,8.2,Fresh
+335,Rogue,DVD,Horror,N/A,Greg McLean,Male,No,No,No,Australia,2007,15,6.2,0.89,0.83,0.54,7.3,6,6.6,0.35,0.7,6.5,Fresh
+336,Romeo + Juliet,Blu-ray,Romance,N/A,Baz Luhrmann,Male,No,No,No,USA,1996,12,6.8,0.73,0.78,0.77,6.8,6.8,7.8,-0.04,-1,7.1,Fresh
+337,Room,DVD,Drama,N/A,Lenny Abrahamson,Male,No,Yes,No,USA,2015,15,8.1,0.93,0.86,0.93,8.5,8,8.6,0,-0.1,8.3,Fresh
+338,Rush,Blu-ray,Action,Sports,Ron Howard,Male,No,Yes,No,UK,2013,15,8.1,0.88,0.88,0.88,7.5,7.6,8.2,0,-0.7,7.9,Fresh
+339,Saint Maud,Blu-ray,Horror,Supernatural,Rose Glass,Female,No,No,No,UK,2021,15,6.7,0.92,0.66,0.67,8,7,7,0.25,1,7.2,Fresh
+340,Salvador,Blu-ray,War,Drama,Oliver Stone,Male,No,No,No,USA,1986,18,7.4,0.9,0.78,0.85,7.7,7.2,8,0.05,-0.3,7.6,Fresh
+341,Saving Private Ryan,DVD,War,Drama,Steven Spielberg,Male,No,No,No,USA,1998,15,8.6,0.94,0.91,0.95,8.7,8.4,9,-0.01,-0.3,8.7,Fresh
+342,Saw,DVD,Horror,n/a,James Wan,Male,Yes,No,No,USA,2004,18,7.6,0.5,0.83,0.84,5.6,7.2,8.2,-0.34,-2.6,7.2,Rotten
+343,School of Rock,DVD,Comedy,N/A,Richard Linklater,Male,No,No,No,USA,2003,PG,7.2,0.92,0.88,0.64,7.7,7.4,6.4,0.28,1.3,7.2,Fresh
+344,Se7en,DVD,Thriller,Crime,David Fincher,Male,No,No,No,USA,1995,18,8.6,0.83,0.91,0.95,7.9,8.6,8.8,-0.12,-0.9,8.5,Fresh
+345,Serpico,DVD,Thriller,Crime,Sidney Lumet,Male,No,No,No,USA,1973,18,7.7,0.93,0.87,0.88,8.1,7.8,8.2,0.05,-0.1,8.0,Fresh
+346,Session 9,DVD,Horror,Supernatural,Brad Anderson,Male,No,No,No,USA,2001,15,6.4,0.67,0.76,0.63,6.4,6.4,7,0.04,-0.6,6.6,Fresh
+347,Seven Samurai,DVD,Adventure,Action,Akira Kurosawa,Male,No,No,No,Japan,1954,PG,8.6,1,0.93,0.97,9.6,9.2,9.4,0.03,0.2,9.2,Fresh
+348,Sexy Beast,DVD,Thriller,Crime,Jonathan Glazer,Male,No,No,No,UK,2000,18,7.3,0.87,0.66,0.85,7.3,7.8,8,0.02,-0.7,7.6,Fresh
+349,Shaun of the Dead,DVD,Comedy,Horror,Edgar Wright,Male,No,No,No,UK,2004,15,7.9,0.92,0.92,0.93,7.8,8,8.6,-0.01,-0.8,8.1,Fresh
+350,Showgirls,Blu-ray,Drama,Erotic,Paul Verhoeven,Male,No,No,No,USA,1995,18,5.1,0.23,,0.38,3.7,6.8,5.6,-0.15,-1.9,5.3,Rotten
+351,Shrek,DVD,Comedy,Fantasy,Vicky Jenson,Female,Yes,No,No,USA,2001,U,7.9,0.88,0.85,0.9,7.8,8.2,7.8,-0.02,0,7.9,Fresh
+352,Shrek 2,DVD,Comedy,Animation,Kelly Asbury,Female,Yes,No,No,USA,2004,U,7.3,0.89,0.89,0.69,7.7,8,7,0.2,0.7,7.5,Fresh
+353,Sicario,Blu-ray,Action,Thriller,Denis Villeneuve,Male,Yes,No,No,USA,2015,15,7.7,0.92,0.86,0.85,8.1,8,8,0.07,0.1,8.0,Fresh
+354,Sightseers,DVD,Comedy,Black Comedy,Ben Wheatley,Male,No,No,No,UK,2012,15,6.5,0.86,0.68,0.62,7.4,6.8,6.8,0.24,0.6,6.9,Fresh
+355,Signs,DVD,Horror,Sci-fi,M. Night Shyamalan,Male,No,No,No,USA,2002,12,6.8,0.75,0.8,0.67,6.9,6.8,7.2,0.08,-0.3,6.9,Fresh
+356,Silver Linings Playbook,DVD,Drama,Romance,David O. Russell,Male,No,No,No,USA,2012,15,7.7,0.92,0.81,0.86,8.2,7.2,8.2,0.06,0,7.8,Fresh
+357,Singin' in the Rain,DVD,Musical,Comedy,Gene Kelly,Male,No,No,No,USA,1952,U,8.3,1,0.86,0.95,9.4,8.6,9,0.05,0.4,8.8,Fresh
+358,Skyfall,Blu-ray,Action,Spy,Sam Mendes,Male,Yes,Yes,No,UK,2012,12,7.8,0.92,0.88,0.86,8.2,7.8,8.2,0.06,0,8.0,Fresh
+359,Slumdog Millionaire,Blu-ray,Drama,Romance,Danny Boyle,Male,No,Yes,No,UK,2008,15,8,0.91,0.93,0.9,8.4,7.8,8.6,0.01,-0.2,8.2,Fresh
+360,Society,Blu-ray,Horror,Comedy,Brian Yuzna,Male,Yes,No,No,USA,1989,PG,6.5,0.64,0.82,0.6,5.7,7,7.2,0.04,-1.5,6.6,Fresh
+361,Some Like it Hot,DVD,Comedy,Musical,Billy Wilder,Male,No,No,No,USA,1959,PG,8.2,0.9,0.95,0.94,9.1,8.4,8.8,-0.04,0.3,8.6,Fresh
+362,Sorcerer,Blu-ray,Thriller,N/A,William Friedkin,Male,No,No,No,USA,1977,15,7.7,0.81,0.81,0.84,7.6,8.4,8,-0.03,-0.4,7.9,Fresh
+363,Sorry We Missed You,DVD,Drama,N/A,Ken Loach,Male,No,No,No,UK,2019,15,7.6,0.88,0.71,0.82,7.8,7.8,7.6,0.06,0.2,7.7,Fresh
+364,Source Code,Blu-ray,Sci-fi,N/A,Duncan Jones,Male,No,No,No,USA,2011,12,7.5,0.91,0.75,0.82,7.5,7,7.8,0.09,-0.3,7.5,Fresh
+365,Spartacus,4k Blu-ray,Drama,Historical,Stanley Kubrick,Male,No,No,No,USA,1960,PG,7.9,0.94,0.76,0.87,8.2,7.6,8.2,0.07,0,8.0,Fresh
+366,Speed,Blu-ray,Action,Thriller,Jan de Bont,Male,Yes,No,No,USA,1994,15,7.3,0.95,0.86,0.76,8.1,7.4,7.6,0.19,0.5,7.6,Fresh
+367,Spider-Man,DVD,Action,N/A,Sam Raimi,Male,Yes,No,No,USA,2002,12,7.4,0.9,0.81,0.67,7.6,7.6,6.6,0.23,1,7.3,Fresh
+368,Spider-Man 2,DVD,Action,N/A,Sam Raimi,Male,Yes,No,No,USA,2004,PG,7.5,0.93,0.85,0.82,8.3,7.8,7,0.11,1.3,7.7,Fresh
+369,Spider-Man 3,DVD,Action,N/A,Sam Raimi,Male,Yes,No,No,USA,2007,12,6.3,0.63,0.82,0.51,6.2,6,6.6,0.12,-0.4,6.3,Fresh
+370,Spirited Away,DVD,Fantasy,Adventure,Hayao Miyazaki,Male,No,No,No,Japan,2001,PG,8.6,0.96,0.95,0.96,8.6,9,9,0,-0.4,8.8,Fresh
+371,Star Wars Episode 1: The Phantom Menace,DVD,Sci-fi,Adventure,George Lucas,Male,Yes,No,No,USA,1999,U,6.5,0.51,0.85,0.59,5.9,5.6,7,-0.08,-1.1,6.3,Rotten
+372,Star Wars Episode 2: Attack of the Clones,DVD,Sci-fi,Adventure,George Lucas,Male,Yes,No,No,USA,2002,PG,6.6,0.65,0.87,0.56,6.5,5.4,6.8,0.09,-0.3,6.3,Fresh
+373,Star Wars Episode 3: Revenge of the Sith,DVD,Sci-fi,Adventure,George Lucas,Male,Yes,No,No,USA,2005,12,7.6,0.79,0.92,0.66,7.3,7.4,6.2,0.13,1.1,7.1,Fresh
+374,Star Wars Episode 4: A New Hope,DVD,Sci-fi,Adventure,George Lucas,Male,Yes,No,No,USA,1977,U,8.6,0.93,0.89,0.96,8.8,8.4,9.2,-0.03,-0.4,8.8,Fresh
+375,Star Wars Episode 5: The Empire Strikes Back,DVD,Sci-fi,Adventure,Irving Kerschner,Male,Yes,No,No,USA,1979,U,8.7,0.94,0.94,0.97,9,8.8,9.2,-0.03,-0.2,8.9,Fresh
+376,Star Wars Episode 6: Return of the Jedi,DVD,Sci-fi,Adventure,Richard Marquand,Male,Yes,No,No,USA,1981,U,8.3,0.83,0.94,0.94,7.3,8,8.8,-0.11,-1.5,8.1,Fresh
+377,Stardust,DVD,Fantasy,Romance,Matthew Vaughn,Male,No,No,No,UK,2007,PG,7.6,0.77,0.7,0.86,6.8,7.2,8.2,-0.09,-1.4,7.5,Fresh
+378,Starship Troopers,Blu-ray,Sci-fi,Satire,Paul Verhoeven,Male,Yes,No,No,USA,1997,18,7.3,0.71,0.92,0.7,6.4,7.6,7.4,0.01,-1,7.2,Fresh
+379,Starship Troopers 2: Hero of the Federation,DVD,Sci-fi,Horror,Phil Tippett,Male,Yes,No,No,USA,2004,18,3.6,0.33,0.59,0.12,4.7,3.8,3.6,0.21,1.1,3.9,Rotten
+380,Starship Troopers 3: Marauder,DVD,Sci-fi,Satire,Edward Neumeier,Male,Yes,No,No,USA,2008,15,4.3,0.43,0.46,0.19,4.9,4.4,4.6,0.24,0.3,4.6,Rotten
+381,Starter for 10,Blu-ray,Drama,Romance,Tom Vaughan,Male,No,No,No,UK,2006,15,6.7,0.9,0.8,0.66,7,6.6,7,0.24,0,6.8,Fresh
+382,Still Alice,DVD,Drama,N/A,Richard Glatzer & Wash Westmoreland,Male,No,No,No,USA,2014,12,7.5,0.85,0.83,0.85,7.4,7.4,8,0,-0.6,7.6,Fresh
+383,Sunset Boulevard,DVD,Comedy,Noir,Billy Wilder,Male,No,No,No,USA,1950,PG,8.4,0.98,0.79,0.95,9.5,8.8,9,0.03,0.5,8.9,Fresh
+384,Super Size Me,DVD,Documentary,N/A,Morgan Spurlock,Male,Yes,No,No,USA,2004,12,7.2,0.92,0.85,0.72,7.7,6.2,7.4,0.2,0.3,7.1,Fresh
+385,Superbad,Blu-ray,Comedy,n/a,Greg Motolla,Male,No,No,No,USA,2007,15,7.6,0.88,0.88,0.87,7.4,7.8,8.4,0.01,-1,7.8,Fresh
+386,Suspiria,Blu-ray,Horror,Supernatural,Dario Argento,Male,No,No,No,Italy,1977,18,7.3,0.94,0.87,0.83,8.4,8,8,0.11,0.4,7.9,Fresh
+387,Team America: World Police,DVD,Comedy,Action,Trey Parker,Male,No,No,No,Germany,2004,15,7.2,0.77,0.69,0.8,7,7,7.8,-0.03,-0.8,7.3,Fresh
+388,Tenet,Blu-ray,Action,Spy,Christopher Nolan,Male,No,Yes,No,USA,2020,15,7.3,0.69,0.74,0.76,6.9,6.8,8,-0.07,-1.1,7.3,Fresh
+389,The 40 Year Old Virgin,DVD,Comedy,N/A,Judd Apatow,Male,No,No,No,USA,2005,15,7.1,0.85,0.82,0.84,7,6.6,8,0.01,-1,7.2,Fresh
+390,The Adjustment Bureau,Blu-ray,Sci-fi,Thriller,George Nolfi,Male,No,No,No,USA,2011,12,7,0.72,0.73,0.67,6.6,6.2,7.2,0.05,-0.6,6.8,Fresh
+391,The Artist,DVD,Drama,Romance,Michel Hazanavicius,Male,No,No,No,France,2011,PG,7.9,0.95,0.83,0.87,8.8,7.6,8.4,0.08,0.4,8.2,Fresh
+392,The Bay,Blu-ray,Horror,Found footage,Barry Levinson,Male,No,No,No,USA,2012,15,5.7,0.76,0.76,0.43,6.5,5.8,6,0.33,0.5,6.0,Fresh
+393,The Big Lebowski,DVD,Comedy,Crime,The Coen Brothers,Male,No,Yes,No,USA,1998,18,8.1,0.8,0.86,0.93,7.4,8.2,9,-0.13,-1.6,8.2,Fresh
+394,The Big Short,Blu-ray,Comedy,Drama,Adam McKay,Male,No,Yes,No,USA,2015,15,7.8,0.89,0.87,0.88,7.8,7.6,8.2,0.01,-0.4,7.9,Fresh
+395,The Birds,DVD,Horror,Thriller,Alfred Hitchcock,Male,No,No,No,USA,1963,15,7.6,0.94,0.8,0.83,8.3,7.6,8,0.11,0.3,7.9,Fresh
+396,The Blair Witch Project,DVD,Horror,Found footage,Daniel Myrick,Male,No,No,No,USA,1999,15,6.5,0.86,0.79,0.57,7.7,6.6,6.6,0.29,1.1,6.9,Fresh
+397,The Bourne Identity,DVD,Action,Thriller,Doug Liman,Male,Yes,Yes,Yes,USA,2002,12,7.8,0.84,0.9,0.93,7,7.4,8.4,-0.09,-1.4,7.7,Fresh
+398,The Bourne Supremacy,DVD,Action,Thriller,Paul Greengrass,Male,Yes,Yes,Yes,USA,2004,12,7.4,0.82,0.9,0.9,7.2,7.2,8.2,-0.08,-1,7.5,Fresh
+399,The Bourne Ultimatum,DVD,Action,Thriller,Paul Greengrass,Male,Yes,Yes,Yes,USA,2007,12,8,0.92,0.88,0.91,8,7.4,8.6,0.01,-0.6,8.0,Fresh
+400,The Boy and the Heron,Blu-ray,Fantasy,Animation,Hayao Miyazaki,Male,No,No,No,Japan,2023,12,7.5,0.97,0.89,0.88,8.5,8,8.8,0.09,-0.3,8.2,Fresh
+401,The Breakfast Club,Blu-ray,Drama,N/A,John Hughes,Male,No,No,No,USA,1986,15,7.8,0.89,0.9,0.92,7.8,7.6,8.6,-0.03,-0.8,8.0,Fresh
+402,The Bridge on the River Kwai,DVD,War,Drama,David Lean,Male,No,No,No,UK,1957,PG,8.1,0.96,0.86,0.93,9.4,8.4,8.6,0.03,0.8,8.6,Fresh
+403,The Cabin in the Woods,DVD,Horror,Comedy,Drew Goddard,Male,No,No,No,USA,2011,15,7,0.92,0.73,0.74,7.9,6.8,7.6,0.18,0.3,7.3,Fresh
+404,The Cat Returns,DVD,Fantasy,Animation,Hiroyuki Morita,Male,No,No,No,Japan,2002,U,7.1,0.88,0.88,0.82,6.9,7.2,8,0.06,-1.1,7.3,Fresh
+405,The Cell,DVD,Sci-fi,Thriller,Tarsem Singh,Male,No,No,No,USA,2000,18,6.4,0.45,0.74,0.57,5.6,6.4,6.8,-0.12,-1.2,6.3,Rotten
+406,The Core,DVD,Disaster,Sci-fi,Jon Amiel,Male,No,No,No,USA,2003,12,5.5,0.39,0.64,0.34,5.3,4.8,5.4,0.05,-0.1,5.3,Rotten
+407,The Damned United,DVD,Drama,Biopic,Tom Hooper,Male,No,No,No,UK,2009,15,7.5,0.92,0.51,0.85,7.4,7.4,7.8,0.07,-0.4,7.5,Fresh
+408,The Dark Knight,Blu-ray,Action,N/A,Christopher Nolan,Male,Yes,Yes,No,USA,2008,12,9,0.94,0.92,0.94,8.6,9,8.8,0,-0.2,8.9,Fresh
+409,The Dark Knight Rises,Blu-ray,Action,N/A,Christopher Nolan,Male,Yes,Yes,No,USA,2012,12,8.4,0.87,0.84,0.9,8,7.4,8.8,-0.03,-0.8,8.2,Fresh
+410,The Day After,DVD,Drama,War,Nicholas Meyer,Male,No,No,No,USA,1983,12,7,0.83,0.88,0.69,7.3,6.8,7.4,0.14,-0.1,7.1,Fresh
+411,The Day After Tomorrow,Blu-ray,Disaster,Sci-fi,Roland Emmerich,Male,No,No,No,USA,2004,12,6.5,0.45,0.81,0.5,5.3,5.8,6.4,-0.05,-1.1,6.0,Rotten
+412,The Departed,DVD,Thriller,Crime,Martin Scorsese,Male,No,No,No,USA,2006,18,8.5,0.91,0.92,0.94,8.3,8.6,8.8,-0.03,-0.5,8.6,Fresh
+413,The Descent,DVD,Horror,N/A,Neil Marshall,Male,No,No,No,UK,2005,18,7.2,0.86,0.87,0.76,7.4,7.2,7.6,0.1,-0.2,7.4,Fresh
+414,The Devil Wears Prada,DVD,Comedy,Drama,David Frankel,Male,No,No,No,USA,2006,12,6.9,0.75,0.9,0.76,6.7,7.6,7.6,-0.01,-0.9,7.2,Fresh
+415,The Disaster Artist,DVD,Comedy,Biopic,James Franco,Male,No,Yes,No,USA,2017,15,7.3,0.91,0.82,0.85,7.8,7.2,8,0.06,-0.2,7.6,Fresh
+416,The Diving Bell and the Butterfly,DVD,Drama,N/A,Julian Schnabel,Male,No,No,No,France,2007,12,8,0.94,0.84,0.92,8.3,8.2,8.6,0.02,-0.3,8.3,Fresh
+417,The Exorcist,Blu-ray,Horror,N/A,William Friedkin,Male,Yes,No,No,USA,1973,18,8.1,0.78,0.79,0.87,8.5,8,8.4,-0.09,0.1,8.3,Fresh
+418,The Fabelmans,Blu-ray,Drama,Biopic,Steven Spielberg,Male,No,Yes,No,USA,2022,12,7.5,0.92,0.76,0.83,8.2,8,8.4,0.09,-0.2,8.0,Fresh
+419,The Father,DVD,Drama,N/A,Florian Zeller,Male,No,No,No,UK,2020,12,8.2,0.98,0.84,0.92,8.7,8.6,8.6,0.06,0.1,8.5,Fresh
+420,The Fifth Element,DVD,Sci-fi,Action,Luc Besson,Male,No,No,No,France,1997,PG,7.6,0.71,0.91,0.87,6.4,7.6,8.2,-0.16,-1.8,7.5,Fresh
+421,The Full Monty,DVD,Comedy,Drama,Peter Cattaneo,Male,No,No,No,UK,1997,15,7.2,0.96,0.75,0.79,7.5,7.2,7.8,0.17,-0.3,7.4,Fresh
+422,The Girl Who Leapt Through Time,DVD,Sci-fi,Animation,Mamoru Hosoda,Male,No,No,No,Japan,2006,PG,7.7,0.84,0.91,0.9,6.6,7.6,8.4,-0.06,-1.8,7.6,Fresh
+423,The Girl with all the Gifts,Blu-ray,Horror,Sci-fi,Colm McCarthy,Male,No,No,No,UK,2016,15,6.6,0.86,0.73,0.67,7.2,6.6,7,0.19,0.2,6.9,Fresh
+424,The Girl with the Dragon Tattoo,Blu-ray,Thriller,Noir,David Fincher,Male,Yes,No,No,USA,2011,18,7.8,0.87,0.86,0.86,7.6,7.8,8.2,0.01,-0.6,7.9,Fresh
+425,The Godfather,DVD,Drama,Crime,Francis Ford Coppola,Male,Yes,No,No,USA,1972,18,9.2,0.97,0.91,0.98,9.4,9.2,9.6,-0.01,-0.2,9.4,Fresh
+426,The Green Mile,DVD,Fantasy,Horror,Frank Darabont,Male,No,No,No,USA,1999,18,8.6,0.79,0.92,0.94,6.8,8.4,8.8,-0.15,-2,8.2,Fresh
+427,The Hangover,DVD,Comedy,N/A,Todd Phillips,Male,Yes,No,No,USA,2009,15,7.7,0.79,0.87,0.84,6.9,7.2,8.2,-0.05,-1.3,7.5,Fresh
+428,The History Boys,DVD,Drama,Comedy,Nicholas Hytner,Male,No,No,No,UK,2006,15,6.8,0.65,0.76,0.7,6.4,6.8,7.4,-0.05,-1,6.9,Fresh
+429,The Hobbit: An Unexpected Journey,Blu-ray,Fantasy,Adventure,Peter Jackson,Male,Yes,No,No,New Zealand,2012,12,7.8,0.64,0.84,0.83,6.6,6.8,8.2,-0.19,-1.6,7.4,Fresh
+430,The Hobbit: The Battle of the Five Armies,Blu-ray,Fantasy,Adventure,Peter Jackson,Male,Yes,Yes,No,New Zealand,2014,12,7.4,0.59,0.78,0.74,6.3,6.4,7.8,-0.15,-1.5,7.0,Rotten
+431,The Hobbit: The Desolation of Smaug,Blu-ray,Fantasy,Adventure,Peter Jackson,Male,Yes,Yes,No,New Zealand,2013,12,7.8,0.74,0.77,0.85,6.8,6.6,8.2,-0.11,-1.4,7.4,Fresh
+432,The Holdovers,Blu-ray,Comedy,Drama,Alexander Payne,Male,No,Yes,No,USA,2023,15,7.9,0.97,0.89,0.92,8.5,8.4,9,0.05,-0.5,8.5,Fresh
+433,The Hole,DVD,Horror,Thriller,Nick Hamm,Male,No,No,No,UK,2001,18,6.2,0.53,0.79,0.53,5.8,5.8,6.6,0,-0.8,6.1,Rotten
+434,The Howling,Blu-ray,Horror,N/A,Joe Dante,Male,Yes,Yes,No,USA,1981,18,6.5,0.74,0.8,0.6,6.4,6.6,7,0.14,-0.6,6.6,Fresh
+435,The Hunger Games,Blu-ray,Sci-fi,Dystopian,Gary Ross,Male,Yes,No,No,USA,2012,12,7.2,0.84,0.81,0.81,7.3,7,8,0.03,-0.7,7.4,Fresh
+436,The Hunger Games: Catching Fire,Blu-ray,Sci-fi,Dystopian,Francis Lawrence,Male,Yes,No,No,USA,2013,12,7.5,0.9,0.79,0.89,7.6,7.4,8.6,0.01,-1,7.8,Fresh
+437,The Hunger Games: Mockingjay Part 1,Blu-ray,Sci-fi,Dystopian,Francis Lawrence,Male,Yes,Yes,No,USA,2014,12,6.6,0.69,0.8,0.71,6.3,6.4,7.6,-0.02,-1.3,6.7,Fresh
+438,The Hunger Games: Mockingjay Part 2,Blu-ray,Sci-fi,Dystopian,Francis Lawrence,Male,Yes,No,No,USA,2015,12,6.6,0.69,0.72,0.66,6.5,6.6,7.2,0.03,-0.7,6.7,Fresh
+439,The Hunt,DVD,Drama,Psychological,Thomas Vinterberg,Male,No,No,No,Denmark,2012,15,8.3,0.92,0.89,0.93,7.8,8.6,8.6,-0.01,-0.8,8.3,Fresh
+440,The Hurt Locker,Blu-ray,War,Drama,Kathryn Bigelow,Female,No,No,No,USA,2008,15,7.5,0.97,0.88,0.84,8.5,7.4,8,0.13,0.5,7.9,Fresh
+441,The Imitation Game,DVD,Drama,Biopic,Morten Tyldum,Male,No,Yes,No,UK,2014,12,8,0.9,0.91,0.91,7.7,7.6,8.4,-0.01,-0.7,7.9,Fresh
+442,The Incredibles,DVD,Action,Family,Brad Bird,Male,Yes,No,No,USA,2004,U,8,0.97,0.88,0.75,8.4,8.2,6.8,0.22,1.6,7.9,Fresh
+443,The Karate Kid,DVD,Action,Sports,John G Avildsen,Male,Yes,No,No,USA,1984,15,7.3,0.89,0.9,0.82,7,7.4,8,0.07,-1,7.4,Fresh
+444,The King of Comedy,DVD,Comedy,Black Comedy,Martin Scorsese,Male,No,No,No,USA,1982,PG,7.8,0.9,0.83,0.9,8.3,8.4,8.2,0,0.1,8.2,Fresh
+445,The King's Speech,Blu-ray,Drama,Historical,Tom Hooper,Male,No,No,No,UK,2010,12,8,0.94,0.91,0.92,8.6,7.6,8.6,0.02,0,8.2,Fresh
+446,The Lives of Others,DVD,Drama,Historical,Florian Henckel von Donnersmarck,Male,No,No,No,Germany,2007,15,8.4,0.92,0.91,0.96,8.3,8.6,9,-0.04,-0.7,8.6,Fresh
+447,The Lobster,Blu-ray,Comedy,Black Comedy,Yorgos Lanthimos,Male,No,Yes,No,Ireland,2015,15,7.1,0.87,0.76,0.65,7.5,7.6,6.8,0.22,0.7,7.3,Fresh
+448,The Lord of the Rings,DVD,Fantasy,Animation,Ralph Bakshi,Male,No,No,No,USA,1978,PG,6.2,0.5,0.76,0.64,5.5,6.4,7.2,-0.14,-1.7,6.3,Rotten
+449,The Lure,Blu-ray,Musical,Horror,Agnieszka Smoczyńska,Female,No,No,No,Poland,2015,15,6.2,0.89,0.53,0.71,7.2,6.6,7,0.18,0.2,6.8,Fresh
+450,The Machinist,DVD,Thriller,Psychological,Brad Anderson,Male,No,No,No,Spain,2004,15,7.6,0.77,0.84,0.83,6.3,7.6,7.8,-0.06,-1.5,7.3,Fresh
+451,The Martian,Blu-ray,Sci-fi,Drama,Ridley Scott,Male,No,Yes,No,UK,2015,12,8,0.91,0.89,0.91,7.9,7.6,8.6,0,-0.7,8.0,Fresh
+452,The Matrix,Blu-ray,Sci-fi,Action,Lana Wachowski and Lilly Wachowski,Female,Yes,No,No,USA,1999,15,8.7,0.83,0.89,0.85,7.7,8.4,7.2,-0.02,0.5,8.0,Fresh
+453,The Mist,Blu-ray,Horror,N/A,Frank Darabont,Male,No,No,No,USA,2007,15,7.1,0.72,0.83,0.65,6.6,6.8,7,0.07,-0.4,6.9,Fresh
+454,The Mummy,DVD,Adventure,Action,Stephen Sommers,Male,Yes,No,No,USA,1999,15,7.1,0.61,0.89,0.75,5.9,7,7.6,-0.14,-1.7,6.9,Fresh
+455,The Nest,DVD,Drama,Psychological,Sean Durkin,Male,No,No,No,UK,2020,15,6.3,0.9,0.48,0.4,7.5,6.8,5.2,0.5,2.3,6.5,Fresh
+456,The Omega Man,DVD,Sci-fi,Action,Boris Sagal,Male,No,No,No,USA,1971,PG,6.4,0.65,0.74,0.53,5.5,6.4,6.6,0.12,-1.1,6.2,Fresh
+457,The Poseidon Adventure,DVD,Disaster,Thriller,Ronald Neame,Male,Yes,No,No,USA,1972,PG,7.1,0.82,0.73,0.76,7,7,7.6,0.06,-0.6,7.2,Fresh
+458,The Prestige,DVD,Thriller,Sci-fi,Christopher Nolan,Male,No,No,No,UK,2006,12,8.5,0.77,0.81,0.92,7.1,8.4,8.6,-0.15,-1.5,8.2,Fresh
+459,The Princess Bride,Blu-ray,Fantasy,Romance,Rob Reiner,Male,No,No,No,USA,1987,PG,8,0.98,0.88,0.94,8.5,8,9,0.04,-0.5,8.4,Fresh
+460,The Producers,DVD,Comedy,Satire,Mel Brooks,Male,No,No,No,USA,1967,PG,7.5,0.91,0.84,0.85,8.2,7.6,8.2,0.06,0,7.9,Fresh
+461,The Raid,DVD,Action,Martial Arts,Gareth Evans,Male,Yes,No,No,Indonesia,2011,18,7.6,0.87,0.87,0.87,7.6,8,8.2,0,-0.6,7.9,Fresh
+462,The Raid 2,DVD,Action,Martial Arts,Gareth Evans,Male,Yes,No,No,Indonesia,2014,18,7.9,0.82,0.87,0.87,7.5,8,8.4,-0.05,-0.9,8.0,Fresh
+463,The Road,Blu-ray,Sci-fi,Drama,John Hillcoat,Male,No,Yes,No,USA,2009,15,7.2,0.74,0.82,0.68,7,7.2,7.2,0.06,-0.2,7.2,Fresh
+464,The Rock,DVD,Action,Thriller,Michael Bay,Male,No,No,No,USA,1996,15,7.4,0.67,0.84,0.85,6.6,7,8.2,-0.18,-1.6,7.3,Fresh
+465,The Running Man,DVD,Sci-fi,Action,Paul Michael Glaser,Male,No,No,No,USA,1987,18,6.7,0.66,0.72,0.61,5.7,6.6,7,0.05,-1.3,6.5,Fresh
+466,The Settlers,Blu-ray,Drama,Historical,Felipe Gálvez Haberle,Male,No,Yes,No,Chile,2023,15,6.9,0.93,0.73,0.77,7.5,7.2,7.8,0.16,-0.3,7.4,Fresh
+467,The Shallows,DVD,Horror,Thriller,Jaume Collet-Serra,Male,No,No,No,USA,2016,15,6.3,0.78,0.76,0.59,6.5,5.8,6.8,0.19,-0.3,6.4,Fresh
+468,The Shape of Water,DVD,Fantasy,Romance,Guillermo del Toro,Male,No,No,No,USA,2017,15,7.3,0.92,0.76,0.72,8.3,7.4,7.4,0.2,0.9,7.6,Fresh
+469,The Shawshank Redemption,DVD,Drama,N/A,Frank Darabont,Male,No,No,No,USA,1994,15,9.3,0.91,0.95,0.98,8.4,9,9.4,-0.07,-1,9.0,Fresh
+470,The Shining,Blu-ray,Horror,Psychological,Stanley Kubrick,Male,No,No,No,USA,1980,15,8.4,0.83,0.88,0.93,8.6,8.4,8.8,-0.1,-0.2,8.6,Fresh
+471,The Silence of the Lambs,DVD,Horror,Thriller,Jonathan Demme,Male,No,No,No,USA,1991,18,8.6,0.95,0.91,0.95,8.8,8.6,8.8,0,0,8.7,Fresh
+472,The Simpsons Movie,DVD,Comedy,Animation,David Silverman,Male,No,No,No,USA,2007,PG,7.3,0.87,0.84,0.77,7.5,6.8,7.8,0.1,-0.3,7.4,Fresh
+473,The Sixth Sense,DVD,Thriller,Drama,M. Night Shyamalan,Male,No,No,No,USA,1999,15,8.2,0.86,0.89,0.9,7.6,8,8.4,-0.04,-0.8,8.1,Fresh
+474,The Social Network,DVD,Drama,Biopic,David Fincher,Male,No,Yes,No,USA,2010,12,7.8,0.96,0.84,0.87,9,8,8.2,0.09,0.8,8.3,Fresh
+475,The Sum of all Fears,Blu-ray,Thriller,Political,Phil Alden Robinson,Male,No,No,No,USA,2002,12,6.4,0.59,0.77,0.49,5.9,6,6.4,0.1,-0.5,6.2,Rotten
+476,The Texas Chain Saw Massacre,DVD,Horror,N/A,Tobe Hooper,Male,Yes,Yes,No,USA,1974,18,7.4,0.89,0.86,0.82,8.2,7.6,8,0.07,0.2,7.8,Fresh
+477,The Thing,DVD,Horror,Sci-fi,John Carpenter,Male,No,No,No,USA,1982,18,8.2,0.85,0.86,0.92,7.5,8.6,8.6,-0.07,-1.1,8.2,Fresh
+478,The Towering Inferno,DVD,Disaster,N/A,John Guillermin,Male,No,No,No,USA,1974,15,7,0.68,0.87,0.72,6.5,6.8,7.4,-0.04,-0.9,6.9,Fresh
+479,The Town,DVD,Thriller,Crime,Ben Affleck,Male,No,Yes,No,USA,2010,15,7.5,0.92,0.74,0.85,7.7,7.2,8,0.07,-0.3,7.6,Fresh
+480,The Tree of Life,Blu-ray,Drama,N/A,Terrence Malick,Male,No,No,No,USA,2011,15,6.8,0.85,0.63,0.6,8.2,7.8,6.8,0.25,1.4,7.4,Fresh
+481,The Truman Show,DVD,Sci-fi,Drama,Peter Weir,Male,No,No,No,USA,1998,PG,8.2,0.94,0.9,0.89,8.5,8.4,8.2,0.05,0.3,8.3,Fresh
+482,The Tunnel,DVD,Horror,Found footage,Carlo Ledesma,Male,No,Yes,No,Australia,2011,15,5.8,1,0.85,0.5,7,5.6,6.4,0.5,0.6,6.2,Fresh
+483,The Untouchables,DVD,Action,Crime,Brian de Palma,Male,No,No,No,USA,1987,15,7.8,0.83,0.84,0.89,7.6,7.6,8.2,-0.06,-0.6,7.8,Fresh
+484,The Vanishing,DVD,Thriller,Psychological,George Sluizer,Male,No,No,No,The Netherlands,1988,15,7.7,0.96,0.81,0.88,8.4,8,8.2,0.08,0.2,8.1,Fresh
+485,The War Game,Blu-ray,Documentary,War,Peter Watkins,Male,No,No,No,UK,1966,12,8,0.93,0.8,0.89,8.5,8,8.2,0.04,0.3,8.2,Fresh
+486,The Wave,DVD,Disaster,N/A,Roar Uthaug,Male,No,No,No,Norway,2015,15,6.6,0.83,0.67,0.66,6.6,6.4,7,0.17,-0.4,6.7,Fresh
+487,The Wind Rises,DVD,Romance,Animation,Hayao Miyazaki,Male,No,No,No,Japan,2013,PG,7.7,0.88,0.91,0.85,8,8.2,8.2,0.03,-0.2,8.0,Fresh
+488,The Wind That Shakes the Barley,DVD,Drama,War,Ken Loach,Male,No,No,No,Ireland,2006,15,7.5,0.9,0.83,0.87,7.7,7.8,8.2,0.03,-0.5,7.8,Fresh
+489,The World is Not Enough,DVD,Action,Spy,Michael Apted,Male,No,No,No,UK,1999,12,6.4,0.51,0.86,0.49,5.6,5.8,6.4,0.02,-0.8,6.1,Rotten
+490,The Worst Person in the World,Blu-ray,Romance,Drama,Joachim Trier,Male,No,Yes,No,Norway,2021,15,7.7,0.96,0.76,0.86,8.7,8.2,8.2,0.1,0.5,8.2,Fresh
+491,The Wrestler,DVD,Drama,Sports,Darren Aronofsky,Male,No,No,No,USA,2008,15,7.9,0.98,0.87,0.88,8.4,8.2,8.2,0.1,0.2,8.2,Fresh
+492,There Will Be Blood,Blu-ray,Drama,N/A,Paul Thomas Anderson,Male,No,No,No,USA,2007,15,8.2,0.91,0.91,0.86,8.5,9,8.4,0.05,0.1,8.5,Fresh
+493,Thirteen Days,DVD,Drama,Political,Roger Donaldson,Male,No,No,No,USA,2000,12,7.3,0.83,0.84,0.8,7.2,6.8,7.6,0.03,-0.4,7.2,Fresh
+494,This is England,DVD,Drama,N/A,Shane Meadows,Male,No,No,No,UK,2006,18,7.7,0.93,0.85,0.9,7.7,8,8.4,0.03,-0.7,8.0,Fresh
+495,This is Spinal Tap,DVD,Comedy,Music,Rob Reiner,Male,No,No,No,USA,1984,15,7.9,0.96,0.88,0.92,8.6,7.8,8.8,0.04,-0.2,8.3,Fresh
+496,Throne of Blood,DVD,Action,Drama,Akira Kurosawa,Male,No,No,No,Japan,1957,PG,8,0.96,0.89,0.93,8.8,8.6,8.8,0.03,0,8.6,Fresh
+497,Time Bandits,DVD,Fantasy,Adventure,Terry Gilliam,Male,No,No,No,UK,1981,PG,6.9,0.91,0.86,0.77,7.8,7,7.6,0.14,0.2,7.3,Fresh
+498,Titanic,Blu-ray,Romance,Disaster,James Cameron,Male,No,No,No,USA,1997,12,7.9,0.88,0.94,0.69,8,7.6,6.6,0.19,1.4,7.5,Fresh
+499,Tokyo Story,DVD,Drama,N/A,Yasujiro Ozu,Male,No,No,No,Japan,1953,U,8.1,1,0.88,0.93,9.6,8.8,9,0.07,0.6,8.9,Fresh
+500,Tomorrow Never Dies,DVD,Action,Spy,Roger Spotiswoode,Male,Yes,No,No,UK,1997,12,6.5,0.57,0.86,0.53,6.1,6,6.6,0.04,-0.5,6.3,Rotten
+501,Toni Erdmann,DVD,Comedy,Drama,Maren Ade,Female,No,No,No,Germany,2016,15,7.3,0.93,0.65,0.73,8.3,7.8,7.4,0.2,0.9,7.7,Fresh
+502,Top Gun,Blu-ray,Action,N/A,Tony Scott,Male,Yes,No,Yes,USA,1986,12,6.9,0.58,0.8,0.83,6.1,6.8,8.2,-0.25,-2.1,7.0,Rotten
+503,Top Gun Maverick,4k Blu-ray,Action,N/A,Joseph Kosinski,Male,Yes,Yes,No,USA,2022,12,8.3,0.96,0.81,0.99,8.2,8,9.8,-0.03,-1.6,8.6,Fresh
+504,Total Recall,Blu-ray,Sci-fi,Action,Paul Verhoeven,Male,No,No,No,USA,1990,18,7.5,0.82,0.91,0.79,7.3,7.6,7.6,0.03,-0.3,7.5,Fresh
+505,Touching the Void,Blu-ray,Documentary,N/A,Kevin Macdonald,Male,No,No,No,UK,2003,12,8,0.94,0.86,0.92,8,7.8,8.6,0.02,-0.6,8.1,Fresh
+506,Train to Busan,Blu-ray,Horror,Action,Yeon Sang-ho,Male,Yes,No,No,South Korea,2016,15,7.6,0.95,0.94,0.89,7.7,7.8,8.4,0.06,-0.7,7.9,Fresh
+507,Troll Hunter,Blu-ray,Horror,Found footage,Andre Ovredal,Male,No,No,No,Norway,2011,15,6.9,0.82,0.83,0.72,6.6,6.8,7.2,0.1,-0.6,6.9,Fresh
+508,True Lies,DVD,Action,Comedy,James Cameron,Male,No,No,No,USA,1994,15,7.3,0.7,0.92,0.76,6.6,7.2,7.6,-0.06,-1,7.2,Fresh
+509,Twelve Monkeys,DVD,Sci-fi,Dystopian,Terry Gilliam,Male,No,No,No,USA,1995,15,8,0.88,0.85,0.88,7.6,7.8,8.2,0,-0.6,7.9,Fresh
+510,Twilight's Last Gleaming,Blu-ray,Thriller,Political,Robert Aldrich,Male,No,No,No,USA,1977,15,6.7,0.8,0.86,0.73,6,6.8,7.4,0.07,-1.4,6.7,Fresh
+511,Twister,DVD,Disaster,N/A,Jan de Bont,Male,No,No,No,USA,1996,PG,6.5,0.63,0.85,0.58,6.1,6.2,7,0.05,-0.9,6.5,Fresh
+512,Unbreakable,Blu-ray,Thriller,Drama,M. Night Shyamalan,Male,No,No,No,USA,2000,15,7.3,0.7,0.83,0.77,6.4,7.4,7.6,-0.07,-1.2,7.2,Fresh
+513,United 93,DVD,Thriller,Drama,Paul Greengrass,Male,No,No,No,USA,2006,15,7.6,0.9,0.75,0.83,7.8,7.4,8,0.07,-0.2,7.7,Fresh
+514,V for Vendetta,Blu-ray,Sci-fi,Dystopian,James McTeigue,Male,No,No,No,UK,2005,15,8.2,0.73,0.89,0.9,6.8,7.6,8.6,-0.17,-1.8,7.8,Fresh
+515,Vanilla Sky,DVD,Sci-fi,Psychological,Cameron Crowe,Male,No,No,No,USA,2001,15,6.9,0.43,0.72,0.72,5.3,6.8,7.4,-0.29,-2.1,6.6,Rotten
+516,Vertical Limit,DVD,Action,Thriller,Martin Campbell,Male,No,No,No,USA,2000,12,5.9,0.49,0.63,0.41,5.2,5.6,6,0.08,-0.8,5.7,Rotten
+517,Vertigo,DVD,Thriller,Psychological,Alfred Hitchcock,Male,No,No,No,USA,1958,PG,8.3,0.92,0.83,0.93,8.9,8.4,8.8,-0.01,0.1,8.6,Fresh
+518,Walk the Line,DVD,Drama,Biopic,James Mangold,Male,No,No,No,USA,2005,12,7.8,0.82,0.79,0.9,7.2,7.6,8.4,-0.08,-1.2,7.8,Fresh
+519,Wallace and Gromit: The Curse of the Wererabbit,DVD,Comedy,Animation,Nick Park,Male,No,No,No,UK,2005,PG,7.5,0.95,0.77,0.79,8.1,7.6,7.8,0.16,0.3,7.8,Fresh
+520,Waltz with Bashir,DVD,Documentary,War,Ari Folman,Male,No,No,No,Israel,2008,18,8,0.97,0.89,0.91,8.4,8,8.4,0.06,0,8.2,Fresh
+521,Wanted,DVD,Action,N/A,Timur Bekmambetov,Male,No,Yes,No,USA,2008,18,6.7,0.71,0.68,0.69,6.5,5.8,7.4,0.02,-0.9,6.6,Fresh
+522,War for the Planet of the Apes,Blu-ray,Sci-fi,Action,Matt Reeves,Male,Yes,Yes,No,USA,2017,12,7.4,0.94,0.79,0.84,8.1,7.6,8,0.1,0.1,7.8,Fresh
+523,War of the Worlds,DVD,Sci-fi,Thriller,Steven Spielberg,Male,No,No,No,USA,2005,12,6.5,0.76,0.78,0.42,7,6.6,5.8,0.34,1.2,6.5,Fresh
+524,Wayne's World,DVD,Comedy,N/A,Penelope Spheeris,Female,Yes,Yes,No,USA,1992,PG,7,0.79,0.75,0.84,6.7,7,8.2,-0.05,-1.5,7.2,Fresh
+525,Wayne's World 2,DVD,Comedy,N/A,Stephen Surjik,Male,Yes,Yes,No,USA,1993,PG,6.2,0.6,0.85,0.63,5.8,6.2,7.2,-0.03,-1.4,6.4,Fresh
+526,West Beirut,DVD,Drama,War,Ziad Doueiri,Male,No,No,No,Lebanon,1998,12,7.6,0.94,0.71,0.91,7.3,7.8,8.6,0.03,-1.3,7.8,Fresh
+527,Westworld,DVD,Sci-fi,N/A,Michael Crichton,Male,No,No,No,USA,1973,15,6.9,0.84,0.83,0.7,7,7,7.2,0.14,-0.2,7.0,Fresh
+528,What We Do in the Shadows,Blu-ray,Comedy,Horror,Taika Waititi,Male,No,No,No,New Zealand,2014,15,7.6,0.96,0.92,0.87,7.9,8.2,8.2,0.09,-0.3,8.0,Fresh
+529,When Harry Met Sally,DVD,Romance,Comedy,Rob Reiner,Male,No,No,No,USA,1989,15,7.7,0.91,0.83,0.89,8,8,8.4,0.02,-0.4,8.0,Fresh
+530,When Marnie was There,DVD,Drama,Animation,Hiromasa Yonebayashi,Male,No,Yes,No,Japan,2014,U,7.7,0.92,0.9,0.88,7.5,7.6,8.2,0.04,-0.7,7.8,Fresh
+531,Whiplash,Blu-ray,Drama,N/A,Damien Chazelle,Male,No,No,No,USA,2014,15,8.5,0.94,0.93,0.94,8.6,8.8,9,0,-0.4,8.7,Fresh
+532,Whisper of the Heart,DVD,Romance,Animation,Yoshifumi Kondo,Male,No,No,No,Japan,1995,U,7.8,0.94,0.91,,7.6,8.2,,0.94,7.6,7.9,Fresh
+533,Wilderness,DVD,Horror,Thriller,M. J. Bassett,Female,No,No,No,UK,2006,15,6.1,0.33,0.84,0.46,4.7,5.8,6.2,-0.13,-1.5,5.7,Rotten
+534,Withnail & I,DVD,Comedy,N/A,Bruce Robinson,Male,No,No,No,UK,1987,15,7.5,0.92,0.86,0.94,8.5,7.8,9,-0.02,-0.5,8.2,Fresh
+535,Wolf Creek,DVD,Horror,N/A,Greg McLean,Male,Yes,No,No,Australia,2005,18,6.2,0.54,0.81,0.49,5.7,6,6.2,0.05,-0.5,6.0,Rotten
+536,World War Z,Blu-ray,Horror,Action,Marc Forster,Male,No,No,No,USA,2013,15,7,0.67,0.82,0.72,6.3,6.2,7.4,-0.05,-1.1,6.7,Fresh
+537,X+Y,DVD,Drama,Romance,Morgan Matthews,Male,No,No,No,UK,2014,12,7.1,0.87,0.67,0.77,6.6,6.8,7.6,0.1,-1,7.0,Fresh
+538,Y Tu Mama Tambien,DVD,Drama,Comedy,Alfonso Cuaron,Male,No,No,No,Mexico,2002,18,7.7,0.92,0.83,0.88,8.1,8.4,8.2,0.04,-0.1,8.1,Fresh
+539,Your Name.,DVD,Romance,Animation,Makoto Shinkai,Male,No,No,No,Japan,2016,12,8.4,0.98,0.96,0.94,8.2,8.4,9.2,0.04,-1,8.6,Fresh
+540,Zodiac,DVD,Thriller,Noir,David Fincher,Male,No,No,No,USA,2007,15,7.7,0.9,0.89,0.77,7.7,8,7.6,0.13,0.1,7.8,Fresh
+541,Zoolander,DVD,Comedy,N/A,Ben Stiller,Male,Yes,No,No,USA,2001,12,6.5,0.65,0.76,0.8,6,6.6,8,-0.15,-2,6.8,Fresh
+542,Big Daddy,DVD,Comedy,Drama,Dennis Dugan,Male,No,No,No,USA,1999,12,6.4,0.39,0.83,0.74,4.9,6.4,7.6,-0.35,-2.7,6.3,Rotten
+543,Day of the Dead,DVD,Horror,N/A,George A. Romero,Male,Yes,Yes,No,USA,1985,18,7.1,0.87,,0.75,7.1,7.6,7.6,0.12,-0.5,7.4,Fresh
+544,Frances Ha,DVD,Comedy,Drama,Noah Baumbach,Male,No,No,No,USA,2012,15,7.4,0.92,0.9,0.78,7.8,8,7.6,0.14,0.2,7.7,Fresh
+545,La Chimera,DVD,Drama,Historical,Alice Rohrwacher,Female,No,No,No,Italy,2023,15,7.3,0.94,0.84,0.74,8.2,8.2,7.6,0.2,0.6,7.8,Fresh
+546,The Relic,DVD,Horror,Sci-fi,Peter Hyams,Male,No,No,No,USA,1997,15,5.8,0.37,0.81,0.34,4.7,5.8,5.8,0.03,-1.1,5.5,Rotten
+547,Dune,Blu-ray,Sci-fi,Action,Denis Villeneuve,Male,Yes,No,No,USA,2021,12,8,0.83,0.77,0.9,7.7,7.8,9,-0.07,-1.3,8.1,Fresh
+548,Dune: Part Two,Blu-ray,Sci-fi,Action,Denis Villeneuve,Male,Yes,No,No,USA,2024,12,8.5,0.92,0.92,0.95,8.4,8.8,9.4,-0.03,-1,8.8,Fresh
+549,Late Night with the Devil,Blu-ray,Horror,Found footage,Cameron Collins,Male,No,No,No,Australia,2023,15,7,0.97,0.85,0.82,7.8,6.8,8,0.15,-0.2,7.4,Fresh
+550,Game Night,Blu-ray,Comedy,Action,John Francis Daley,Male,No,No,No,USA,2018,15,6.9,0.85,0.72,0.78,6.9,7,7.6,0.07,-0.7,7.1,Fresh
+551,The Host,Blu-ray,Horror,Satire,Bong Joon-ho,Male,No,No,No,South Korea,2006,15,7.1,0.93,0.79,0.72,7.7,7.6,7.4,0.21,0.3,7.5,Fresh
+552,Contact,DVD,Sci-fi,Drama,Robert Zemeckis,Male,No,No,No,USA,1997,PG,7.5,0.68,0.77,0.79,6.9,7.2,7.8,-0.11,-0.9,7.4,Fresh
+553,Conclave,Blu-ray,Thriller,Political,Edward Berger,Male,No,No,No,UK,2024,12,7.4,0.93,0.82,0.86,8.1,7.8,8.6,0.07,-0.5,8.0,Fresh
+554,Pacific Rim,Blu-ray,Sci-fi,N/A,Guillermo del Toro,Male,Yes,Yes,No,USA,2013,12,6.9,0.72,0.8,0.77,6.7,6.8,7.8,-0.05,-1.1,7.1,Fresh
+555,Antichrist,DVD,Horror,N/A,Lars von Trier,Male,No,No,No,Denmark,2009,18,6.5,0.53,0.72,0.55,5.6,6.8,6.4,-0.02,-0.8,6.3,Rotten
+556,Primer,Blu-ray,Sci-fi,N/A,Shane Carruth,Male,No,No,No,USA,2004,12,6.7,0.72,0.75,0.79,6.6,7.2,7.8,-0.07,-1.2,7.1,Fresh
+557,Upstream Color,Blu-ray,Sci-fi,Drama,Shane Carruth,Male,No,No,No,USA,2013,12,6.5,0.87,0.62,0.69,8,7.2,7.2,0.18,0.8,7.2,Fresh
+558,Full Metal Jacket,DVD,War,N/A,Stanley Kubrick,Male,No,No,No,UK,1987,18,8.2,0.9,0.87,0.94,8.3,8.4,8.8,-0.04,-0.5,8.4,Fresh
+559,March of the Penguins,DVD,Documentary,N/A,Luc Jacquet,Male,No,No,No,France,2005,U,7.5,0.94,0.86,0.81,7.8,7.2,7.8,0.13,0,7.6,Fresh
+560,Schindler's List,DVD,Drama,War,Steven Spielberg,Male,No,No,No,USA,1993,15,9,0.98,0.93,0.97,9.2,9,9.2,0.01,0,9.1,Fresh
+561,2012,Blu-ray,Disaster,N/A,Roland Emmerich,Male,No,Yes,No,USA,2009,12,5.8,0.4,0.76,0.47,5.2,5,6.2,-0.07,-1,5.6,Rotten
+562,"I, Daniel Blake",DVD,Drama,N/A,Ken Loach,Male,No,No,No,UK,2016,15,7.8,0.92,0.75,0.85,8,8,8,0.07,0,8.0,Fresh
+563,Shutter Island,Blu-ray,Thriller,Psychological,Martin Scorsese,Male,No,No,No,USA,2010,15,8.2,0.69,0.89,0.77,6.7,8.2,7.6,-0.08,-0.9,7.7,Fresh
+564,The Last Waltz,Blu-ray,Documentary,Music,Martin Scorsese,Male,No,No,No,USA,1978,U,8.1,0.98,0.77,0.94,8.6,8.4,9,0.04,-0.4,8.5,Fresh
+565,Memento,DVD,Thriller,Crime,Christopher Nolan,Male,No,No,No,USA,2000,15,8.4,0.94,0.91,0.94,8.3,8.4,8.8,0,-0.5,8.5,Fresh
+566,The Lodge,DVD,Horror,N/A,Veronika Franz,Male,No,No,No,USA,2008,18,3.8,0.13,0.59,0.13,,5.2,4,0,,4.3,Rotten
+567,Magnolia,DVD,Drama,N/A,Paul Thomas Anderson,Male,No,No,No,USA,1999,18,8,0.82,0.7,0.89,7.6,8.4,8.6,-0.07,-1,8.2,Fresh
+568,The Game,Blu-ray,Thriller,Mystery,David Fincher,Male,No,No,No,USA,1997,15,7.7,0.77,0.74,0.84,7.4,7.6,8,-0.07,-0.6,7.7,Fresh
+569,The Assassination of Jesse James by the Coward Robert Ford,Blu-ray,Drama,Historical,Andrew Dominik,Male,No,No,No,USA,2007,15,7.5,0.77,0.7,0.75,7.2,8,7.6,0.02,-0.4,7.6,Fresh
+570,Green Room,Blu-ray,Horror,Thriller,Jeremy Saulnier,Male,No,No,No,USA,2015,18,7,0.9,0.76,0.75,7.7,7.2,7.4,0.15,0.3,7.3,Fresh
+571,Anatomy of a Fall,Blu-ray,Drama,Legal,Justine Triet,Female,No,No,No,France,2023,15,7.6,0.96,0.82,0.9,8.5,8.2,8.6,0.06,-0.1,8.2,Fresh
+572,Creep,Blu-ray,Horror,Found footage,Patrick Brice,Male,No,No,No,USA,2014,15,6.3,0.91,0.71,0.66,7.5,6.6,7,0.25,0.5,6.9,Fresh
+573,All of Us Strangers,Blu-ray,Romance,Fantasy,Andrew Haigh,Male,No,Yes,No,UK,2023,15,7.6,0.96,0.89,0.91,8.8,7.8,8.8,0.05,0,8.3,Fresh
+574,Megamind,Blu-ray,Comedy,Animation,Tom McGrath,Male,No,No,No,USA,2010,PG,7.3,0.73,0.79,0.72,6.7,7.4,7.6,0.01,-0.9,7.3,Fresh
+575,Prometheus,Blu-ray,Sci-fi,Horror,Ridley Scott,Male,No,No,No,UK,2012,15,7,0.73,0.82,0.68,7,6.6,7.2,0.05,-0.2,7.0,Fresh
+576,Downsizing,Blu-ray,Comedy,Sci-fi,Alexander Payne,Male,No,Yes,No,USA,2017,15,5.8,0.47,0.51,0.25,5.7,4.8,4.6,0.22,1.1,5.2,Rotten
+577,The Post,DVD,Drama,Historical,Steven Spielberg,Male,No,Yes,No,USA,2017,12,7.2,0.88,0.76,0.74,7.9,7,7.2,0.14,0.7,7.3,Fresh
+578,More Than Honey,Blu-ray,Documentary,N/A,Markus Imhoof,Male,No,No,No,Switzerland,2012,U,7.5,1,0.78,0.79,7.2,7.4,8,0.21,-0.8,7.5,Fresh
+579,The Times of Harvey Milk,DVD,Documentary,Drama,Rob Epstein,Male,No,No,No,USA,1984,15,8.2,0.96,0.93,0.94,8.2,8.2,8.6,0.02,-0.4,8.3,Fresh
+580,The Substance,Blu-ray,Horror,Sci-fi,Coralie Fargeat,Female,No,Yes,No,France,2024,18,7.3,0.89,0.72,0.75,8,7.6,7.8,0.14,0.2,7.7,Fresh
+581,Baghead,Blu-ray,Comedy,Horror,Jay Duplass,Male,No,No,No,USA,2008,15,6,0.79,0.67,0.49,6.6,6.4,6.2,0.3,0.4,6.3,Fresh
+582,Joker,Blu-ray,Thriller,Crime,Todd Phillips,Male,Yes,Yes,No,USA,2019,15,8.3,0.68,0.88,0.88,7.3,7.6,8.8,-0.2,-1.5,8.0,Fresh
+583,Supervolcano,DVD,Disaster,Drama,Tony Mitchell,Male,No,No,No,UK,2005,12,6.6,,0.89,0.69,,5.6,6.8,,,6.3,
+584,Little Women,DVD,Drama,Historical,Greta Gerwig,Female,No,No,No,USA,2019,PG,7.8,0.95,0.8,0.92,8.5,8.2,9,0.03,-0.5,8.4,Fresh
+585,Scarface,DVD,Drama,Crime,Brian De Palma,Male,No,No,No,USA,1983,18,8.3,0.79,0.91,0.93,7.5,8.2,9,-0.14,-1.5,8.3,Fresh
+586,Seeking a Friend for the End of the World,DVD,Comedy,Drama,Lorene Scarafia,Female,No,No,No,USA,2012,15,6.7,0.55,0.73,0.53,6.1,6.6,6.6,0.02,-0.5,6.5,Rotten
+587,Onibaba,Blu-ray,Horror,Drama,Kaneto Shindo,Male,No,No,No,Japan,1964,15,7.9,0.89,0.88,0.9,7.2,8.2,8.2,-0.01,-1,7.9,Fresh
+588,Ginger Snaps,DVD,Horror,Supernatural,John Fawcett,Male,Yes,No,No,Canada,2000,18,6.8,0.9,0.92,0.78,7.3,7.2,7.8,0.12,-0.5,7.3,Fresh
+589,Eden Lake,Blu-ray,Horror,Thriller,James Watkins,Male,No,No,No,UK,2008,18,6.7,0.78,0.77,0.65,6.3,6.4,6.8,0.13,-0.5,6.6,Fresh
+590,Jurassic World,Blu-ray,Sci-fi,Action,Colin Trevorrow,Male,Yes,Yes,No,USA,2015,12,6.9,0.72,0.83,0.78,6.7,6.2,7.8,-0.06,-1.1,6.9,Fresh
+591,Heavenly Creatures,Blu-ray,Thriller,Crime,Peter Jackson,Male,No,Yes,No,New Zealand,1994,18,7.2,0.95,0.88,0.83,8.1,7.6,8,0.12,0.1,7.7,Fresh
+592,Fallen Leaves,Blu-ray,Comedy,Drama,Aki Kaurismaki,Male,No,Yes,No,Finland,2023,12,7.3,0.97,0.83,0.61,8.3,7.6,6.4,0.36,1.9,7.4,Fresh
+593,Limbo,Blu-ray,Comedy,Drama,Ben Sharrock,Male,No,Yes,No,UK,2020,12,7.2,0.93,0.59,0.55,7.9,7.8,6.8,0.38,1.1,7.4,Fresh
+594,Predator,DVD,Action,Horror,John McTiernan,Male,Yes,Yes,No,USA,1987,18,7.8,0.8,0.9,0.87,,7.6,8.2,-0.07,,7.9,Fresh
+595,Predator 2,DVD,Action,Sci-fi,Stephen Hopkins,Male,Yes,Yes,No,USA,1990,18,6.3,0.29,0.87,0.44,,5.8,6.2,-0.15,,6.1,Rotten
+596,Alien vs. Predator,DVD,Sci-fi,Horror,Paul WS Anderson,Male,Yes,Yes,No,USA,2004,15,5.7,0.21,0.81,0.39,,5.2,5.8,-0.18,,5.6,Rotten
+597,Alien vs. Predator: Requiem,DVD,Horror,Sci-fi,Greg Strause,Male,Yes,Yes,No,USA,2007,15,4.6,0.12,0.7,0.3,,3.2,5.2,-0.18,,4.3,Rotten
+598,The Dinosaur Project,Blu-ray,Sci-fi,Found footage,Sid Bennett,Male,No,Yes,No,UK,2012,12,4.5,0.29,0.57,0.2,,4.4,4.6,0.09,,4.5,Rotten
+599,The Apartment,DVD,Comedy,Romance,Billy Wilder,Male,No,No,No,USA,1960,PG,8.3,0.93,0.86,0.94,,8.8,8.8,-0.01,,8.6,Fresh
+600,Jerry Maguire,DVD,Comedy,Romance,Cameron Crowe,Male,No,No,No,USA,1996,15,7.3,0.85,0.81,0.79,,7.2,7.8,0.06,,7.4,Fresh
+601,The Hangover Part 2,DVD,Comedy,N/A,Todd Phillips,Male,Yes,No,No,USA,2011,15,6.5,0.34,0.88,0.52,,6,6.6,-0.18,,6.4,Rotten
+602,The Andromeda Strain,Blu-ray,Sci-fi,Thriller,Robert Wise,Male,No,No,No,USA,1971,PG,7.2,0.68,0.73,0.72,,7.2,7.4,-0.04,,7.3,Fresh
+603,The Brutalist,4k Blu-ray,Drama,Historical,Brady Corbet,Male,No,No,No,USA,2024,18,7.4,0.93,0.56,0.8,,8,8.2,0.13,,7.9,Fresh
+604,Amelie,DVD,Comedy,Romance,Jean-Pierre Jeunet,Male,No,No,No,France,2001,15,8.3,0.9,0.9,0.95,,8.4,9,-0.05,,8.6,Fresh
+605,The Hangover Part 3,DVD,Comedy,Adventure,Todd Phillips,Male,Yes,No,No,USA,2013,15,5.8,0.21,0.83,0.44,,5.4,6.2,-0.23,,5.8,Rotten
+606,Rope,Blu-ray,Thriller,Psychological,Alfred Hitchcock,Male,No,No,No,USA,1948,PG,7.9,0.93,0.8,0.9,,8.2,8.4,0.03,,8.2,Fresh
+607,Beast,Blu-ray,Action,Horror,Baltasar Kormakur,Male,No,No,No,Iceland,2022,15,5.6,0.69,0.52,0.77,,5,8,-0.08,,6.2,Fresh
+608,In the Mood for Love,DVD,Romance,Drama,Wong Kar-wai,Male,No,No,No,Hong Kong,2000,PG,8.1,0.92,0.91,0.94,,8.8,9,-0.02,,8.6,Fresh
+609,Risky Business,DVD,Comedy,N/A,Paul Brickman,Male,No,No,No,USA,1983,18,6.8,0.93,0.77,0.73,,6.8,7.4,0.2,,7.0,Fresh
+610,Better Man,Blu-ray,Musical,Biopic,Michael Gracey,Male,No,No,No,Australia,2024,15,7.6,0.89,0.85,0.9,,7.6,9,-0.01,,8.1,Fresh
+611,Taxi Driver,Blu-ray,Drama,Noir,Martin Scorsese,Male,No,No,No,USA,1976,18,8.2,0.89,0.88,0.93,,8.2,8.8,-0.04,,8.4,Fresh
+612,Grabbers,Blu-ray,Horror,Comedy,Jon Wright,Male,No,No,No,Ireland,2012,15,6.3,0.68,0.66,0.52,,6.4,6.6,0.16,,6.4,Fresh
+613,Severance,DVD,Horror,Comedy,Christopher Smith,Male,No,No,No,UK,2006,15,6.4,0.66,0.79,0.61,,6.4,6.8,0.05,,6.5,Fresh
+614,The Motorcycle Diaries,DVD,Drama,Biopic,Walter Salles,Male,No,No,No,Argentina,2004,15,7.7,0.83,0.89,0.92,,7.8,8.6,-0.09,,8.0,Fresh
+615,Supersonic,DVD,Documentary,Music,Mat Whitecross,Male,No,No,No,UK,2016,15,7.8,0.84,0.77,0.86,,7.8,8.2,-0.02,,7.9,Fresh
+616,Tropic Thunder,DVD,Comedy,Action,Ben Stiller,Male,No,No,No,USA,2008,15,7.1,0.82,0.81,0.71,,7.2,7.2,0.11,,7.2,Fresh
+617,Elle,Blu-ray,Thriller,Psychological,Paul Verhoeven,Male,No,No,No,France,2016,18,7.1,0.91,0.58,0.73,,7.4,7.2,0.18,,7.2,Fresh
+618,But I'm a Cheerleader,Blu-ray,Comedy,Romance,Jamie Babbit,Female,No,No,No,USA,1999,15,6.8,0.43,0.91,0.75,,8,7.8,-0.32,,7.5,Rotten
+619,Final Destination 2,DVD,Horror,Supernatural,David R Ellis,Male,Yes,No,No,USA,2003,15,6.2,0.52,0.89,0.58,5,5.8,7,-0.06,-2,6.0,Rotten
+620,Happiness,Blu-ray,Comedy,Black Comedy,Todd Solondz,Male,No,No,No,USA,1998,18,7.7,0.85,0.87,0.89,7.9,8,8.4,-0.04,-0.5,8.0,Fresh
+621,Blackfish,DVD,Documentary,N/A,Gabriela Cowperthwaite,Female,No,No,Yes,USA,2013,15,8.1,0.98,0.77,0.9,8,8,8.4,0.08,-0.4,8.1,Fresh
+622,127 Hours,DVD,Drama,Biopic,Danny Boyle,Male,No,No,No,UK,2010,15,7.5,0.93,0.81,0.85,8.2,7,8,0.08,0.2,7.7,Fresh
+623,Frank,Blu-ray,Comedy,Black Comedy,Lenny Abrahamson,Male,No,No,No,Ireland,2014,15,6.9,0.92,0.7,0.72,7.5,7.2,7.4,0.2,0.1,7.3,Fresh
+624,Crash,Blu-ray,Thriller,Erotic,David Cronenberg,Male,No,No,No,Canada,1996,18,6.4,0.64,,0.61,6.8,7.4,7,0.03,-0.2,6.9,Fresh
+625,Avatar,Blu-ray,Sci-fi,N/A,James Cameron,Male,No,No,No,UK,2009,12,7.9,0.81,0.85,0.82,7.5,7.4,8.2,-0.01,-0.7,7.8,Fresh
+626,A Little Princess,DVD,Fantasy,Drama,Alfonso Cuaron,Male,No,No,No,USA,1995,U,7.6,0.97,0.75,0.88,8.1,7.6,8.6,0.09,-0.5,8.0,Fresh
+627,Bean,DVD,Comedy,N/A,Mel Smith,Male,No,No,No,UK,1997,PG,6.5,0.43,0.76,0.53,5.3,6.4,6.6,-0.1,-1.3,6.2,Rotten
+628,Lake Placid,DVD,Horror,Comedy,Steve Miner,Male,No,No,No,USA,1999,15,5.8,0.47,0.73,0.37,5.1,5.6,5.8,0.1,-0.7,5.6,Rotten
+629,"Paris, Texas",Blu-ray,Drama,Western,Wim Wenders,Male,No,No,No,Germany,1984,12,8.1,0.95,0.89,0.93,8.3,8.8,8.8,0.02,-0.5,8.5,Fresh
+630,Audition,Blu-ray,Horror,N/A,Takashi Miike,Male,No,No,No,Japan,1999,18,7.1,0.82,0.82,0.8,7.4,7.6,7.8,0.02,-0.4,7.5,Fresh
+631,Sunshine,Blu-ray,Sci-fi,Horror,Danny Boyle,Male,No,No,No,UK,2007,15,7.2,0.77,0.65,0.73,6.8,7.4,7.4,0.04,-0.6,7.2,Fresh
+632,Vice,Blu-ray,Comedy,Satire,Adam McKay,Male,No,No,No,USA,2018,15,7.2,0.64,0.78,0.61,6.7,6.8,6.6,0.03,0.1,6.8,Fresh
+633,[Rec] 2 ,Blu-ray,Horror,Found footage,Jaume Balaguero,Male,Yes,No,No,Spain,2009,18,6.5,0.66,0.86,0.6,6.2,6.4,6.8,0.06,-0.6,6.5,Fresh
